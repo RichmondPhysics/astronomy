@@ -41,31 +41,31 @@
 \contentsline {paragraph}{Part 2: Finding the masses of planets orbiting other stars.}{89}% 
 \contentsline {chapter}{\numberline {25}More Fun with Binary Stars}{91}% 
 \contentsline {chapter}{\numberline {26}Planetary Nebulae}{94}% 
-\contentsline {chapter}{\numberline {27}Planetary Nebulae 2}{98}% 
-\contentsline {chapter}{\numberline {28}Radio Astronomy of Pulsars}{101}% 
-\contentsline {chapter}{\numberline {29}The Crab Pulsar}{113}% 
-\contentsline {chapter}{\numberline {30}Black Holes}{117}% 
-\contentsline {paragraph}{Mass and radius.}{117}% 
-\contentsline {paragraph}{Density.}{118}% 
-\contentsline {paragraph}{Orbital Periods.}{120}% 
-\contentsline {chapter}{\numberline {31}Galaxy Rotation Curves and Dark Matter}{121}% 
-\contentsline {paragraph}{Introduction.}{121}% 
-\contentsline {paragraph}{Useful facts for this lab.}{121}% 
-\contentsline {paragraph}{Procedure.}{121}% 
-\contentsline {chapter}{\numberline {32}Hubble's Law}{124}% 
-\contentsline {chapter}{\numberline {33}Are We Alone?}{133}% 
-\contentsline {chapter}{\numberline {A}Introduction to Stellarium}{136}% 
-\contentsline {paragraph}{Starting up and closing down the program.}{136}% 
-\contentsline {paragraph}{Moving around the sky.}{137}% 
-\contentsline {paragraph}{Zooming in and out.}{137}% 
-\contentsline {paragraph}{Selecting and centering on an object.}{137}% 
-\contentsline {paragraph}{Changing the observer's location.}{137}% 
-\contentsline {paragraph}{Changing time.}{137}% 
-\contentsline {paragraph}{Finding a specific object.}{137}% 
-\contentsline {paragraph}{Miscellaneous display options.}{137}% 
-\contentsline {paragraph}{Measuring angles.}{138}% 
-\contentsline {paragraph}{Switching between equatorial and azimuthal mounts.}{138}% 
-\contentsline {chapter}{\numberline {B}Introduction to Excel}{139}% 
-\contentsline {section}{\numberline {B.1}Data and formulae}{139}% 
-\contentsline {section}{\numberline {B.2}Graphs}{140}% 
-\contentsline {section}{\numberline {B.3}Fitting lines and curves}{141}% 
+\contentsline {chapter}{\numberline {27}Planetary Nebulae 2}{95}% 
+\contentsline {chapter}{\numberline {28}Radio Astronomy of Pulsars}{96}% 
+\contentsline {chapter}{\numberline {29}The Crab Pulsar}{108}% 
+\contentsline {chapter}{\numberline {30}Black Holes}{112}% 
+\contentsline {paragraph}{Mass and radius.}{112}% 
+\contentsline {paragraph}{Density.}{113}% 
+\contentsline {paragraph}{Orbital Periods.}{115}% 
+\contentsline {chapter}{\numberline {31}Galaxy Rotation Curves and Dark Matter}{116}% 
+\contentsline {paragraph}{Introduction.}{116}% 
+\contentsline {paragraph}{Useful facts for this lab.}{116}% 
+\contentsline {paragraph}{Procedure.}{116}% 
+\contentsline {chapter}{\numberline {32}Hubble's Law}{119}% 
+\contentsline {chapter}{\numberline {33}Are We Alone?}{128}% 
+\contentsline {chapter}{\numberline {A}Introduction to Stellarium}{131}% 
+\contentsline {paragraph}{Starting up and closing down the program.}{131}% 
+\contentsline {paragraph}{Moving around the sky.}{132}% 
+\contentsline {paragraph}{Zooming in and out.}{132}% 
+\contentsline {paragraph}{Selecting and centering on an object.}{132}% 
+\contentsline {paragraph}{Changing the observer's location.}{132}% 
+\contentsline {paragraph}{Changing time.}{132}% 
+\contentsline {paragraph}{Finding a specific object.}{132}% 
+\contentsline {paragraph}{Miscellaneous display options.}{132}% 
+\contentsline {paragraph}{Measuring angles.}{133}% 
+\contentsline {paragraph}{Switching between equatorial and azimuthal mounts.}{133}% 
+\contentsline {chapter}{\numberline {B}Introduction to Excel}{134}% 
+\contentsline {section}{\numberline {B.1}Data and formulae}{134}% 
+\contentsline {section}{\numberline {B.2}Graphs}{135}% 
+\contentsline {section}{\numberline {B.3}Fitting lines and curves}{136}% 

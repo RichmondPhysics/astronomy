@@ -17,7 +17,7 @@
 
 \begin{document}
 \title{Physics 121: Astronomy \\ Lab Manual \\ University of Richmond
-\\ Spring 2020}
+\\ Fall 2020}
 \author{Ted Bunn}
 \maketitle
 \tableofcontents
@@ -54,6 +54,7 @@
 \input{pnb.tex}
 \input{pulsars.tex}
 \input{pulsar2.tex}
+\input{blackholes.tex}
 \input{rotation.tex}
 \input{hubble.tex}
 \input{life.tex}
