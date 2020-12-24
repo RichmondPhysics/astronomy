@@ -1,0 +1,28 @@
+\documentclass[twoside]{report}
+\renewcommand{\chaptername}{Lab}
+\usepackage{graphicx}
+\usepackage{epsf}
+\textwidth 6in
+\textheight 9in
+\topmargin -0.5in
+\oddsidemargin 0.3in
+\evensidemargin -0.3in
+\parindent 0pt
+\parskip 6pt
+
+
+
+
+
+\begin{document}
+\title{Physics 121: Astronomy \\ Lab Manual Supplement \\ University of Richmond
+\\ Spring 2019}
+\author{Ted Bunn}
+%\maketitle
+%\tableofcontents
+
+
+\input{sun-energy.tex}
+
+
+\end{document}

@@ -1,0 +1,2 @@
+\contentsline {chapter}{\numberline {4}Daily Motion of Stars (Stellarium version)}{15}
+\contentsline {chapter}{\numberline {6}Celestial Navigation (Stellarium version)}{23}

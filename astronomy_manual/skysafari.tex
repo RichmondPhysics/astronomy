@@ -1,0 +1,174 @@
+\chapter{Introduction to Sky Safari}
+\newcommand{\skysaf}{\textit{Sky Safari$+$}}
+\newcommand{\icon}[1]{\includegraphics[height=0.2in]{figs/stell-#1.eps}}
+
+\bigskip\bigskip
+
+\skysaf\ is an iPad / Android app that simulates the appearance
+of astronomical objects in the sky. The user can adjust lots of
+features of the view, including the observer's location,
+the time, etc. We'll make heavy use of it as we try to understand
+how objects appear to move in the night sky.
+
+Although it's certainly not required, 
+I encourage you to download it onto any suitable device
+you own. \skysaf\ is not free, but it doesn't cost much.
+There is a free version
+of \textit{Sky Safari} that does many but not all of the things we'll want.
+
+In this Appendix, I'll list some of the features of the program that will
+be most useful to us. The best way to learn about these features is not
+just to read about them here, though. Spend some time playing around, to learn
+what you can do.
+
+
+\paragraph{Moving around the sky.} 
+This all works in the way that you're surely used to.
+Drag across the screen to change what area you're looking at,
+and zoom in and out using the usual two-fingered pinching motion.
+
+Note that the ``Field of View'' (FOV) is indicated
+at the upper right (something like $99.3^\circ\times 76.1^\circ$, for
+instance). The FOV is the size (in degrees) of the
+patch of sky that's visible on the screen at that moment.
+
+\paragraph{Selecting and centering on an object.}
+You can select a star or planet (or other celestial object)
+by tapping it.
+If you hit the ``Info'' button at the bottom,
+you'll get a bunch of information about the object
+(more than you wanted to know).
+If you hit the
+``Center'' button, the object will be moved
+to the center of the screen. Once an object has been centered, it will
+stay centered until you choose a new object or drag to view
+a different part of the sky.
+
+\paragraph{Changing the observer's location.} Hit
+``Settings'' and then select ``Location'' to 
+choose where the observer is located. You can either enter latitude
+and longitude or choose a city from a list. 
+
+\paragraph{Changing time.} Hit the ``Time''
+button to bring up a set of options for adjusting the time.
+The ``Now'' button, unsurprisingly, will return the time to the present.
+The button to the right of ``Now'' will advance the time forward
+by one step. The buttons in the next row let you choose the step size to be a year, month, day,
+hour, minute, or second. The button to the left of ``Now'' steps
+backwards.
+The triangular buttons on the left and right make time advance 
+steadily, with a speed that depends on the step size you've chosen.
+In case it's not clear what this means, select ``Hour'' and then
+hit the triangular button. Then select ``Minute'' or ``Day'' and
+see what happens.
+
+The date and time are indicated in the upper right.
+
+\paragraph{Finding a specific object.} Hit the search button
+and enter the name of the object you're looking for.
+
+\paragraph{Miscellaneous display options.} 
+
+You can find all of these under the ``Settings'' menu.
+
+The ``Horizon \& Sky'' tab under ``Display Options'' lets you customize
+how the Earth's surface is displayed. If you turn off the ``Show 
+Horizon \& Sky'' option, then you'll get to see how things would
+look if the Earth were invisible. That is, you'll get to see even
+the stars that lie below the Earth's surface. 
+You can also turn on and off the effects of daylight. With daylight turned
+off, you can see the stars as they would appear during the day.
+Of course, these are things we can't do in real life
+(no matter how much astronomers wish we could), but they're
+useful tools for helping to build intution about how
+objects move in the sky.
+
+By default, the program is set up to show you the horizon as a 
+(somewhat) realistic landscape. Sometimes it's nicer to see what
+things would look like if we were surrounded by a completely flat horizon
+(no hills, trees, etc.). To do this select the option to show
+the horizon as an ``opaque area.''
+
+The ``Constellations'' tab under ``Display Options'' lets you
+change how constellations are indicated.
+In particular, you can turn on or off the display of names
+of constellations (``Show constellations''). You can also have
+the program display lines connecting the stars in a constellation or even
+indications of the mythical figures that the constellations represent.
+Personally, I don't think the last one is very helpful, but
+some people like it.
+
+Astronomers label points in the sky with two kinds of coordinates, 
+which \skysaf\ calls ``horizon coordinates'' and ``equatorial coordinates.''
+In other sources, you'll often see ``horizon coordinates'' called
+``azimuthal coordinates.''
+We'll talk about these in detail in class,
+but for the moment here are the basics.
+Both of these are like latitude and longitude on Earth. The
+difference is that the equatorial grid is ``attached'' to the sky, so
+that each star's coordinates stay the same as time passes.
+The
+horizon (or azimuthal)
+grid, on the other hand, is attached to the Earth. 
+The ``Grid and Reference'' tab under ``Display Options''
+lets you turn on and off a grid showing either one of these coordinates.
+
+
+\paragraph{Measuring angles.}
+Often, we want to know the \textit{angular separation} between two
+objects in the sky. Angular separation is the angle between a line from your eye
+to one object and a line from your eye to the other object; it's a measure
+of how far apart the objects appear to be. To determine
+angular separation, select the the first object, then
+select the second, and then hit the ``info'' button. Near
+the bottom of the information screen, you'll find the angular separation.
+
+For instance, to find the angular separation between Jupiter and Saturn,
+you'd tap Jupiter, then Saturn, then ``info.'' Then you'd
+look for the line that says
+``Angular separtion from Jupiter.'' (It'd say ``from Jupiter''
+because it's currently displaying information \textit{about}
+Saturn. In general, you want the line that refers to 
+angular separation from the first object you tapped.)
+
+\paragraph{Stationary-Earth and stationary-sky points of view.}
+As we'll see in detail, objects in the night sky appear to rotate
+approximately once per day about a point in the sky called the ``north
+celestial pole.'' This apparent motion is due to the 
+Earth's rotation on its axis: the stars are really (more or less)
+sitting still. 
+Often, it's useful to examine what the sky would look like if
+we could see things from a point of view in which 
+the Earth's rotation has been taken away, so that the sky appears
+to sit still. 
+
+In \skysaf, this is called switching to the ``equatorial coordinate system.''
+To do this, go to ``Settings,'' and then find the ``Coordinates''
+tab (under ``Time \& Coordinates''). If you hit ``Equatorial,''
+then the display will be shown in the point of view in which the sky sits
+still. If you hit ``Horizon'' (which is probably where you started),
+then you'll see things in the usual point of view in which the Earth
+sits still.
+
+For reference, it may help to know that other sources call
+these two points of view ``azimuthal mount'' (stationary-Earth)
+and ``equatorial mount'' (stationary-sky). The reason for the word
+``mount'' is that these two points of view describe the two
+ways that telescopes are generally set up (``mounted''). A
+telescope with an equatorial mount is set up with a motor that turns
+the telescope at just the right rate to cancel out the Earth's
+rotation, so that it shows us the stationary-sky point of view.
+
+\paragraph{Finding things in the actual sky.}
+You can use \skysaf\ to locate objects in the night sky. Naturally,
+this only works outdoors at night, so we won't do this in class, but if you
+install it yourself you may want to play around with it. Tap the
+``compass'' button and hold the device up. It'll show you
+an image of the sky in the
+same direction as you're looking in real life. This is very helpful
+in identifying objects in the sky. If you want to find a given
+object in the sky, search for it in \skysaf\ and hit ``center'' while
+the compass is on. \skysaf\ will indicate with an arrow which direction 
+you should turn to find the object. Keep on following the arrows
+and eventually you'll be facing (and holding your device) in a way
+that points right at the object you're looking for.

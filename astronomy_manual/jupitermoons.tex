@@ -1,0 +1,144 @@
+\chapter{Kepler's Third Law}
+
+
+Kepler's third law says that the period of a planet's orbit
+(the time to orbit once, called $P$) and the radius
+of its orbit (called $a$) are related like this:
+$$
+P^2=ka^3.
+$$
+Here $k$ is a constant.  Its numerical value depends on what units
+we choose for $P$ and $a$, but it's the same for all of the planets.
+
+Jupiter and its moons look like a mini-solar system: the moons orbit
+Jupiter in pretty much the same way that the planets orbit the Sun.
+So it's natural to wonder whether Jupiter's moons obey Kepler's third
+law.  In this lab, you'll use 
+{\it Stellarium} to simulate
+observations of the moons to test Kepler's third law.
+
+Start up \textit{Stellarium}. Turn off the effects of Earth's
+atmosphere / daylight, and make the Earth transparent, so that we can see
+Jupiter all the time. (Once again, we're making our lives a bit easier than
+it is for real astronomers: in reality, we could only make
+the sort observations in this lab at certain times of year.)
+Set the program to the equatorial (stationary-sky) mount.
+Find Jupiter, center it in the field
+of view, and set the field of view to a size where you can clearly 
+see Jupiter and its four Galilean moons (Io, Europa, Callisto, Ganymede).
+
+Let time run forward at a pretty high speed and observe the orbits of 
+the moons.  The orbits are really very close to circular, but we're
+viewing them from the side, so the moons appear to move back and forth.
+
+Pick one of the moons, and run time forwards and backwards until the
+moon is at its greatest separation from Jupiter.  (Be as accurate as
+possible; you can probably determine the time to within about 10 minutes
+for the fastest-moving moon and less than an hour for the slowest one.)
+Measure the angular separation between Jupiter and the moon at this moment.
+Repeat the procedure for all four moons.  Record your results in the table
+on the last page.  You'll initially get the angular separation
+in arc-minutes and arc-seconds.  Convert your answer to a number of 
+arc-seconds.  For instance, if you got a value of $2'$ and $20''$, you
+would record $140''$ (because $1'$ is $60''$, and $2\times 60+20=140$)..
+
+How far is Jupiter from us at the time these observations are being taken?
+Record the distance in A.U. here:
+
+\vskip 1in
+
+Use the small-angle formula to convert the angular separations
+for all four moons into actual separations.  These will be the
+maximum distances the four moons get from Jupiter; in other words,
+they'll be the radii of the moons' orbits.  Record them in the data table,
+along with their units.
+
+Now that you know the radii of the orbits, the next step is to find the
+periods.  The most accurate way to do this is to measure the time between
+moments when the moon passes in front of or behind Jupiter.
+
+Set the date back to today, and then advance time
+forwards or backwards until one of the moons is just
+passing in front of the edge of Jupiter from the left.  (Aim for
+an accuracy of about 5 minutes.)  Record
+the the date and time, and also the ``Modified Julian Date (MJD).''
+See Appendix \ref{app:stell} for details on how to do this.
+
+Let time advance until that moon
+is just passing in front of the left edge of Jupiter again (one complete
+orbit later).  Record the date, time, and MJD again.  
+
+Next, you should determine the time that elapsed
+between these two measurements.  This is the period of the moon's orbit.
+Give the result as a decimal number of days. (You can do this by working
+out the difference between the two dates and times, but it's much easier
+using the MJDs. In fact, that's what MJDs are for!)
+
+Repeat this procedure for all four moons. Each time you start working on a
+new Moon, set the time back to the present day.
+
+Now that you know the period and the radius of all four moons,
+you can test Kepler's third law.  Square all of the periods to get $P^2$,
+and cube all the radii to get $a^3$.  Take the ratio $P^2/a^3$.
+Kepler's third law says that this should be the same for all four
+moons.  Is it?
+
+\vskip 1in
+
+A couple of followup questions:
+
+1. Is the numerical value of $k$ for Jupiter's moons the same
+as the value for the planets orbiting the Sun?  To answer this,
+figure out the value of $k$ for the Earth's orbit around the
+Sun using the same units as you used for Jupiter's moons.
+
+\vskip 3in
+
+2. Why did we have to use the moons of Jupiter for this lab,
+instead of using Earth's Moon?
+
+\newpage
+
+
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|}
+\noalign{\hrule}
+{\bf MOON} & Io & Callisto & Ganymede & Europa \\
+\noalign{\hrule}
+Max. angular separation & \qquad\qquad\qquad\qquad & \qquad\qquad\qquad\qquad &
+\qquad\qquad\qquad\qquad &\qquad\qquad\qquad\qquad \huge\strut\\
+from Jupiter ($'$ and $''$) & & & &\huge\strut \\
+\noalign{\hrule}
+Max. angular separation & & & & \huge\strut\\
+from Jupiter ($''$) & & & & \huge\strut\\
+\noalign{\hrule}
+Radius of orbit & & & & \huge\strut\\
+& & & & \huge\strut\\
+\noalign{\hrule}
+Date/time of first & & & & \huge\strut\\
+crossing of Jupiter &  & & & \huge\strut\\
+\noalign{\hrule}
+MJD of first crossing  & & & & \huge\strut\\
+& & & & \huge\strut\\
+\noalign{\hrule}
+Time of second & & & & \huge\strut\\
+crossing of Jupiter &  & & & \huge\strut\\
+\noalign{\hrule}
+MJD of second crossing  & & & & \huge\strut\\
+& & & & \huge\strut\\
+\noalign{\hrule}
+Orbital period & & & & \huge\strut\\
+& & & & \huge\strut\\
+\noalign{\hrule}
+$P^2$ & & & & \huge\strut\\
+& & & & \huge\strut\\
+\noalign{\hrule}
+$a^3$ & & & & \huge\strut\\
+& & & & \huge\strut\\
+\noalign{\hrule}
+$k$ & & & & \huge\strut\\
+& & & & \huge\strut\\
+\noalign{\hrule}
+\end{tabular}
+\end{center}
+

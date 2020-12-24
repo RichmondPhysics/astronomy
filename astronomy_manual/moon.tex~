@@ -1,0 +1,176 @@
+\chapter{The Moon}
+
+
+In this lab, you'll check a bunch 
+of things about the motion and phases of the Moon.
+Although most of the things in this lab can be done in \textit{Sky
+Safari}, there are one or two things that can't, so we'll 
+use the more powerful \textit{Stellarium} on the lab PCs.
+
+
+
+\medskip
+
+{\bf A. Getting familiar with Stellarium}
+
+Since we haven't ued \textit{Stellarium} yet in class, 
+spend a few minutes playing around with it to learn how it works.
+Pretty much everything you've done so far in \textit{Sky Safari} can
+also be done in \textit{Stellarium}. In particular, try out the following.
+Consult Appendix B for details about how to do these things.
+
+\begin{enumerate}
+\item Adjust the time and date. When you first start the 
+program, it will show the sky at the current time.  It's much
+more interesting to see the sky at night. You can
+also examine what things look like at different times of year.
+
+\item Speed up the flow of time by a large amount, so that
+a day goes by in just a few seconds.
+
+\item Initially, the program is showing you the view of the sky
+from here in Richmond. Switch to some other locations.
+
+\item Click on a star or other astronomical object.
+Information about that body should appear on the screen.
+Some of that information may not make sense yet, but it will!
+
+\item Drag the image around  to look at different parts 
+of the sky.
+
+\item Zoom in to look at a small patch of the sky, then
+zoom back out
+(using the mouse wheel or the page-up/page-down keys).
+Note the display at the bottom that says ``FOV.'' This indicates
+the field of view, which as you know 
+indicates the size of the patch of sky
+that's visible on the screen at that moment. 
+
+\item Click on the ``find'' icon and search for various celestial
+objects. 
+Try Mars, for example, or Polaris.
+
+
+\item The pop-up menus in the lower left
+contain a bunch of buttons you can click to change
+the appearance in various ways. I've listed the ones I think
+are most useful in the Appendix. Try these out. Some are harder
+to understand than others.
+
+\end{enumerate}
+
+
+\bigskip
+
+{\bf B. Sidereal and Synodic Months}
+
+A {\it sidereal month} is the length of time it takes the
+Moon to make one complete motion around the sky with respect to the
+stars.  In other words, at the end of a sidereal month, the Moon
+appears in the sky next to the same stars as it did at the beginning
+of the month.
+A {\it synodic month} is the time it takes the Moon to go through one
+full cycle of phases (from full Moon to full Moon, for example).
+You'll use {\it Stellarium} to measure the length of both sidereal and
+synodic months.
+
+Start up {\it Stellarium}.  Make the ground transparent and turn
+off the Earth's atmosphere, so that we can see what the Moon
+is doing at all times. This makes our lives much easier
+than the real-life observers who first figured all this stuff out:
+they could only see the Moon when it was above the horizon at night.
+Again, consult the Appendix to see how to do these things, and of course
+ask me if you can't figure it out.
+
+First, step forward in time until the Sun and Moon are right
+next to each other in the sky. This is the next time when
+the phase of the Moon will be new.
+Determine, to within an accuracy of about an hour or so, the
+moment when the Moon and Sun are closest to each other in
+the sky.
+Record the date and time:
+
+\vskip 1in
+
+Now let time run forward for a bit less than a month, until the phase of the Moon is nearly new
+again.  Just as before, find the moment, accurate to the nearest hour,
+when the Moon and Sun are closest together.  Record the date and time:
+
+\vskip 1in
+
+Based on these results, what is the length of a synodic month?
+Give your answer as a decimal number of days, with at least
+one digit after the decimal point.
+
+\vskip 1in
+
+Now you'll figure out the length of a sidereal month.  Click on a star
+that's very near the Moon, and keep the field of view centered
+on that star. Record the date and time
+when that star passes closest to the Moon, accurate to the
+nearest hour.  
+
+\vskip 1in
+
+Then let the time advance
+for a bit less than a month, until you see the marked star pass close to the Moon
+again.  Record the time it passes closest to the Moon, accurate
+to the nearest hour.
+
+\vskip 1in
+
+Find the length of a sidereal month as a decimal number of days.
+
+\vskip 1in
+
+The year is 365.24 days long.  How many synodic months are there 
+in a year? (Give your answer as a decimal number with at least one
+digit after the decimal place).
+
+\vskip 1in
+
+How many sidereal months are there in a year?
+
+\vskip 1in
+
+You should find that the difference between these two numbers is
+very close to 1.  (If you don't find this, let me know.)  This
+is a general rule relating sidereal and synodic periods for
+all satellites.  You might enjoy trying to figure out why
+it's true.  (Then again, you might not.)
+
+\bigskip
+
+{\bf C. Phases of the Earth}
+
+\medskip
+
+{\bf Question:} 
+Suppose the Moon is in a waxing crescent phase as seen from the
+Earth.  An astronaut on the Moon looks at the Earth.  What
+phase of the Earth does she see?
+
+I want you to figure out the answer to this question on your
+own first, and then test it with {\it Stellarium}.
+
+Draw a diagram showing Earth, Sun, and Moon when the Moon is
+a waxing crescent.  Indicate the directions of the Earth's orbit
+around the Sun and the Moon's orbit around the Earth.
+
+\vskip 2in
+
+Based on this diagram, what is the answer to the question above?
+(Your answer should be something like ``full Earth,'' ``waning
+crescent Earth,'' ``waxing gibbous Earth.'')
+
+\vskip 1in
+
+Now test your answer.  Adjust the time until the phase of the Moon
+is waxing crescent.  Then click on the Location icon, and
+change the location to the Moon.
+Adjust the view until you see the 
+Earth.  Does its appearance agree with your prediction?  (For
+instance, if you predicted the Earth would be in a crescent phase, is it?)
+Allow time to run forward.  Is the Earth waxing or waning?
+Does this agree with your prediction?
+

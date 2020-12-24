@@ -1,0 +1,1448 @@
+%!PS-Adobe-3.0
+%%Title: http://oit.williams.edu/nebulae/Exercise2.html
+%%Creator: PScript5.dll Version 5.2.2
+%%CreationDate: 7/20/2006 18:3:57
+%%For: ebunn
+%%BoundingBox: (atend)
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (Phaser 6200DP) (3011.106) 2
+%%LanguageLevel: 3
+mark {
+/RRCustomProcs /ProcSet findresource (logjobinfo) known {
+(ebunn) /RRCustomProcs /ProcSet findresource begin logusername end
+/RRCustomProcs /ProcSet findresource begin logjobinfo end
+}if
+} stopped cleartomark
+%%EndComments
+
+%%BeginDefaults
+%%ViewingOrientation: 1 0 0 1
+%%EndDefaults
+
+[{
+%%BeginFeature: *JobPatchFile 1
+
+% Default Definitions
+  userdict /xerox$pagedevice <<
+    /MediaClass null
+    /MediaPosition null
+    /TraySwitch true
+    /ImagingBBox null
+    /ProcessColorModel /DeviceCMYK
+  >> put
+  
+  userdict /xerox$set_job_type true put
+  userdict /xerox$jobname (unnamed) put
+  userdict /xerox$jobpassword (1234) put
+  userdict /xerox$jog 3 put
+  userdict /xerox$jobTypeDone false put
+  userdict /xerox$pageSizeDone false put
+
+%%EndFeature
+} stopped cleartomark
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_ErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if errorname(VMerror)ne{showpage}if initgraphics courier setfont
+lmargin 720 moveto errorname(VMerror)eq{userdict/ehsave known{clear userdict
+/ehsave get restore 2 vmreclaim}if vmstatus exch pop exch pop PrtVMMsg}{
+(ERROR: )prnt errorname prnt nl(OFFENDING COMMAND: )prnt/command load prnt
+$error/ostack known{nl nl(STACK:)prnt nl nl $error/ostack get aload length{==}
+repeat}if}ifelse systemdict/showpage get exec(%%[ Error: )print errorname
+=print(; OffendingCommand: )print/command load =print( ]%%)= flush}if end end
+end}dup 0 systemdict put dup 4 $brkpage put bind readonly put/currentpacking
+where{pop/setpacking where{pop oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+userdict begin/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup
+length dict begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding
+{ISOLatin1Encoding}stopped{StandardEncoding}if def currentdict end
+/ErrFont-Latin1 exch definefont}ifelse exch scalefont setfont counttomark 3 div
+cvi{moveto show}repeat showpage quit}{cleartomark}ifelse}bind def end
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(This job requires more memory than is available in this printer.)100 500
+(Try one or more of the following, and then print again:)100 485
+(For the output format, choose Optimize For Portability.)115 470
+(In the Device Settings page, make sure the Available PostScript Memory is accurate.)
+115 455(Reduce the number of fonts in the document.)115 440
+(Print the document in parts.)115 425 12/Times-Roman showpage
+(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}if}bind def end
+version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg get def}ifelse
+105000 VM?
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/Pscript_Win_Data where{!}{U/Pscript_Win_Data & put}?/ADO_mxRot ~
+d/TextInitialised? F d reinitialize E}{U/Pscript_Win_Data 230 dict @ ` put
+/ADO_mxRot ~ d/TextInitialised? F d reinitialize}?}b/terminate{!{& self eq
+{exit}{E}?}loop E}b/suspend/terminate , d/resume{` Pscript_Win_Data `}b U `
+/lucas 21690 d/featurebegin{countdictstack lucas[}b/featurecleanup{stopped
+{cleartomark @ lucas eq{! exit}if}loop countdictstack ~ sub @ 0 gt{{E}repeat}
+{!}?}b E/snap{transform 0.25 sub round 0.25 add ~ 0.25 sub round 0.25 add ~
+itransform}b/dsnap{dtransform round ~ round ~ idtransform}b/nonzero_round{@ 0.5
+ge{round}{@ -0.5 lt{round}{0 ge{1}{-1}?}?}?}b/nonzero_dsnap{dtransform
+nonzero_round ~ nonzero_round ~ idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ -
+neg 0 - C}b/irp{4 -2 $ + +S fx 4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0
+- 0 ~ - neg 0 -}b/solid{[]0 sd}b/g{@ not{U/DefIf_save save put}if U/DefIf_bool
+2 ^ put}b/DefIf_El{if U/DefIf_bool get not @{U/DefIf_save get restore}if}b/e
+{DefIf_El !}b/UDF{L2?{undefinefont}{!}?}b/UDR{L2?{undefineresource}{! !}?}b
+/freeVM{/Courier findfont[40 0 0 -40 0 0]makefont Ji 2 vmreclaim}b/hfRedefFont
+{findfont @ length dict `{1 ^/FID ne{d}{! !}?}forall & E @ ` ~{/CharStrings 1
+dict `/.notdef 0 d & E d}if/Encoding 256 array 0 1 255{1 ^ ~/.notdef put}for d
+E definefont !}bind d/hfMkCIDFont{/CIDFont findresource @ length 2 add dict `{1
+^ @/FID eq ~ @/XUID eq ~/UIDBase eq or or{! !}{d}?}forall/CDevProc ~ d/Metrics2
+16 dict d/CIDFontName 1 ^ d & E 1 ^ ~/CIDFont defineresource ![~]composefont !}
+bind d
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b/G2UBegin{findresource/FontInfo get/GlyphNames2Unicode get
+`}bind d/G2CCBegin{findresource/FontInfo get/GlyphNames2HostCode get `}bind d
+/G2UEnd{E}bind d/AddFontInfoBegin{/FontInfo 8 dict @ `}bind d/AddFontInfo{
+/GlyphNames2Unicode 16 dict d/GlyphNames2HostCode 16 dict d}bind d
+/AddFontInfoEnd{E d}bind d/T0AddCFFMtx2{/CIDFont findresource/Metrics2 get ` d
+E}bind d
+%%EndResource
+end
+mark {/RRCustomProcs /ProcSet findresource begin
+/logjobinfo where
+{pop
+(http://oit.williams.edu/nebulae/Exercise2.html) logjobname
+(ebunn) logusername
+(\\S_PHS_EBUNN) loghostname
+(http://oit.williams.edu/nebulae/Exercise2.html) logfilename
+/logclientjobid where {pop (8ebunn                                  22035756) logclientjobid} if
+logjobinfo
+}if
+end
+ } stopped cleartomark
+%%EndProlog
+
+%%BeginSetup
+userdict /xerox$jobpassword <> put
+userdict /xerox$jobname <> put
+statusdict begin (%%[ ProductName: ) print product print ( ]%%)= flush end
+[ 1 0 0 1 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+featurebegin{
+%%BeginNonPPDFeature: JobTimeout 0
+0 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/JobTimeout  4 -1 roll put setuserparams}{statusdict/setjobtimeout get exec}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginNonPPDFeature: WaitTimeout 40
+40 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/WaitTimeout 4 -1 roll put setuserparams}{statusdict/waittimeout 3 -1 roll put}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginFeature: *MediaType AutoSelect
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Duplex None
+
+ <</Duplex false /Tumble false>> xerox$pagedevice copy pop
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OutputMode Enhanced
+
+ <<
+   /HWResolution [2400 600]
+   /PostRenderingEnhance false
+ >> xerox$pagedevice copy pop
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *XRXColor Automatic
+
+ <<
+   /DeviceRenderingInfo currentpagedevice 1 index get 1 dict copy
+   dup /VirtualColorDevice <<
+		/Type 3
+		/ColorTransform /Automatic
+     >> put
+ >> xerox$pagedevice copy pop
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *XRXImageSmoothing False
+
+  false /RRCustomProcs /ProcSet findresource /setforceinterpolate get exec
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *XRXCollate False
+
+  xerox$pagedevice /Collate false put
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *XRXAutoFit True
+
+  true /RRCustomProcs /ProcSet findresource /setautofit get exec
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *XRXSlipSheetSource MPT
+
+  0 /RRCustomProcs /ProcSet findresource /setslipsheetsource get exec
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Slipsheet None
+xerox$pagedevice /SlipSheet 0 put
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *XRXCoverPageSource MPT
+
+  userdict /xerox$CoverPageSource 0 put
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *XRXCoverPage None
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *XRXJobName Set
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *XRXJobPassword Set
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *XRXJobType Normal
+
+   xerox$pageSizeDone {xerox$pagedevice setpagedevice} if
+   userdict /xerox$jobTypeDone true put
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *InstalledMemory 128Meg
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *XRXOptionFeatureSet DP
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *XRXOptionHD False
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *XRXOptionTrays False
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *PageSize Letter
+
+  <<
+    /PageSize [612 792]
+  >> xerox$pagedevice copy setpagedevice
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Resolution 600dpi
+
+%%EndFeature
+}featurecleanup
+1 setlinecap 1 setlinejoin
+/mysetup [ 72 600 V 0 0 -72 600 V 15.00094 776.99908 ] def 
+%%EndSetup
+
+userdict begin /ehsave save def end
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_GdiObject 5.0 0
+/SavedCTM null d/CTMsave{/SavedCTM SavedCTM currentmatrix d}b/CTMrestore
+{SavedCTM setmatrix}b/mp null d/ADO_mxRot null d/GDIHMatrix null d
+/GDIHPatternDict 22 dict d GDIHPatternDict `/PatternType 1 d/PaintType 2 d/Reps
+L2?{1}{5}? d/XStep 8 Reps mul d/YStep XStep d/BBox[0 0 XStep YStep]d/TilingType
+1 d/PaintProc{` 1 Lw[]0 sd PaintData , exec E}b/FGnd null d/BGnd null d
+/HS_Horizontal{horiz}b/HS_Vertical{vert}b/HS_FDiagonal{fdiag}b/HS_BDiagonal
+{biag}b/HS_Cross{horiz vert}b/HS_DiagCross{fdiag biag}b/MaxXYStep XStep YStep
+gt{XStep}{YStep}? d/horiz{Reps{0 4 M XStep 0 - 0 8 +}repeat 0 -8 Reps mul + K}b
+/vert{Reps{4 0 M 0 YStep - 8 0 +}repeat 0 -8 Reps mul + K}b/biag{Reps{0 0 M
+MaxXYStep @ - 0 YStep neg M MaxXYStep @ - 0 8 +}repeat 0 -8 Reps mul + 0 YStep
+M 8 8 - K}b/fdiag{Reps{0 0 M MaxXYStep @ neg - 0 YStep M MaxXYStep @ neg - 0 8
++}repeat 0 -8 Reps mul + MaxXYStep @ M 8 -8 - K}b E/makehatch{4 -2 $/yOrg ~ d
+/xOrg ~ d GDIHPatternDict/PaintData 3 -1 $ put CTMsave GDIHMatrix setmatrix
+GDIHPatternDict matrix xOrg yOrg + mp CTMrestore ~ U ~ 2 ^ put}b/h0{/h0
+/HS_Horizontal makehatch}b/h1{/h1/HS_Vertical makehatch}b/h2{/h2/HS_FDiagonal
+makehatch}b/h3{/h3/HS_BDiagonal makehatch}b/h4{/h4/HS_Cross makehatch}b/h5{/h5
+/HS_DiagCross makehatch}b/GDIBWPatternMx null d/pfprep{save 8 1 $
+/PatternOfTheDay 8 1 $ GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/yExt
+~ d/Width ~ d/BGnd ~ d/FGnd ~ d/Height yExt RepsV mul d/mx[Width 0 0 Height 0
+0]d E build_pattern ~ !}b/pfbf{/fEOFill ~ d pfprep hbf fEOFill{O}{L}? restore}b
+/GraphInit{GDIHMatrix null eq{/SavedCTM matrix d : ADO_mxRot concat 0 0 snap +
+: 0.48 @ GDIHPatternDict ` YStep mul ~ XStep mul ~ nonzero_dsnap YStep V ~
+XStep V ~ E +S/GDIHMatrix matrix currentmatrix readonly d ; : 0.24 -0.24 +S
+GDIBWPatternDict ` Width Height E nonzero_dsnap +S/GDIBWPatternMx matrix
+currentmatrix readonly d ; ;}if}b
+%%EndResource
+%%BeginResource: file Pscript_Win_GdiObject_L3 5.0 0
+/GDIBWPatternDict 25 dict @ `/PatternType 1 d/PaintType 1 d/RepsV 1 d/RepsH 1 d
+/BBox[0 0 RepsH 1]d/TilingType 1 d/XStep 1 d/YStep 1 d/Height 8 RepsV mul d
+/Width 8 d/mx[Width 0 0 Height neg 0 Height]d/FGnd null d/BGnd null d
+/SetBGndFGnd{BGnd null ne{BGnd aload ! scol BBox aload ! 2 ^ sub ~ 3 ^ sub ~
+rf}if FGnd null ne{FGnd aload ! scol}if}b/PaintProc{` SetBGndFGnd RepsH{Width
+Height F mx PaintData imagemask Width 0 +}repeat E}b E d/mp/makepattern , d
+/build_pattern{CTMsave GDIBWPatternMx setmatrix/nupangle where{! nupangle -90
+eq{nupangle R}if}if GDIBWPatternDict @ ` Width Height ne{Width Height gt{Width
+Height V 1}{1 Height Width V}? +S}if xOrg yOrg E matrix + mp CTMrestore}b/hbf
+{setpattern}b/hf{:/fEOFill ~ d ~ ! setpattern fEOFill{O}{L}? ;}b/pbf{: !
+/fEOFill ~ d GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/OutputBPP ~ d
+/Height ~ d/Width ~ d/PaintType 1 d/PatternType 1 d/TilingType 1 d/BBox[0 0
+Width Height]d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d 20 dict @ `
+/ImageType 1 d/Width Width d/Height Height d/ImageMatrix[1 0 0 1 0 0]d
+/BitsPerComponent 8 d OutputBPP 24 eq{/Decode[0 1 0 1 0 1]d}{OutputBPP 8 eq{
+/Decode[0 1]d}{/Decode[0 1 0 1 0 1 0 1]d}?}?/DataSource{PaintData}d E/ImageDict
+~ d/PaintProc{` ImageDict image E}b & mx makepattern setpattern E fEOFill{O}{L}
+? ;}b/mask_pbf{:/fEOFill ~ d 20 dict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/Height ~
+d/Width ~ d/PatternType 1 d/PaintType 2 d/TilingType 1 d/BBox[0 0 Width Height]
+d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d/PaintProc{` Width Height
+T 1 1 dtransform abs ~ abs ~ 0 0 3 -1 $ 0 0 6 array astore{PaintData}imagemask
+E}b & mx makepattern setpattern E fEOFill{O}{L}? ;}b/grf4{4 dict `/ShadingType
+4 d/DataSource ~ d/ColorSpace ~ d & E shfill}b
+%%EndResource
+end reinitialize
+: 0 0 4850 6350 rc N 0 0 M 4850 0 I 4850 6350 I 0 6350 I C 
+1 1 1 1 scol  O ; 0 0 0.266 1 scol Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{~ ! ~ ! 4 -1 $ ! findfont 2 ^ ~
+definefont fM @ @ 4 6 -1 $ neg put 5 0 put 90 matrix R matrix concatmatrix
+makefont Pscript_Windows_Font 3 1 $ put}b/mF_TTF_V{3{~ !}repeat 3 -1 $ !
+findfont 1 ^ ~ definefont Pscript_Windows_Font 3 1 $ put}b/UmF{L2?
+{Pscript_Windows_Font ~ undef}{!}?}b/UmF42{@ findfont/FDepVector get{/FontName
+get undefinefont}forall undefinefont}b
+%%EndResource
+end reinitialize
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Encoding256 5.0 0
+/CharCol256Encoding[/.notdef/breve/caron/dotaccent/dotlessi/fi/fl/fraction
+/hungarumlaut/Lslash/lslash/minus/ogonek/ring/Zcaron/zcaron/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle/parenleft/parenright/asterisk/plus/comma
+/hyphen/period/slash/zero/one/two/three/four/five/six/seven/eight/nine/colon
+/semicolon/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S
+/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright/asciicircum/underscore/grave
+/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright
+/asciitilde/.notdef/Euro/.notdef/quotesinglbase/florin/quotedblbase/ellipsis
+/dagger/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE/.notdef
+/.notdef/.notdef/.notdef/quoteleft/quoteright/quotedblleft/quotedblright/bullet
+/endash/emdash/tilde/trademark/scaron/guilsinglright/oe/.notdef/.notdef
+/Ydieresis/.notdef/exclamdown/cent/sterling/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft/logicalnot/.notdef/registered
+/macron/degree/plusminus/twosuperior/threesuperior/acute/mu/paragraph
+/periodcentered/cedilla/onesuperior/ordmasculine/guillemotright/onequarter
+/onehalf/threequarters/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute
+/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla/egrave/eacute
+/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve
+/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis]def EncodeDict/256 CharCol256Encoding put
+%%EndResource
+end reinitialize
+
+%%IncludeResource: font TimesNewRomanPSMT
+F /F0 0 /256 T /TimesNewRomanPSMT mF 
+/F0S64 F0 [100 0 0 -100 0 0 ] mFS
+F0S64 Ji 
+25 115 M (The )[61 50 44  0]xS 
+0 0 1 1 scol 206 115 M (Browse)[66 34 50 72 39  0]xS 
+N 206 125 M 511 125 I K 
+0 0 0.266 1 scol 511 115 M ( page of this website lists galactic coordinates for each planetary nebula as "lll.l \(sign\)bb.b," where lll.l is )
+[25 50 44 50 44 25 50 34 25 27 50 28 39 25 72 45 50 39 28 27 45 25 28 27 39 28 39 25 50 44 28 45
+44 28 28 44 25 44 50 50 34 50 28 50 44 28 44 39 25 33 50 34 25 44 44 45 50 25 50 28 44 50 44 28
+45 33 50 25 50 44 50 50 28 45 25 44 39 25 41 28 27 28 25 28 25 33 39 28 50 50 33 50 50 25 50 25
+41 25 73 50 44 33 45 25 27 28 28 25 28 25 28 39  0]xS 
+25 226 M (the galactic longitude in degrees, and bb.b is the galactic latitude in degrees. The plus or minus sign before the galactic )
+[27 50 45 25 50 44 28 44 45 27 28 45 25 27 50 51 50 27 28 50 50 45 25 27 50 25 50 45 50 33 45 44
+39 25 25 44 50 50 25 50 50 25 50 25 28 39 25 28 50 44 25 50 45 28 44 44 28 28 44 25 28 44 28 28
+28 50 50 44 25 28 50 25 50 45 50 33 44 45 39 25 25 61 50 44 25 50 28 50 39 25 50 33 25 78 28 50
+50 39 25 39 28 50 50 25 50 44 33 50 34 44 25 28 50 44 25 50 45 27 45 44 28 28 44  0]xS 
+25 337 M (latitude indicates whether the object is above or below the galactic plane, respectively. )
+[27 45 27 28 28 50 50 45 25 27 50 50 28 45 44 28 44 39 25 72 50 45 27 50 45 33 25 28 50 44 25 50
+50 28 45 44 28 25 28 39 25 44 50 50 50 44 25 50 34 25 50 44 28 50 72 25 28 50 44 25 50 45 28 44
+44 28 28 44 25 50 28 45 50 44 25 25 33 45 39 50 44 44 28 28 50 44 28 50 25  0]xS 
+3511 337 M ( )S 
+
+%%IncludeResource: font TimesNewRomanPS-BoldMT
+F /F1 0 /256 T /TimesNewRomanPS-BoldMT mF 
+/F1S70 F1 [112 0 0 -112 0 0 ] mFS
+F1S70 Ji 
+25 579 M (The Exercise)[75 63 50 28 75 57 50 50 50 31 44  0]xS 
+649 579 M ( )S 
+F0S64 Ji 
+25 810 M (Listed below are eight planetary nebulae. For each of them, you will estimate the relative intensities of the H)
+[61 27 39 28 44 51 25 50 44 28 50 72 25 44 34 44 25 44 28 50 50 28 25 50 28 44 50 45 27 45 33 50
+25 50 45 50 50 27 45 44 25 25 56 50 33 25 45 44 44 50 25 50 34 25 28 50 44 78 25 25 50 50 50 25
+72 28 28 27 25 45 39 28 27 78 45 27 45 25 27 51 44 25 33 45 27 45 28 27 50 45 25 28 50 27 45 50
+39 28 27 28 45 38 25 50 34 25 28 50 44 25  0]xS 
+4425 810 M ( and H)[25 44 50 50 25  0]xS 
+4729 810 M ( )S 
+25 943 M (lines and compare )[27 28 50 45 38 25 45 50 50 25 44 50 78 50 44 34 44  0]xS 
+778 943 M (them with the theoretical prediction of 2.86 and with each other. Finally, you will be able to come to )
+[27 50 45 77 26 72 28 27 50 25 28 50 45 25 27 50 45 50 33 44 28 28 44 45 28 25 50 33 44 50 28 45
+27 28 50 50 25 50 33 26 50 25 50 50 25 44 50 50 25 72 28 28 50 25 44 45 44 50 25 50 28 50 44 34
+25 25 55 28 50 44 28 28 50 25 25 50 50 50 25 72 28 28 28 25 50 44 25 45 50 27 45 25 28 50 25 44
+50 78 44 25 28 50  0]xS 
+25 1054 M (some conclusions about the distribution of dust in the Milky Way. )
+[38 50 78 45 25 44 50 50 44 28 50 39 28 50 50 39 25 44 50 50 50 28 25 28 50 44 25 50 28 39 28 33
+28 50 50 28 28 50 50 25 50 33 25 50 50 39 28 25 28 50 25 28 50 44 25 89 28 27 50 51 25 94 44 50
+25  0]xS 
+0 0 1 1 scol 2322 1283 M (H4)[72  0]xS 
+N 2322 1293 M 2444 1293 I K 
+2444 1283 M (-)S 
+N 2444 1293 M 2478 1293 I K 
+2478 1283 M (1)S 
+N 2478 1293 M 2528 1293 I K 
+0 0 0.266 1 scol 2528 1283 M ( )S 
+0 0 1 1 scol 2262 1394 M (IC 2448)[33 67 25 50 50 50  0]xS 
+N 2262 1404 M 2588 1404 I K 
+0 0 0.266 1 scol 2588 1394 M ( )S 
+0 0 1 1 scol 2330 1505 M (J900)[38 50 50  0]xS 
+N 2330 1515 M 2519 1515 I K 
+0 0 0.266 1 scol 2519 1505 M ( )S 
+0 0 1 1 scol 2207 1615 M (NGC 2022)[72 72 67 25 50 50 50  0]xS 
+N 2207 1625 M 2643 1625 I K 
+0 0 0.266 1 scol 2643 1615 M ( )S 
+0 0 1 1 scol 2207 1726 M (NGC 6578)[72 72 67 25 50 50 50  0]xS 
+N 2207 1736 M 2643 1736 I K 
+0 0 0.266 1 scol 2643 1726 M ( )S 
+0 0 1 1 scol 2207 1837 M (NGC 7026)[72 72 67 25 50 50 50  0]xS 
+N 2207 1847 M 2643 1847 I K 
+0 0 0.266 1 scol 2643 1837 M ( )S 
+0 0 1 1 scol 2207 1948 M (NGC 7662)[72 72 67 25 50 50 50  0]xS 
+N 2207 1958 M 2643 1958 I K 
+0 0 0.266 1 scol 2643 1948 M ( )S 
+0 0 1 1 scol 2283 2059 M (Pe1)[55 45  0]xS 
+N 2283 2068 M 2433 2068 I K 
+2433 2059 M (-)S 
+N 2433 2068 M 2467 2068 I K 
+2467 2059 M (18)[50  0]xS 
+N 2467 2068 M 2567 2068 I K 
+0 0 0.266 1 scol 2567 2059 M ( )S 
+25 2169 M ( )S 
+/F1S64 F1 [100 0 0 -100 0 0 ] mFS
+F1S64 Ji 
+25 2290 M (Data Collection)[72 50 33 50 25 72 50 28 28 44 45 33 28 50  0]xS 
+689 2290 M ( )S 
+F0S64 Ji 
+125 2518 M (1.)[50  0]xS 
+275 2518 M (Print out a copy of the )[55 33 28 50 28 25 50 50 28 25 44 25 45 50 50 50 25 50 33 25 28 50 44  0]xS 
+0.5 0 0.5 1 scol 1192 2518 M (data table)[50 44 28 44 25 28 44 50 28  0]xS 
+N 1192 2528 M 1578 2528 I K 
+0 0 0.266 1 scol 1578 2518 M ( for this exercise. You may also find it helpful to print out this page as well. )
+[25 33 50 33 25 28 50 28 39 25 44 50 44 34 44 28 39 44 25 25 72 51 50 25 77 45 50 25 44 28 39 50
+25 33 28 50 50 25 28 28 25 50 44 28 50 33 50 28 25 28 50 25 50 33 28 50 28 25 50 50 28 25 27 50
+28 39 25 50 45 50 44 25 44 39 25 73 44 28 28 25  0]xS 
+4631 2518 M ( )S 
+125 2628 M (2.)[50  0]xS 
+275 2628 M (The wavelength of H)[61 50 44 25 72 45 50 44 28 44 50 50 28 50 25 50 33 25  0]xS 
+1172 2628 M ( is 6563 Angstroms, and for H)[25 27 39 25 50 50 50 50 25 73 50 50 39 27 34 50 77 39 25 25 45 50 50 25 33 50 33 25  0]xS 
+2424 2628 M ( it is 4861 Angstroms. Take a moment to look at the )[25 27 28 25 28 39 25 50 50 50 50 25 72 50 50 39 28 33 50 78 39 25 25 61 44 50 45 25 44 25 78 50
+78 44 50 28 25 28 50 25 28 50 50 50 25 44 28 25 28 50 44  0]xS 
+275 2761 M (relevant )[33 44 28 44 50 45 50 28  0]xS 
+0 0 1 1 scol 622 2761 M (templates)[27 45 77 50 28 45 27 45  0]xS 
+N 622 2771 M 1005 2771 I K 
+0 0 0.266 1 scol 1005 2761 M ( for wavelength identifications to familiarize yourself with the appearance of the spectrum in )
+[25 33 50 33 25 72 45 50 44 28 44 50 50 28 50 25 28 50 44 50 28 28 33 28 44 45 28 27 50 51 38 25
+28 50 25 34 44 78 28 27 28 45 33 28 44 44 25 50 50 50 34 39 44 28 33 25 72 28 28 50 25 28 50 44
+25 45 50 50 44 44 34 44 50 44 45 25 50 33 25 28 50 44 25 39 50 45 44 28 33 50 78 25 28 50  0]xS 
+275 2872 M (the vicinity of these Balmer lines. You will find it helpful to print out a copy of the templates containing them. )
+[27 50 45 25 50 28 44 28 50 28 27 50 25 50 34 25 27 51 44 39 44 25 67 44 28 78 44 34 25 27 28 50
+45 39 25 25 72 50 50 25 72 28 28 27 25 34 28 50 50 25 27 28 25 50 45 27 50 34 50 28 25 27 50 25
+50 34 27 51 27 25 50 50 28 25 45 25 44 50 50 50 25 50 33 25 28 50 45 25 27 45 78 50 27 45 28 44
+39 25 44 50 50 28 44 28 50 28 50 50 25 28 50 44 78 25  0]xS 
+4723 2872 M ( )S 
+125 2983 M (3.)[50  0]xS 
+275 2983 M (Review the )[66 45 50 27 45 72 25 28 50 44  0]xS 
+0 0 1 1 scol 753 2983 M (Help)[72 44 28  0]xS 
+N 753 2993 M 947 2993 I K 
+0 0 0.266 1 scol 947 2983 M ( page to make sure you know how to view and expand a spectrum. )
+[25 50 44 50 44 25 28 50 25 78 44 50 45 25 39 50 33 44 25 50 50 50 25 51 50 50 72 25 50 50 72 25
+28 50 25 50 28 44 72 25 45 50 50 25 44 50 50 45 50 50 25 44 25 39 50 44 45 28 33 50 78 25  0]xS 
+3633 2983 M ( )S 
+125 3094 M (4.)[50  0]xS 
+275 3094 M (Click on one of the nebulae listed above. This will get you to the "View Spectrum" page where you will see the )
+[66 28 28 44 50 25 50 50 25 50 50 45 25 50 33 25 28 50 44 25 50 45 50 50 28 44 44 25 28 28 39 28
+44 50 25 44 50 50 51 44 25 25 61 50 28 39 25 72 28 28 27 25 50 45 28 25 50 50 50 25 27 51 25 27
+50 45 25 41 72 28 44 72 25 56 50 44 45 27 34 50 78 40 25 50 45 50 44 25 72 50 45 33 44 25 51 50
+50 25 72 28 27 28 25 39 45 44 25 28 50 44  0]xS 
+275 3204 M (full spectrum of the nebula. )[33 50 28 27 25 39 50 45 44 28 33 50 78 25 50 33 25 28 50 45 25 50 44 50 50 28 44 25  0]xS 
+1403 3204 M ( )S 
+125 3315 M (5.)[50  0]xS 
+275 3315 M (Locate the H)[61 50 44 44 28 45 25 27 50 45 25  0]xS 
+842 3315 M ( line and expand the spectrum to zoom in on this wavelength region. Repeat if necessary to give a )
+[25 27 28 50 45 25 44 50 50 25 44 50 50 45 50 50 25 28 50 44 25 39 50 44 45 28 33 50 78 25 27 51
+25 44 50 50 78 25 28 50 25 50 50 25 27 50 28 39 25 72 45 50 44 28 44 50 50 28 50 25 34 44 50 28
+50 50 25 25 67 44 50 44 45 28 25 27 34 25 50 44 44 45 39 39 44 33 50 25 28 50 25 50 28 50 44 25
+45  0]xS 
+275 3426 M (good view of the line. \(It is usually bracketed on either side by two lines that come from nitrogen.\) Now zoom in )
+[50 50 50 50 25 50 27 45 72 25 50 33 25 28 50 45 25 27 28 50 45 25 25 33 33 28 25 28 39 25 50 39
+50 44 28 28 50 25 50 33 44 45 50 44 28 44 50 25 50 50 25 45 28 27 50 45 33 25 39 28 50 44 25 50
+50 25 28 72 50 25 28 28 50 44 39 25 28 50 45 27 25 45 50 78 44 25 33 34 50 77 25 50 28 28 33 50
+50 45 50 25 33 25 72 50 73 25 44 50 50 78 25 28 50  0]xS 
+275 3537 M (on the upper part of the line so that you can get a good estimate of the maximum intensity \(height\) at the center. )
+[50 50 25 27 50 45 25 50 50 50 44 34 25 50 44 33 28 25 50 33 25 28 50 45 25 27 28 50 45 25 39 50
+25 27 50 45 28 25 50 50 50 25 44 44 50 25 50 45 28 25 44 25 50 50 50 50 25 45 39 27 28 78 44 28
+44 25 50 34 25 28 50 44 25 78 44 50 28 78 50 78 25 27 50 28 45 50 39 27 28 50 25 33 50 45 28 50
+50 28 33 25 44 28 25 28 50 44 25 45 44 50 28 44 33 25  0]xS 
+275 3647 M (Write this maximum height down in the data table, remembering to include the scale exponent, given at the top )
+[94 33 28 28 44 25 28 50 28 39 25 78 44 50 28 78 50 77 25 50 45 28 50 50 27 25 50 50 73 50 25 27
+51 25 27 50 45 25 50 44 28 44 25 28 45 50 27 45 25 25 33 44 78 45 77 50 45 33 28 50 50 25 28 50
+25 28 50 44 28 50 50 44 25 28 50 44 25 39 45 44 28 44 25 45 50 50 50 50 44 50 28 25 25 50 28 50
+44 50 25 45 27 25 28 50 45 25 28 50 50  0]xS 
+275 3758 M (left of the graph window \(e.g., x10)[27 45 33 28 25 50 33 25 28 50 44 25 50 34 44 50 50 25 72 28 50 50 50 72 25 34 44 25 50 25 25 25
+50 50  0]xS 
+1773 3758 M (\). )[33 25  0]xS 
+1856 3758 M ( )S 
+125 3869 M (6.)[50  0]xS 
+: 275 3779 4550 114 rc 275 3869 M (Zoom back out to the full spectrum by pressing on the "zoom out" button under the spectrum display. Now zoom )
+[61 50 50 77 25 50 45 44 50 25 50 50 28 25 28 50 25 28 50 44 25 33 50 28 28 25 39 50 44 45 28 33
+50 78 25 50 50 25 50 33 44 39 39 28 50 50 25 50 50 25 28 50 44 25 41 45 50 50 78 25 50 50 27 41
+25 50 50 28 28 50 50 25 50 50 50 44 34 25 27 50 45 25 39 50 44 45 27 34 50 77 26 50 27 39 50 28
+44 50 25 26 72 50 72 25 44 50 50 78  0]xS 
+; 275 3980 M (in on the bottom of the H)[27 50 25 50 50 25 28 50 45 25 50 50 27 28 50 78 25 50 33 25 28 50 45 25  0]xS 
+1336 3980 M ( line. Read the level of the continuum, or base level of the spectrum near the H)
+[25 27 28 50 45 25 25 66 45 44 50 25 28 50 44 25 28 44 50 45 28 25 50 33 25 28 50 44 25 45 50 50
+27 28 50 50 50 78 25 25 50 33 25 50 45 39 44 25 28 44 50 45 28 25 50 33 25 28 50 44 25 39 50 44
+45 28 33 50 78 25 50 44 45 33 25 28 50 44 25  0]xS 
+4536 3980 M ( line, )[25 27 28 50 45 25  0]xS 
+275 4091 M (and record it on the data sheet. )[44 50 50 25 33 45 44 50 33 50 25 28 28 25 50 50 25 28 50 44 25 50 45 27 45 25 39 50 44 45 27 25
+ 0]xS 
+1525 4091 M ( )S 
+125 4201 M (7.)[50  0]xS 
+275 4201 M (Subtract the continuum level from the maximum height and record the H)
+[55 50 50 28 33 45 44 28 25 28 50 44 25 44 50 50 28 28 50 50 50 78 25 28 44 50 45 27 25 34 33 50
+78 25 28 50 44 25 78 44 50 28 78 50 78 25 50 44 28 50 50 28 25 44 50 50 25 33 45 44 50 33 50 25
+28 50 45 25  0]xS 
+3244 4201 M ( net height in the data table. Zoom )[25 50 44 28 25 50 44 28 50 50 28 25 28 50 25 27 50 45 25 50 44 28 44 25 28 45 50 27 45 25 25 61
+50 50 78  0]xS 
+275 4312 M (back out to the full spectrum. )[50 44 44 50 25 50 50 28 25 28 50 25 28 50 44 25 34 50 27 28 25 39 50 44 45 28 33 50 78 25  0]xS 
+1472 4312 M ( )S 
+125 4423 M (8.)[50  0]xS 
+275 4423 M (Repeat steps 5)[66 45 50 44 44 28 25 39 28 44 50 39 25  0]xS 
+853 4423 M (-)S 
+886 4423 M (7 for the H)[50 25 33 50 33 25 28 50 44 25  0]xS 
+1360 4423 M ( line. )[25 27 28 50 45 25  0]xS 
+1585 4423 M ( )S 
+125 4556 M (9.)[50  0]xS 
+275 4556 M (Now calculate the observed ratio of H)[72 50 72 25 44 45 28 44 50 28 44 28 44 25 28 50 45 25 50 50 39 44 33 50 45 50 25 33 44 28 28 50
+25 50 33 25  0]xS 
+1847 4556 M (/H)[27  0]xS 
+: 1984 4466 2841 114 rc 1984 4556 M ( using the net heights and write the result in the last column of the data )
+[25 50 38 28 50 50 25 28 50 45 25 50 44 28 25 50 44 28 50 50 28 39 25 44 50 50 25 72 34 27 28 45
+25 27 51 44 25 33 45 39 50 27 28 25 28 50 25 28 50 44 25 28 44 39 28 25 44 51 27 50 78 50 25 50
+33 25 28 50 45 25 50 44 28 44  0]xS 
+; 275 4689 M (table. )[27 45 50 28 44 25  0]xS 
+519 4689 M ( )S 
+75 4799 M (10.)[50 50  0]xS 
+275 4799 M (Repeat steps 5)[66 45 50 44 44 28 25 39 28 44 50 39 25  0]xS 
+853 4799 M (-)S 
+886 4799 M (9 for all remaining nebulae. )[50 25 33 50 33 25 45 27 28 25 33 45 78 44 28 50 28 50 50 25 50 44 50 50 28 44 45 25  0]xS 
+2019 4799 M ( )S 
+F1S64 Ji 
+25 5031 M (Data Analysis)[72 50 33 50 25 72 56 50 28 50 39 27  0]xS 
+617 5031 M ( )S 
+F0S64 Ji 
+125 5259 M (1.)[50  0]xS 
+275 5259 M (Fill in Table 2 of the data table, listing the nebulae in order from highest H)
+[55 28 28 28 25 27 50 25 61 45 50 28 44 25 50 25 50 33 25 28 50 45 25 50 44 28 44 25 28 44 50 28
+45 25 25 27 28 39 28 28 50 50 25 28 50 44 25 50 44 50 50 28 45 44 25 28 50 25 50 33 50 45 33 25
+33 33 51 77 25 50 28 50 50 45 38 28 25  0]xS 
+3314 5259 M (/H)[27  0]xS 
+3452 5259 M ( to lowest. )[25 27 50 25 28 50 72 45 39 27 26  0]xS 
+3891 5259 M ( )S 
+125 5391 M (2.)[50  0]xS 
+275 5391 M (Fill in the last column with each nebula's galactic latitude, )
+[55 28 28 28 25 27 50 25 28 50 45 25 27 45 39 27 25 45 50 28 50 78 50 25 72 28 27 50 25 45 44 45
+50 25 50 44 50 50 28 44 18 39 25 50 45 27 45 44 28 28 44 25 28 44 28 28 28 50 50 44 25  0]xS 
+F1S64 Ji 
+2624 5393 M (without)[72 28 33 55 50 56  0]xS 
+F0S64 Ji 
+2952 5391 M ( the plus or minus sign \(i.e., use the absolute )[25 27 50 45 25 50 28 50 39 25 50 33 25 78 27 50 50 39 25 39 28 50 50 25 33 28 25 45 25 25 25 50
+39 44 25 28 50 44 25 45 50 39 50 27 50 28 45  0]xS 
+275 5502 M (value of the galactic latitude\). )[50 44 28 50 44 25 50 33 25 28 50 45 25 50 44 28 44 45 27 28 45 25 27 45 28 27 28 50 50 45 33 25
+ 0]xS 
+1491 5502 M ( )S 
+125 5613 M (3.)[50  0]xS 
+275 5613 M (What trend do you notice between the galactic latitude and the value of the H)
+[94 50 44 28 25 28 33 45 50 50 25 50 50 25 50 50 50 25 50 50 28 27 45 44 25 50 45 27 73 44 44 50
+25 28 50 45 25 50 44 28 44 45 27 28 45 25 27 45 28 27 28 50 50 45 25 44 50 50 25 28 50 44 25 50
+45 28 50 44 25 50 33 25 28 50 44 25  0]xS 
+3419 5613 M (/H)[27  0]xS 
+3557 5613 M ( ratio? )[25 33 44 28 28 50 44  0]xS 
+3834 5613 M ( )S 
+125 5746 M (4.)[50  0]xS 
+275 5746 M (Remember that the amount of reddening depends how much dust you are looking through along the line of sight )
+[66 45 77 45 78 50 44 33 25 28 50 44 28 25 28 50 44 25 45 78 50 50 50 28 25 50 33 25 33 45 50 50
+44 50 28 50 50 25 50 44 50 45 50 50 39 25 50 50 72 25 78 50 44 50 25 50 50 39 28 25 50 50 50 25
+44 34 44 25 28 50 50 50 28 50 50 25 28 50 33 50 50 50 50 25 44 28 50 50 50 25 28 50 45 25 27 28
+50 45 25 50 33 25 39 28 50 50 27  0]xS 
+275 5857 M (to any nebula. This in turn depends on the thickness of the dust and the distance to the nebula. If all of these )
+[27 50 25 45 50 50 25 50 44 50 50 28 44 25 25 62 50 27 39 25 28 50 25 28 50 33 50 25 50 45 50 44
+50 50 39 25 50 50 25 28 50 44 25 28 50 28 44 50 50 45 39 39 25 50 33 25 28 50 44 25 50 50 39 28
+25 44 50 50 25 28 50 45 25 50 27 39 28 45 50 44 44 25 28 50 25 28 50 44 25 50 45 50 50 28 44 25
+25 33 34 25 44 28 28 25 50 33 25 28 50 44 39 45  0]xS 
+275 5967 M (nebulae were at the same distance from us \()[50 44 50 50 28 44 45 25 72 44 33 45 25 44 28 25 28 50 44 25 39 45 77 45 25 50 28 38 28 45 50 44
+44 25 34 33 50 78 25 50 39 25  0]xS 
+F1S64 Ji 
+2025 5969 M (which they are not)[72 55 28 45 55 25 33 56 44 50 26 50 44 44 25 56 50  0]xS 
+: 2816 5877 2009 114 rc F0S64 Ji 
+2816 5967 M (, although most of the objects in this sample are at )[25 25 44 28 28 50 50 50 50 50 25 77 50 39 28 25 50 33 26 27 50 45 25 50 50 28 44 44 28 39 25 28
+50 25 28 50 28 38 25 39 45 78 50 27 45 25 44 33 45 25 44 28  0]xS 
+; F0S64 Ji 
+275 6078 M (similar distances\), what does your conclusion from step 3 imply about the distribution of dust in the Milky Way? )
+[38 28 78 28 28 44 33 25 50 28 39 28 44 50 45 44 39 33 25 25 72 50 45 28 25 50 50 44 39 25 50 50
+50 33 25 45 50 50 44 28 50 39 28 50 50 25 33 33 50 78 25 39 28 44 50 25 50 25 28 78 50 28 50 25
+44 50 50 50 28 25 28 50 44 25 50 28 39 28 33 28 50 50 28 28 50 50 25 50 33 25 50 50 39 28 25 28
+50 25 27 50 45 25 89 28 27 50 50 25 95 44 50 45  0]xS 
+: 275 6099 4330 111 rc 275 6189 M (Can you find images or other material from your textbooks or reliable websites to support your conclusion? )
+[66 45 50 25 50 50 50 25 33 28 50 50 25 28 77 45 50 44 39 25 50 34 25 50 27 50 45 33 25 78 44 28
+44 34 27 45 28 25 33 33 50 78 25 50 50 50 33 25 28 45 50 27 50 50 51 50 38 25 51 33 25 33 44 28
+28 44 50 28 45 25 72 44 50 39 28 28 44 39 25 28 50 25 39 50 50 50 50 33 28 25 50 50 50 33 25 45
+50 50 44 28 50 39 28 50 50 44  0]xS 
+; : 4606 6099 25 111 rc 4606 6189 M ( )S 
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_Dib_L2 5.0 0
+/iw 0 d/ih 0 d/im_save 0 d/s 0 d/polarity 0 d/smoothflag 0 d/mystring 0 d/bpc 0
+d/maskcolor 0 d/mask? F d/setup1asciiproc{[currentfile mystring/readhexstring
+cvx/! cvx]cvx bind}b/setup1binaryproc{[currentfile mystring/readstring cvx/!
+cvx]cvx bind}b/setup2asciiproc{currentfile/ASCII85Decode filter/RunLengthDecode
+filter}b/setup2binaryproc{currentfile/RunLengthDecode filter}b/jpegasciiproc
+{currentfile/ASCII85Decode filter<</Relax 1>>/DCTDecode filter}b/jpegbinaryproc
+{currentfile<</Relax 1>>/DCTDecode filter}b/mycolorspace{colspABC}d/myimagedict
+{/myimagedict 10 dict d myimagedict @ `/ImageType 1 d/MultipleDataSource F d E}
+b/imageprocarray[/setup1binaryproc/setup1asciiproc/setup2binaryproc
+/setup2asciiproc/setup1binarydecodeproc/setup1asciidecodeproc]d/jpegprocarray[
+/jpegasciiproc/jpegbinaryproc]d/Q{/im_save save d scol imageprocarray ~ get/s ~
+, d/polarity ~ d/smoothflag ~ d +/dx 2 ^ d/dy 1 ^ d +S/mystring ~ string d/bpc
+~ d/ih ~ d/iw ~ d fx rf}b/X{/im_save save d/mask? ~ d/maskcolor ~ d
+imageprocarray ~ get/s ~ , d/polarity ~ d/smoothflag ~ d +/dx 2 ^ d/dy 1 ^ d +S
+/mystring ~ string d/bpc ~ d/ih ~ d/iw ~ d}b/Z{im_save restore}b/beginjpeg{
+/jpeg_save save d jpegprocarray ~ get/jpegimageproc ~ , d + +S/bpc ~ d/ih ~ d
+/iw ~ d bpc 24 eq{/DeviceRGB}{/DeviceGray}? setcolorspace myimagedict @ `
+/ImageType 1 d/Width iw d/Height ih d/Decode bpc 24 eq{[0 1 0 1 0 1]}{[0 1]}? d
+/ImageMatrix[iw 0 0 ih 0 0]d/BitsPerComponent 8 d/DataSource jpegimageproc d E
+image}b/endjpeg{jpeg_save restore}b/Y{scol myimagedict @ ` mask?{/polarity
+maskcolor 0 get 0 eq{T}{F}? d}if/Width iw d/Height ih d/Decode polarity{[1 0]}{
+[0 1]}? d/ImageMatrix[iw 0 0 ih 0 0]d/DataSource s d/BitsPerComponent 1 d
+/Interpolate smoothflag d E imagemask}bd/doclutimage{/rgbclut ~ d bpc @ 8 eq{!
+255}{@ 4 eq{! 15}{2 eq{3}{1}?}?}?/hival ~ d[/Indexed currentcolorspace hival
+rgbclut]setcolorspace myimagedict @ ` mask?{/ImageType 4 d/MaskColor maskcolor
+d}if/Width iw d/Height ih d/Decode[0 hival]d/ImageMatrix[iw 0 0 ih 0 0]d
+/DataSource s d/BitsPerComponent bpc d/Interpolate smoothflag d E image}b
+/doCMYKclutimage{/CMYKclut ~ d bpc @ 8 eq{! 255}{4 eq{15}{3}?}?/hival ~ d[
+/Indexed/DeviceCMYK hival CMYKclut]setcolorspace myimagedict @ ` mask?{
+/ImageType 4 d/MaskColor maskcolor d}if/Width iw d/Height ih d/Decode[0 hival]d
+/ImageMatrix[iw 0 0 ih 0 0]d/DataSource s d/BitsPerComponent bpc d/Interpolate
+smoothflag d E image}b/doNimage{bpc 24 eq{currentcolorspace}{colspA}?
+setcolorspace myimagedict @ ` mask?{/ImageType 4 d/MaskColor maskcolor d}if
+/Width iw d/Height ih d/Decode bpc 24 eq{[0 1 0 1 0 1]}{[0 1]}? d/ImageMatrix
+[iw 0 0 ih 0 0]d/DataSource s d/BitsPerComponent bpc 24 eq{8}{bpc}? d
+/Interpolate smoothflag d E image}b/doCMYKimage{/DeviceCMYK setcolorspace
+myimagedict @ ` mask?{/ImageType 4 d/MaskColor maskcolor d}if/Width iw d/Height
+ih d/Decode[0 1 0 1 0 1 0 1]d/ImageMatrix[iw 0 0 ih 0 0]d/DataSource s d
+/BitsPerComponent 8 d/Interpolate smoothflag d E image}b
+%%EndResource
+end reinitialize
+; : 8 7 8 8 50 44 4375 765 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!*!!!!*$"!!*$"!rr?%!WN-"!WE'!!WE'!!WE'!!WE'!!WE'!!WE*!!<iH(!!*'#!!*$"rrE'"
+!!!~> Z
+; : 6 14 8 6 38 87 4691 743 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!)ru!!*$"rrE'"!!3#u!!*'#rW)s!!!3*"rrE*"!!3'!rrE*#r;Zfu!!3#u!!*'#r;ZfurrN-"
+rrE-$!<*!!!!!&t!!!&t!!!&t!!~> Z
+; : 8 7 8 8 50 44 1122 2584 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!*!!!!*$"!!*$"!rr?%!WN-"!WE'!!WE'!!WE'!!WE'!!WE'!!WE*!!<iH(!!*'#!!*$"rrE'"
+!!!~> Z
+; : 6 14 8 6 38 88 2386 2561 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!)ru!!*$"rrE'"!!3#u!!*'#rW)s!!!3*"rrE*"!!3'!rrE*#r;Zfu!!3#u!!*'#r;ZfurrN-"
+rrE-$!<*!!!!!&t!!!&t!!!&t!!~> Z
+; : 8 7 8 8 50 43 792 3271 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!*!!!!*$"!!*$"!rr?%!WN-"!WE'!!WE'!!WE'!!WE'!!WE'!!WE*!!<iH(!!*'#!!*$"rrE'"
+!!!~> Z
+; : 12 7 8 12 75 44 1667 3668 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+p](9prrDiprrN-"p](9prrDfo!!3*"qZ6Zr!!3*"p](9prrDipr;c~> Z
+; : 5 7 8 5 31 44 1742 3668 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!*!!!!*$"!!*$"rrE*"rrN*!rrN-"rrE*"!!*$"!<</u!<~> Z
+; : 8 7 8 8 50 44 1286 3935 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!*!!!!*$"!!*$"!rr?%!WN-"!WE'!!WE'!!WE'!!WE'!!WE'!!WE*!!<iH(!!*'#!!*$"rrE'"
+!!!~> Z
+; : 8 7 8 8 50 44 4486 3935 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!*!!!!*$"!!*$"!rr?%!WN-"!WE'!!WE'!!WE'!!WE'!!WE'!!WE*!!<iH(!!*'#!!*$"rrE'"
+!!!~> Z
+; : 8 7 8 8 50 44 3194 4157 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!*!!!!*$"!!*$"!rr?%!WN-"!WE'!!WE'!!WE'!!WE'!!WE'!!WE*!!<iH(!!*'#!!*$"rrE'"
+!!!~> Z
+; : 6 14 8 6 38 87 1322 4356 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!)ru!!*$"rrE'"!!3#u!!*'#rW)s!!!3*"rrE*"!!3'!rrE*#r;Zfu!!3#u!!*'#r;ZfurrN-"
+rrE-$!<*!!!!!&t!!!&t!!!&t!!~> Z
+; : 8 7 8 8 50 44 1797 4511 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!*!!!!*$"!!*$"!rr?%!WN-"!WE'!!WE'!!WE'!!WE'!!WE'!!WE*!!<iH(!!*'#!!*$"rrE'"
+!!!~> Z
+; : 6 14 8 6 37 88 1947 4488 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!)ru!!*$"rrE'"!!3#u!!*'#rW)s!!!3*"rrE*"!!3'!rrE*#r;Zfu!!3#u!!*'#r;ZfurrN-"
+rrE-$!<*!!!!!&t!!!&t!!!&t!!~> Z
+; : 8 7 8 8 50 44 3264 5214 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!*!!!!*$"!!*$"!rr?%!WN-"!WE'!!WE'!!WE'!!WE'!!WE'!!WE*!!<iH(!!*'#!!*$"rrE'"
+!!!~> Z
+; : 6 14 8 6 38 88 3414 5191 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!)ru!!*$"rrE'"!!3#u!!*'#rW)s!!!3*"rrE*"!!3'!rrE*#r;Zfu!!3#u!!*'#r;ZfurrN-"
+rrE-$!<*!!!!!&t!!!&t!!!&t!!~> Z
+; : 8 7 8 8 50 44 3369 5568 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!*!!!!*$"!!*$"!rr?%!WN-"!WE'!!WE'!!WE'!!WE'!!WE'!!WE*!!<iH(!!*'#!!*$"rrE'"
+!!!~> Z
+; : 6 14 8 6 38 87 3519 5546 F F 3 [ 0 ] F 
+X
+<
+FFFFFF 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+000000 000000 000000 000000 000000 000000 000000 000000
+>
+doclutimage
+!!)ru!!*$"rrE'"!!3#u!!*'#rW)s!!!3*"rrE*"!!3'!rrE*#r;Zfu!!3#u!!*'#r;ZfurrN-"
+rrE-$!<*!!!!!&t!!!&t!!!&t!!~> Z
+; LH
+(%%[Page: 1]%%) = 
+%%PageTrailer
+
+%%Trailer
+%%DocumentNeededResources: 
+%%+ font TimesNewRomanPSMT
+%%+ font TimesNewRomanPS-BoldMT
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_ErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_Win_GdiObject 5.0 0
+%%+ procset Pscript_Win_GdiObject_L3 5.0 0
+%%+ procset Pscript_Text 5.0 0
+%%+ procset Pscript_Encoding256 5.0 0
+%%+ procset Pscript_Win_Dib_L2 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+ehsave restore
+(%%[LastPage]%%) = 
+%%EOF
+

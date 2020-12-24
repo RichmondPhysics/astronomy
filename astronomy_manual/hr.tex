@@ -1,0 +1,119 @@
+\chapter{The Hertzsprung-Russell Diagram}
+
+
+In this lab, you'll use the data from the Hipparcos satellite
+to construct a Hertzsprung-Russell diagram.  The data you'll
+use is the real stuff returned by the satellite; all I've done
+for you is to convert it from archaic astronomy units (such as
+magnitudes) into standard modern physics units (such as watts per
+square meter).
+
+The full Hipparcos data set contains 100,000 stars, but you'll be 
+working with only the approximately 
+1000 closest stars and the approximately 1000 brightest stars.
+
+\begin{enumerate}
+
+\item There are two Excel files on Blackboard (in the ``Downloads for Labs'' 
+section) containing Hipparcos data
+on the closest and brightest stars.  Download these files to the desktop,
+and open the file containing the brightest stars.  It contains
+about 1000 rows and four columns: Catalog number, Parallax angle, 
+temperature, and brightness.  Note that the units of the various
+quantities are indicated on the second line (except for the catalog
+number, which doesn't have any units). 
+You will be adding a bunch of new columns to the spreadsheet.  As you
+do, use those first two lines indicate what quantity is in each column
+and what its units are.
+
+\item For each of these stars, you will need to determine its luminosity
+and radius.  Since there are 1000 stars, you wouldn't want to do it by
+hand, so you'll use Excel formulae instead.  However, it's good to 
+calculate at least one by hand in order to check the Excel calculation
+you're going to do.  So for the first star in the list, calculate
+the following things:
+\begin{enumerate}
+\item Distance in parsecs.
+\item Distance in meters.
+\item Luminosity.
+\item Radius.
+\end{enumerate}
+
+\vskip 3in
+
+\item Now use Excel formulae to repeat these calculations.
+Column E will contain the distances to the stars in parsecs.  Indicate
+this in the first two rows of the column.  Then, in cell E3, enter
+a formula that calculates the distance to the first star.  
+(Appendix C contains advice on how to do this.)  If your
+formula agrees with the result you calculated above, then drag
+the formula down to fill in the distances to the rest of the stars.
+
+\item In the next three columns, use formulae to determine distance
+in meters, luminosity, and radius.  
+
+\item Create a Hertzsprung-Russell diagram for this set of stars.
+This is just a graph with temperature on the horizontal axis and
+luminosity on the vertical axis.  (See Appendix C if you need
+advice on making graphs in Excel.)  
+
+When you first make your graph
+it will probably not look right.  One reason for this is that H-R diagrams
+traditionally have {\it logarithmic} $y$ axes.  This means that
+the numbers on the $y$ axis are spaced out in powers of 10.  
+Double-click on the $y$ axis of your graph to get the ``Format Axis''
+window, and check the box that says ``Logarithmis scale.''
+In
+that same window, you can
+adjust the minimum value on the axis so that the points aren't all
+crowded together near the top.
+
+Also, by annoying, stupid tradition, H-R diagrams are plotted with
+high temperatures on the left instead of the right.  So double-click
+on the $x$ axis and check the ``values in reverse order'' box.
+
+By the time you're done, your graph should look something like a
+normal H-R diagram.  In particular, the main sequence should be clearly
+visible running from upper left to lower right.  Also, the $x$ and $y$ 
+axes should be labeled to indicate both what quantity
+is being plotted ({\it e.g.}, ``Temperature'') and what units it's
+in ({\it e.g.} ``K'').
+
+\item Print out your graph.  Mark one more point on it by hand
+to indicate the Sun.  The Sun's temperature is 5800 K and its
+luminosity is $3.86\times 10^{26}$ W.  The Sun should lie
+on the main sequence; if it doesn't, something has gone wrong.
+
+\item Follow the same steps to create an H-R diagram for the data
+set consisting of the closest stars.  Print out this graph as well.
+
+\item Which of the two data sets contains more white dwarfs?
+Explain why this makes sense.
+
+\vskip 1in
+
+\item Which of the two data sets contains more giants?  Explain why
+this makes sense.
+
+\vskip 1in
+
+\item For the
+closest stars, make a graph showing the temperatures of the stars on the $x$
+axis and the radii on the $y$ axis.  Use a logarithmic scale on the
+$y$ axis, and make sure the ranges on the axes are set so that the points
+aren't all crowded together at one end.  As in your previous graphs,
+be sure the axes are clearly labeled including units.
+Print out the graph.
+
+\item What is the radius of a main-sequence star with a temperature of 5000 K?
+What is the radius of a white dwarf star with a temperature of 10,000 K?
+What is the radius of the largest star in this sample?
+
+\vskip 1in
+
+
+\end{enumerate}
+
+
+
+

@@ -1,0 +1,1009 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=latex 2019.5.8)  24 DEC 2020 11:03
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**labmanual
+(./labmanual.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/epsf/epsf.sty
+This is `epsf.tex' v2.7.4 <14 February 2011>
+\epsffilein=\read1
+\epsfframemargin=\dimen105
+\epsfframethickness=\dimen106
+\epsfrsize=\dimen107
+\epsftmp=\dimen108
+\epsftsize=\dimen109
+\epsfxsize=\dimen110
+\epsfysize=\dimen111
+\pspoints=\dimen112
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-05-07 L3 programming layer (loader) 
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-05-07 L3 programming layer (code)
+\c_max_int=\count89
+\l_tmpa_int=\count90
+\l_tmpb_int=\count91
+\g_tmpa_int=\count92
+\g_tmpb_int=\count93
+\g__kernel_prg_map_int=\count94
+\c__ior_term_ior=\count95
+\c_log_iow=\count96
+\l_iow_line_count_int=\count97
+\l__iow_line_target_int=\count98
+\l__iow_one_indent_int=\count99
+\l__iow_indent_int=\count100
+\c_zero_dim=\dimen113
+\c_max_dim=\dimen114
+\l_tmpa_dim=\dimen115
+\l_tmpb_dim=\dimen116
+\g_tmpa_dim=\dimen117
+\g_tmpb_dim=\dimen118
+\c_zero_skip=\skip43
+\c_max_skip=\skip44
+\l_tmpa_skip=\skip45
+\l_tmpb_skip=\skip46
+\g_tmpa_skip=\skip47
+\g_tmpb_skip=\skip48
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+\l_keys_choice_int=\count101
+\l__intarray_loop_int=\count102
+\c__intarray_sp_dim=\dimen119
+\g__intarray_font_int=\count103
+\c__fp_leading_shift_int=\count104
+\c__fp_middle_shift_int=\count105
+\c__fp_trailing_shift_int=\count106
+\c__fp_big_leading_shift_int=\count107
+\c__fp_big_middle_shift_int=\count108
+\c__fp_big_trailing_shift_int=\count109
+\c__fp_Bigg_leading_shift_int=\count110
+\c__fp_Bigg_middle_shift_int=\count111
+\c__fp_Bigg_trailing_shift_int=\count112
+\c__kernel_randint_max_int=\count113
+\g__fp_array_int=\count114
+\l__fp_array_loop_int=\count115
+\l__sort_length_int=\count116
+\l__sort_min_int=\count117
+\l__sort_top_int=\count118
+\l__sort_max_int=\count119
+\l__sort_true_max_int=\count120
+\l__sort_block_int=\count121
+\l__sort_begin_int=\count122
+\l__sort_end_int=\count123
+\l__sort_A_int=\count124
+\l__sort_B_int=\count125
+\l__sort_C_int=\count126
+\l__tl_analysis_normal_int=\count127
+\l__tl_analysis_index_int=\count128
+\l__tl_analysis_nesting_int=\count129
+\l__tl_analysis_type_int=\count130
+\l__regex_internal_a_int=\count131
+\l__regex_internal_b_int=\count132
+\l__regex_internal_c_int=\count133
+\l__regex_balance_int=\count134
+\l__regex_group_level_int=\count135
+\l__regex_mode_int=\count136
+\c__regex_cs_in_class_mode_int=\count137
+\c__regex_cs_mode_int=\count138
+\l__regex_catcodes_int=\count139
+\l__regex_default_catcodes_int=\count140
+\c__regex_catcode_D_int=\count141
+\c__regex_catcode_S_int=\count142
+\c__regex_catcode_L_int=\count143
+\c__regex_catcode_O_int=\count144
+\c__regex_catcode_A_int=\count145
+\c__regex_all_catcodes_int=\count146
+\l__regex_show_lines_int=\count147
+\l__regex_min_state_int=\count148
+\l__regex_max_state_int=\count149
+\l__regex_left_state_int=\count150
+\l__regex_right_state_int=\count151
+\l__regex_capturing_group_int=\count152
+\l__regex_min_pos_int=\count153
+\l__regex_max_pos_int=\count154
+\l__regex_curr_pos_int=\count155
+\l__regex_start_pos_int=\count156
+\l__regex_success_pos_int=\count157
+\l__regex_curr_char_int=\count158
+\l__regex_curr_catcode_int=\count159
+\l__regex_last_char_int=\count160
+\l__regex_case_changed_char_int=\count161
+\l__regex_curr_state_int=\count162
+\l__regex_step_int=\count163
+\l__regex_min_active_int=\count164
+\l__regex_max_active_int=\count165
+\l__regex_replacement_csnames_int=\count166
+\l__regex_match_count_int=\count167
+\l__regex_min_submatch_int=\count168
+\l__regex_submatch_int=\count169
+\l__regex_zeroth_submatch_int=\count170
+\g__regex_trace_regex_int=\count171
+\c_empty_box=\box27
+\l_tmpa_box=\box28
+\l_tmpb_box=\box29
+\g_tmpa_box=\box30
+\g_tmpb_box=\box31
+\l__box_top_dim=\dimen120
+\l__box_bottom_dim=\dimen121
+\l__box_left_dim=\dimen122
+\l__box_right_dim=\dimen123
+\l__box_top_new_dim=\dimen124
+\l__box_bottom_new_dim=\dimen125
+\l__box_left_new_dim=\dimen126
+\l__box_right_new_dim=\dimen127
+\l__box_internal_box=\box32
+\l__coffin_internal_box=\box33
+\l__coffin_internal_dim=\dimen128
+\l__coffin_offset_x_dim=\dimen129
+\l__coffin_offset_y_dim=\dimen130
+\l__coffin_x_dim=\dimen131
+\l__coffin_y_dim=\dimen132
+\l__coffin_x_prime_dim=\dimen133
+\l__coffin_y_prime_dim=\dimen134
+\c_empty_coffin=\box34
+\l__coffin_aligned_coffin=\box35
+\l__coffin_aligned_internal_coffin=\box36
+\l_tmpa_coffin=\box37
+\l_tmpb_coffin=\box38
+\g_tmpa_coffin=\box39
+\g_tmpb_coffin=\box40
+\l__coffin_bounding_shift_dim=\dimen135
+\l__coffin_left_corner_dim=\dimen136
+\l__coffin_right_corner_dim=\dimen137
+\l__coffin_bottom_corner_dim=\dimen138
+\l__coffin_top_corner_dim=\dimen139
+\l__coffin_scaled_total_height_dim=\dimen140
+\l__coffin_scaled_width_dim=\dimen141
+\c__coffin_empty_coffin=\box41
+\l__coffin_display_coffin=\box42
+\l__coffin_display_coord_coffin=\box43
+\l__coffin_display_pole_coffin=\box44
+\l__coffin_display_offset_dim=\dimen142
+\l__coffin_display_x_dim=\dimen143
+\l__coffin_display_y_dim=\dimen144
+\g__file_internal_ior=\read2
+\l__seq_internal_a_int=\count172
+\l__seq_internal_b_int=\count173
+\c__deprecation_minus_one=\count174
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3dvips.def
+File: l3dvips.def 2019-04-06 v L3 Experimental driver: dvips
+\l__driver_pdf_tmp_box=\box45
+\g__driver_pdf_object_int=\count175
+\l__driver_pdf_content_box=\box46
+\l__driver_pdf_model_box=\box47
+\g__driver_pdf_annotation_int=\count176
+\g__driver_pdf_link_int=\count177
+\g__driver_pdf_link_sf_int=\count178
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2019-05-03 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count179
+\g__xparse_grabber_int=\count180
+\l__xparse_m_args_int=\count181
+\l__xparse_v_nesting_int=\count182
+)
+Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen145
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen146
+\ar@mcellbox=\box48
+\extrarowheight=\dimen147
+\NC@list=\toks16
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box49
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2019-05-03 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box50
+\l__siunitx_tmp_dim=\dimen148
+\l__siunitx_tmp_int=\count183
+\l__siunitx_number_mantissa_length_int=\count184
+\l__siunitx_number_uncert_length_int=\count185
+\l__siunitx_round_int=\count186
+\l__siunitx_process_decimal_int=\count187
+\l__siunitx_process_uncertainty_int=\count188
+\l__siunitx_process_fixed_int=\count189
+\l__siunitx_process_integer_min_int=\count190
+\l__siunitx_process_precision_int=\count191
+\l__siunitx_group_min_int=\count192
+\l__siunitx_angle_marker_box=\box51
+\l__siunitx_angle_unit_box=\box52
+\l__siunitx_angle_marker_dim=\dimen149
+\l__siunitx_angle_unit_dim=\dimen150
+\l__siunitx_unit_int=\count193
+\l__siunitx_unit_denominator_int=\count194
+\l__siunitx_unit_numerator_int=\count195
+\l__siunitx_unit_prefix_int=\count196
+\l__siunitx_unit_prefix_base_int=\count197
+\l__siunitx_unit_prefix_gram_int=\count198
+\l__siunitx_number_product_int=\count199
+\c__siunitx_one_fill_skip=\skip51
+\l__siunitx_table_unit_align_skip=\skip52
+\l__siunitx_table_exponent_dim=\dimen151
+\l__siunitx_table_integer_dim=\dimen152
+\l__siunitx_table_mantissa_dim=\dimen153
+\l__siunitx_table_marker_dim=\dimen154
+\l__siunitx_table_result_dim=\dimen155
+\l__siunitx_table_uncert_dim=\dimen156
+\l__siunitx_table_fill_pre_dim=\dimen157
+\l__siunitx_table_fill_post_dim=\dimen158
+\l__siunitx_table_fill_mid_dim=\dimen159
+\l__siunitx_table_pre_box=\box53
+\l__siunitx_table_post_box=\box54
+\l__siunitx_table_mantissa_box=\box55
+\l__siunitx_table_result_box=\box56
+\l__siunitx_table_number_align_skip=\skip53
+\l__siunitx_table_text_align_skip=\skip54
+(/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+))
+(./labmanual.aux)
+\openout1 = `labmanual.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator-basic-dicti
+onary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 22.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 22.
+ [1
+
+] (./labmanual.toc [2
+
+])
+\tf@toc=\write3
+\openout3 = `labmanual.toc'.
+
+ (./localdistance.tex [3]
+Lab 1.
+(figs/calvin-sun.eps
+)
+(figs/localdistance1.eps
+)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+ [5])
+(./angularsize.tex [6]
+Lab 2.
+(figs/localdistance1.eps
+)
+(figs/angularsizefig1.eps
+)
+(figs/angularsizefig2.eps
+)
+
+Overfull \hbox (27.09593pt too wide) in paragraph at lines 55--57
+[][]
+ []
+
+
+Underfull \vbox (badness 1803) has occurred while \output is active []
+
+ [7
+
+]
+(figs/angularsizefig3.eps
+)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Underfull \vbox (badness 4531) has occurred while \output is active []
+
+ [9])
+(./resolution.tex [10]
+Lab 3.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+[13]) (./stellarium1.tex [14]
+Lab 4.
+[15
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 6252) has occurred while \output is active []
+
+ [17])
+(./solarcell.tex [18]
+Lab 5.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19
+
+]
+[20]
+File: figs/solarcellfig.eps Graphic file (type eps)
+ <figs/solarcellfig.eps>
+File: figs/capstone-record.eps Graphic file (type eps)
+ <figs/capstone-record.eps>
+File: figs/capstone-select.eps Graphic file (type eps)
+
+<figs/capstone-select.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21])
+(./navigation-stell.tex [22]
+Lab 6.
+[23
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+[25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26])
+(./moon.tex [27]
+Lab 7.
+
+Underfull \vbox (badness 3343) has occurred while \output is active []
+
+ [28
+
+]
+[29]) (./retrograde.tex [30]
+Lab 8.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31
+
+]
+[32]) (./periods.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+Lab 9.
+
+Overfull \hbox (1.8539pt too wide) detected at line 45
+[] \OT1/cmr/m/n/10 =  [] =  [] = 
+ []
+
+[34
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35])
+(./jupitermoons.tex [36]
+Lab 10.
+[37
+
+] [38]) (./phasesofvenus.tex [39]
+Lab 11.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40
+
+]
+(figs/venus1.eps
+)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+(figs/venus2.eps
+)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43])
+(./kepler.tex [44]
+Lab 12.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46])
+(./light.tex [47]
+Lab 13.
+[48
+
+]) (./diffraction.tex [49]
+Lab 14.
+(figs/difffig.eps
+)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50
+
+]
+[51]) (./hydrogen.tex [52]
+Lab 15.
+[53
+
+] [54]) (./lenses1.tex [55]
+Lab 16.
+File: figs/lensfig1.eps Graphic file (type eps)
+<figs/lensfig1.eps>
+(figs/lensfig2.eps
+)
+[56
+
+]
+(figs/lensfig3.eps
+)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+(figs/lensfig4.eps
+)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58])
+(./lenses.tex [59]
+Lab 17.
+[60
+
+]
+Underfull \vbox (badness 4181) has occurred while \output is active []
+
+ [61])
+(./telescope.tex [62]
+Lab 18.
+(figs/telescopefig1.eps
+)
+[63
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66])
+(./stefan.tex [67]
+Lab 19.
+File: figs/stefan1.eps Graphic file (type eps)
+<figs/stefan1.eps> [68
+
+] [69] [70] [71]
+File: figs/stefan2.eps Graphic file (type eps)
+ <figs/stefan2.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72])
+(./solar.tex [73]
+Lab 20.
+[74
+
+] [75] [76]) (./sun-energy.tex
+Lab 21.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79])
+(./parallax.tex [80]
+Lab 22.
+File: figs/parallax.eps Graphic file (type eps)
+<figs/parallax.eps>
+Underfull \vbox (badness 1371) has occurred while \output is active []
+
+ [81
+
+]
+File: figs/parallax2.eps Graphic file (type eps)
+
+<figs/parallax2.eps> [82]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83])
+(./hr.tex [84]
+Lab 23.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85
+
+])
+(./binaries2.tex [86]
+Lab 24.
+[87
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+[89]) (./binarycalcs.tex [90]
+Lab 25.
+File: figs/binary1.eps Graphic file (type eps)
+<figs/binary1.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [91
+
+]
+[92]
+File: figs/binary2.eps Graphic file (type eps)
+ <figs/binary2.eps>) (./pna.tex [93]
+Lab 26.
+File: planetary/pna1.epsi Graphic file (type eps)
+<planetary/pna1.epsi>
+File: planetary/pna2.epsi Graphic file (type eps)
+ <planetary/pna2.epsi>
+Overfull \hbox (35.62332pt too wide) in paragraph at lines 8--9
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94
+
+]
+File: planetary/pna3.epsi Graphic file (type eps)
+
+<planetary/pna3.epsi>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95]
+File: planetary/pna4.epsi Graphic file (type eps)
+
+<planetary/pna4.epsi>) (./pnb.tex
+Overfull \hbox (164.73361pt too wide) in paragraph at lines 12--1
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--1
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96]
+[97]
+Lab 27.
+File: planetary/pnb1.epsi Graphic file (type eps)
+<planetary/pnb1.epsi>
+File: planetary/pnb2.epsi Graphic file (type eps)
+ <planetary/pnb2.epsi>
+Overfull \hbox (16.58932pt too wide) in paragraph at lines 7--8
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98
+
+]
+File: planetary/pnb4.epsi Graphic file (type eps)
+
+<planetary/pnb4.epsi>) (./pulsars.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99]
+[100]
+Lab 28.
+File: wordtops/pulsar1.eps Graphic file (type eps)
+<wordtops/pulsar1.eps>
+File: wordtops/pulsar2.eps Graphic file (type eps)
+ <wordtops/pulsar2.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101
+
+]
+File: wordtops/pulsar3.eps Graphic file (type eps)
+
+<wordtops/pulsar3.eps>
+Overfull \hbox (2.66609pt too wide) in paragraph at lines 7--8
+[][] 
+ []
+
+[102]
+File: wordtops/pulsar4.eps Graphic file (type eps)
+ <wordtops/pulsar4.eps> [103]
+File: wordtops/pulsar5.eps Graphic file (type eps)
+ <wordtops/pulsar5.eps>
+Overfull \hbox (0.66943pt too wide) in paragraph at lines 11--12
+[][] 
+ []
+
+[104]
+File: wordtops/pulsar6.eps Graphic file (type eps)
+ <wordtops/pulsar6.eps>
+Overfull \hbox (69.00034pt too wide) in paragraph at lines 13--14
+[][] 
+ []
+
+[105]
+File: wordtops/pulsar7.eps Graphic file (type eps)
+ <wordtops/pulsar7.eps> [106]
+File: wordtops/pulsar8.eps Graphic file (type eps)
+ <wordtops/pulsar8.eps>
+Overfull \hbox (6.31885pt too wide) in paragraph at lines 17--18
+[][] 
+ []
+
+[107]
+File: wordtops/pulsar9.eps Graphic file (type eps)
+ <wordtops/pulsar9.eps>
+Overfull \hbox (4.62587pt too wide) in paragraph at lines 19--20
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [108]
+File: wordtops/pulsar10.eps Graphic file (type eps)
+
+<wordtops/pulsar10.eps> [109]
+File: wordtops/pulsar11.eps Graphic file (type eps)
+ <wordtops/pulsar11.eps>
+Overfull \hbox (10.1786pt too wide) in paragraph at lines 23--24
+[][] 
+ []
+
+[110]
+File: wordtops/pulsar12.eps Graphic file (type eps)
+ <wordtops/pulsar12.eps>) (./pulsar2.tex
+Overfull \hbox (39.14626pt too wide) in paragraph at lines 25--1
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--1
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [111]
+[112]
+Lab 29.
+[113
+
+] [114] [115] [116]) (./blackholes.tex
+Lab 30.
+
+Overfull \hbox (2.79742pt too wide) in paragraph at lines 34--38
+[]\OT1/cmr/m/n/10 According to equa-tion (1) above, you can con-vert any given 
+mass into the cor-re-spond-ing Schwarzschild
+ []
+
+[117
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [118]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [119])
+(./rotation.tex [120]
+Lab 31.
+[121
+
+] [122]) (./hubble.tex [123]
+Lab 32.
+File: wordtops/hubble1.eps Graphic file (type eps)
+<wordtops/hubble1.eps>
+File: wordtops/hubble2.eps Graphic file (type eps)
+ <wordtops/hubble2.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124
+
+]
+File: wordtops/hubble3.eps Graphic file (type eps)
+
+<wordtops/hubble3.eps> [125]
+File: wordtops/hubble4.eps Graphic file (type eps)
+ <wordtops/hubble4.eps> [126]
+File: wordtops/hubble5.eps Graphic file (type eps)
+
+<wordtops/hubble5.eps> [127]
+File: wordtops/hubble6.eps Graphic file (type eps)
+ <wordtops/hubble6.eps>
+Overfull \hbox (12.9766pt too wide) in paragraph at lines 13--14
+[][] 
+ []
+
+[128]
+File: wordtops/hubble7.eps Graphic file (type eps)
+ <wordtops/hubble7.eps>
+Overfull \hbox (24.52248pt too wide) in paragraph at lines 15--16
+[][] 
+ []
+
+[129]
+File: wordtops/hubble8.eps Graphic file (type eps)
+ <wordtops/hubble8.eps>
+Overfull \hbox (20.14185pt too wide) in paragraph at lines 17--18
+[][] 
+ []
+
+[130]
+File: wordtops/hubble9.eps Graphic file (type eps)
+ <wordtops/hubble9.eps>) (./life.tex
+Overfull \hbox (4.01501pt too wide) in paragraph at lines 19--1
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--1
+
+ []
+
+[131] [132]
+Lab 33.
+[133
+
+] [134]) (./stellarium.tex [135]
+Appendix A.
+File: figs/stellarium-icons.eps Graphic file (type eps)
+<figs/stellarium-icons.eps>
+File: figs/stell-exit.eps Graphic file (type eps)
+ <figs/stell-exit.eps>
+File: figs/stell-angular.eps Graphic file (type eps)
+ <figs/stell-angular.eps>
+File: figs/stell-config.eps Graphic file (type eps)
+
+<figs/stell-config.eps>
+File: figs/stell-exit.eps Graphic file (type eps)
+ <figs/stell-exit.eps> [136
+
+]
+File: figs/stell-center.eps Graphic file (type eps)
+ <figs/stell-center.eps>
+File: figs/stell-loc.eps Graphic file (type eps)
+
+<figs/stell-loc.eps>
+File: figs/stell-time1.eps Graphic file (type eps)
+ <figs/stell-time1.eps>
+File: figs/stell-time2.eps Graphic file (type eps)
+ <figs/stell-time2.eps>
+File: figs/stell-find.eps Graphic file (type eps)
+
+<figs/stell-find.eps>
+File: figs/stell-constellations.eps Graphic file (type eps)
+ <figs/stell-constellations.eps> [137]
+File: figs/stell-grids.eps Graphic file (type eps)
+
+<figs/stell-grids.eps>
+File: figs/stell-planets.eps Graphic file (type eps)
+ <figs/stell-planets.eps>
+File: figs/stell-ground.eps Graphic file (type eps)
+ <figs/stell-ground.eps>
+File: figs/stell-atmosphere.eps Graphic file (type eps)
+
+<figs/stell-atmosphere.eps>
+File: figs/stell-angular.eps Graphic file (type eps)
+ <figs/stell-angular.eps>
+File: figs/stell-angular.eps Graphic file (type eps)
+ <figs/stell-angular.eps>
+File: figs/stell-mount.eps Graphic file (type eps)
+
+<figs/stell-mount.eps>) (./excel.tex [138]
+Appendix B.
+File: figs/excelwindow.eps Graphic file (type eps)
+<figs/excelwindow.eps>
+Underfull \vbox (badness 4981) has occurred while \output is active []
+
+ [139
+
+]
+File: figs/excel-graph.eps Graphic file (type eps)
+
+<figs/excel-graph.eps>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [140]
+[141] (./labmanual.aux) ) ) 
+Here is how much of TeX's memory you used:
+ 13046 strings out of 492617
+ 270669 string characters out of 6129508
+ 294264 words of memory out of 5000000
+ 16778 multiletter control sequences out of 15000+600000
+ 540960 words of font info for 55 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,11n,63p,2131b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on labmanual.dvi (141 pages, 271400 bytes).

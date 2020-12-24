@@ -1,0 +1,211 @@
+\chapter{The Crab Pulsar}
+
+
+In this lab you'll use the same software as last time to examine the 
+rotation period of the Crab pulsar.  In particular, you'll measure the
+rate at which the pulsar is slowing down.
+
+Because of the strange way the lab computers are set up (and because
+I didn't install the software at the beginning of the semester), you'll
+have to reinstall it at the start of the lab.  Go to the ``Downloads for Labs''
+section of the course Blackboard area, and click on the last item
+to install the software.  Start it up and log in (or just click past
+the login screen -- it doesn't matter).
+
+\bigskip\bigskip
+
+{\bf Part 1: Period of the Crab Pulsar.}
+
+Start up the radio telescope, turn on tracking, and use the Hot List to
+point the telescope at the Crab pulsar (known to its friends as ``0531+21'').
+Start up a receiver, and observe the pulses from this star.  Because this star
+pulses very quickly, you'll need to set the {\bf Horz.\ Secs} level to 2.0.
+Adjust the gain to some appropriate value.  Turn on the {\bf Record} button,
+and start the receiver.  Let it run for at least four full traces across
+the screen (8 seconds).  Once you have acquired your data, open it up
+in the data analysis window.  You will use this data to determine the
+period of the pulsar as accurately as possible.
+
+First, zoom in as far as you can on the leftmost portion of the data.
+Determine the time of the very first pulse (by dragging the vertical
+cursor over the peak of the pulse).  The software is supposed to start
+the clock right at the moment of the first pulse, so the time of this pulse
+should be zero.  If this is not the case, talk to me.
+
+Let's call that very first pulse ``pulse number zero.''  We'll
+number all the pulses after it 1,2,3, etc.
+Scroll forward to pulse number 20 and measure its time:
+
+\medskip
+$$
+\mbox{Time of Pulse \# 20}=\hbox to 2in{}
+$$
+\medskip
+
+Use this value to calculate the period of the pulsar:
+
+\medskip
+$$
+\mbox{Period of Pulsar}=\hbox to 2in{}
+$$
+\medskip
+
+Our goal today is to measure the {\it change} in the period
+of the pulsar over time.  This change is very tiny, so we're going to
+need to be highly accurate.  The number you just calculated for the period
+isn't quite good enough.  
+
+We could improve our measurement of the period if we count more pulses.
+For instance, if you had measured the time of pulse \# 200 instead
+of pulse \# 20, you'd get a better result.  It's tedious to count
+200 pulses, though, so we'll use a shortcut.
+
+Based on the value you found for the period, estimate the time at 
+which pulse number 50 should occur.  (Don't count 50 pulses -- just
+predict when it should occur.)
+
+\medskip
+$$
+\mbox{Predicted time of Pulse \# 50}=\hbox to 2in{}
+$$
+\medskip
+
+Now scroll ahead through your data to test this prediction.  Position
+the cursor at the time you just calculated, and see if there's a pulse 
+there.  You should find that there's a pulse at almost, but not exactly,
+the time you predicted.  Measure the actual time of that pulse
+as accurately as possible:
+
+\medskip
+$$
+\mbox{Actual time of pulse \# 50}=\hbox to 2in{}
+$$
+\medskip
+
+Note: you don't have to count the pulses to make sure this really is
+\# 50.  Since you made a pretty accurate prediction of when \# 50
+should occur, and you found a pulse at just about that time, you can
+be confident you've got the right pulse even without counting.
+
+Using the value you just measured the time of pulse \# 50, determine
+the period of the pulsar.  This should be nearly the same as the
+value you got before, but the new value is more accurate:
+
+\medskip
+$$
+\mbox{Period of Pulsar (2nd estimate)}=\hbox to 2in{}
+$$
+\medskip
+
+Record this value to at least four significant figures (for instance,
+0.03283 seconds, although this isn't the right value).
+
+We just ``leapfrogged'' from a 20-pulse estimate of the period to a 
+50-pulse estimate.  Let's play that game one more time to get a 200-pulse
+estimate.  That'll be accurate enough for our purposes.
+
+Use your most recent estimate of the period of the pulsar to predict
+when pulse \# 200 should occur:
+
+\medskip
+$$
+\mbox{Predicted time of Pulse \# 200}=\hbox to 2in{}
+$$
+\medskip
+
+Then go to that portion of your data, and find the pulse that's closest
+to that time.  This is the
+
+\medskip
+$$
+\mbox{Actual time of Pulse \# 200}=\hbox to 2in{}
+$$
+\medskip
+
+From this value, determine yet another estimate of the
+
+\medskip
+$$
+\mbox{Period of Pulsar (3rd estimate)}=\hbox to 2in{}
+$$
+\medskip
+
+Record this value to at least five significant figures.
+
+In principle, we could continue this ``leapfrog'' procedure, but
+there's no need: this value is an accurate enough estimate.  There's
+just one more bit of information we'll need: the uncertainty in this
+measurement of the period (that is, an estimate of how far off
+this number might be).  
+
+One way to determine this is to measure the period several different times
+and see how much it changes from measurement to measurement.  You
+just determined the period by using the time of pulse \# 200.  
+Determine it again using pulse \# 199 and pulse \# 201:
+
+\medskip
+\begin{eqnarray*}
+\mbox{Time of Pulse \# 199}&=&\hbox to 2in{}\\
+\mbox{Period determined from Pulse \# 199}&=&\hbox to 2in{}\\
+\mbox{Time of Pulse \# 201}&=&\hbox to 2in{}\\
+\mbox{Period determined from Pulse \# 201}&=&\hbox to 2in{}\\
+\end{eqnarray*}
+\medskip
+
+Now that you have three different determinations of the period (from pulses
+199,200,201), average them together to get your best estimate of the
+true period.  Then figure out the uncertainty associated with this
+value.  The uncertainty is how far off the worst of your three
+measurements was from the mean.
+
+Give your final answer here, in the form ``({\it Number}
+ $\pm$ {\it Number}) seconds,''  with the two numbers being your
+best estimate and its uncertainty.  Your best estimate should have five
+significant figures.
+
+\medskip
+$$
+\mbox{Final Value for Period (with uncertainty)}=\hbox to 2in{}
+$$
+
+\bigskip\bigskip
+
+{\bf Part 2. The Period of the Pulsar in the Future.}
+
+To see whether the Crab pulsar is slowing down, we need to wait
+a while and measure the period again.  Since the slowdown is very
+gradual, we need to wait a long time.  Five years works well.
+Rather than actually waiting five years, which would be inconvenient,
+we can tell the software to pretend that five years have gone by
+and simulate data from a future date.
+
+Close down the data analysis window and the receiver window.  Under
+the {\bf File} menu, click on {\bf Date/Time}, and change the date to
+five years from today.  After you've done that, you'll need to tell
+the telescope to point toward the Crab pulsar again.
+
+Now {\it repeat the entire procedure} to determine an accurate measurement
+of the period of the pulsar, together with its uncertainty.
+
+\newpage
+
+\ \ \ 
+\vfill
+
+Based on the values you determined, {\it and their uncertainties},
+can you conclude that the Crab
+pulsar is slowing down?  (Is the difference between the two periods so great
+that it lies outside the bounds of the measurement uncertainties?)
+
+\vskip 1in
+
+What is the rate at which the period is changing, in seconds per year?
+
+\vskip 1in
+
+The Crab pulsar was created in a supernova explosion in the year 1054.
+Assuming that it has been slowing down at a steady rate ever since that
+time, what was its period just after it was created?
+
+\vskip 1in
+\eject

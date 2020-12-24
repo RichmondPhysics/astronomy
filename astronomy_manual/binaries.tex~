@@ -1,0 +1,168 @@
+\chapter{Binary Stars}
+
+
+\paragraph{Introduction}.
+
+The most important thing about binary star systems is that they provide
+a way to determine the masses of stars.  In this lab you will use
+simulated observations of a binary star system to calculate stellar
+masses.
+
+The star system in this lab is a visual binary system, which means that
+the two stars can be resolved separately in a telescope.  From Earth,
+our view of the orbits of the stars is ``edge-on'' -- that is, we're seeing
+the orbit from the side, rather than looking down on it.  In a system
+like this, the orbits of the two stars are sometimes moving towards
+us and sometimes away from us.  This is good, because it allows us
+to use the Doppler effect to measure the stars' speeds.
+
+(Incidentally, when a binary star system is viewed from a {\it perfectly}
+edge-on perspective, the two stars pass directly in front of each other,
+creating an eclipsing binary system.  In today's lab, we'll assume that
+the alignment of the system is not quite perfect enough to cause eclipses
+like this.)
+
+
+\paragraph{Procedure.}
+
+Start up the {\it Virtual Astronomy Laboratory} software, and select
+{\it Visual Binary Stars} (number 22).  You should see an animation
+of two stars orbiting each other.  Use the {\it Viewing Angle}
+menu to switch back and forth between two viewing perspectives
+on this system.  We'll assume that our view from Earth is the ``Planar''
+or ``Side View'' perspective.  Select that view.  Also, go to
+the {\it Grid} menu and turn on the grid.
+
+To analyze this system, we'll need to know how far away it is from us.
+We'll assume that that has already been measured.  For some reason,
+this information is contained only in the {\it Check your answers}
+window, so click on {\it Check your answers} (even though we don't have any
+answers yet) to find out the distance to the star.  Another useful
+bit of information in this window is the angular scale of the grid.  For
+future reference, record both the distance to the star and the
+number of arc-seconds corresponding to each square on the grid here:
+
+\vskip 1in
+
+Close the {\it Check your answers} window for now.
+
+The next thing we'll need to know is the radius (semimajor axis)
+of the stars' orbits.  To find this out, stop the animation when the stars are
+at their maximum separation from each other.  Use the grid to 
+estimate as accurately as you can the stars' angular separation
+from each other.  Then use the small-angle formula to determine
+the actual separation between the stars.  This final result is
+the radius (semimajor axis) of the orbit (the thing we usually call $a$).
+
+\vskip 1.5in
+
+The natural next step would be to measure the period of the stars'
+orbit (that is, the time it takes them to go once around).  Then we could
+use Kepler's third law to determine the total mass.  We're going
+to use a different line of attack, though: we're going to determine
+the stars' speeds instead, and use that to figure out the masses.
+
+Make sure that the animation is stopped at a time when the two stars
+are at their maximum separation from each other.  Click on
+one of the two stars.  You should see a graphic indicating the spectrum
+of the star.  The colored bars represent the four main hydrogen lines
+in the spectrum.  (This spectrum is misleading in appearance: 
+it makes it look like the star has an emission spectrum, when in
+reality these would be absorption lines.)  
+
+We want to measure the
+Doppler shift in the spectral lines.  The shift is very small, so 
+to see it we have to zoom in on the a part of the spectrum right near
+one of the lines.  Click on any one of the four spectral lines to do this.
+You should see two copies of this spectral line.  
+The one on the top
+is a spectrum measured in the lab (with no Doppler shift), and the
+other is the spectrum of the star.  
+(If you don't
+see both of these, it's possible that the star's spectral line
+is shifted all the way off the scale in this view.  If that
+happens, choose another spectral line.)
+
+Use the grid to measure the
+difference in wavelength $\Delta\lambda$ between these two lines,
+and then use the Doppler effect formula
+$$
+{\Delta\lambda\over\lambda_0}={v\over c}
+$$
+to determine the star's speed.
+
+\vskip 2in
+
+Repeat the procedure with one of the other spectral lines.  You should
+get a different $\Delta\lambda$, but you should end up with
+(very nearly) the same speed $v$.
+
+\vskip 2in
+
+Repeat the procedure for the other star: use two of its spectral lines
+to determine its speed twice, and make sure the two speeds you get
+are consistent with each other.
+
+\vskip 2in
+
+Before proceeding further, you might want to check your results
+so far.  In the {\it Check your answers} window, 
+you can enter your value of $a$ and the speeds of the two stars.
+Leave the masses blank for now.  If the computer doesn't
+confirm that you've got the correct answers, talk to me.
+
+Now let's get back to finding the stars' masses.
+Call the speeds of the two stars $v_1$ and $v_2$.  Add them together
+to get the speed of one star relative to the other:
+$v_{\rm rel}=v_1+v_2$.   (If you called one of the two $v$'s negative
+because of the direction the star was moving, ignore that minus sign
+and just add the magnitudes together.)
+
+\vskip 1in
+
+
+The speed $v_{\rm rel}$ is what you would measure if you stood
+on the surface of one star and measured how fast the other star was
+going relative to you.  That speed is related to the radius $a$ 
+and the period $P$ of the
+stars' orbits like this:
+$$
+v_{\rm rel}={2\pi a\over P}.
+$$
+The reason is that, from star 1's point of view, star 2 moves around
+in a circle of radius $a$.  The distance the star travels during one
+complete orbit is the circumference $2\pi a$.  Dividing distance by time
+gives speed.
+
+Using
+the speed $v_{\rm rel}$ and the radius $a$, which you've already determined,
+find the period $P$ of the stars' orbit:
+
+\vskip 2in
+
+Now you can use Kepler's third law, in the form
+$$
+P^2={4\pi^2 a^3\over G(m_1+m_2)}
+$$
+to determine the total mass $(m_1+m_2)$ of the two stars:
+
+\vskip 2in
+
+The last thing we want to do is to decide how this total mass is distributed
+between the two stars.  To do that, we go back to the speeds.
+The more massive star is the one that moves less in its orbit,
+and the less massive star moves more.  In fact, the speeds of the
+two stars scale inversely with their masses (if one is twice
+as heavy, it moves half as fast). Mathematically, we can express
+this by saying that the product of mass and speed is the same
+for the two stars:
+$$
+m_1v_1=m_2v_2.
+$$
+Use this fact, along with your determination of the total mass $m_1+m_2$,
+to figure out the masses $m_1$ and $m_2$.  
+
+\vskip 2in
+
+
+
