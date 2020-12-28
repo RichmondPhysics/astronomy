@@ -1,9 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  24 DEC 2020 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=latex 2019.5.8)  28 DEC 2020 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**\nonstopmode\input labmanual.tex
-(./labmanual.tex (/usr/local/texlive/2019/texmf-dist/tex/latex/base/report.cls
+**labmanual
+(./labmanual.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
@@ -37,10 +39,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: dvips.def on input line 99.
 
-(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -212,17 +214,22 @@ Package: expl3 2019-05-07 L3 programming layer (code)
 \l__seq_internal_b_int=\count173
 \c__deprecation_minus_one=\count174
 )
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2019-04-06 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count175
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3dvips.def
+File: l3dvips.def 2019-04-06 v L3 Experimental driver: dvips
 \l__driver_pdf_tmp_box=\box45
+\g__driver_pdf_object_int=\count175
+\l__driver_pdf_content_box=\box46
+\l__driver_pdf_model_box=\box47
+\g__driver_pdf_annotation_int=\count176
+\g__driver_pdf_link_int=\count177
+\g__driver_pdf_link_sf_int=\count178
 ))
 (/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2019-05-03 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count176
-\g__xparse_grabber_int=\count177
-\l__xparse_m_args_int=\count178
-\l__xparse_v_nesting_int=\count179
+\l__xparse_current_arg_int=\count179
+\g__xparse_grabber_int=\count180
+\l__xparse_m_args_int=\count181
+\l__xparse_v_nesting_int=\count182
 )
 Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 
@@ -237,39 +244,39 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen146
-\ar@mcellbox=\box46
+\ar@mcellbox=\box48
 \extrarowheight=\dimen147
 \NC@list=\toks16
 \extratabsurround=\skip49
 \backup@length=\skip50
-\ar@cellbox=\box47
+\ar@cellbox=\box49
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2019-05-03 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box48
+\l__siunitx_tmp_box=\box50
 \l__siunitx_tmp_dim=\dimen148
-\l__siunitx_tmp_int=\count180
-\l__siunitx_number_mantissa_length_int=\count181
-\l__siunitx_number_uncert_length_int=\count182
-\l__siunitx_round_int=\count183
-\l__siunitx_process_decimal_int=\count184
-\l__siunitx_process_uncertainty_int=\count185
-\l__siunitx_process_fixed_int=\count186
-\l__siunitx_process_integer_min_int=\count187
-\l__siunitx_process_precision_int=\count188
-\l__siunitx_group_min_int=\count189
-\l__siunitx_angle_marker_box=\box49
-\l__siunitx_angle_unit_box=\box50
+\l__siunitx_tmp_int=\count183
+\l__siunitx_number_mantissa_length_int=\count184
+\l__siunitx_number_uncert_length_int=\count185
+\l__siunitx_round_int=\count186
+\l__siunitx_process_decimal_int=\count187
+\l__siunitx_process_uncertainty_int=\count188
+\l__siunitx_process_fixed_int=\count189
+\l__siunitx_process_integer_min_int=\count190
+\l__siunitx_process_precision_int=\count191
+\l__siunitx_group_min_int=\count192
+\l__siunitx_angle_marker_box=\box51
+\l__siunitx_angle_unit_box=\box52
 \l__siunitx_angle_marker_dim=\dimen149
 \l__siunitx_angle_unit_dim=\dimen150
-\l__siunitx_unit_int=\count190
-\l__siunitx_unit_denominator_int=\count191
-\l__siunitx_unit_numerator_int=\count192
-\l__siunitx_unit_prefix_int=\count193
-\l__siunitx_unit_prefix_base_int=\count194
-\l__siunitx_unit_prefix_gram_int=\count195
-\l__siunitx_number_product_int=\count196
+\l__siunitx_unit_int=\count193
+\l__siunitx_unit_denominator_int=\count194
+\l__siunitx_unit_numerator_int=\count195
+\l__siunitx_unit_prefix_int=\count196
+\l__siunitx_unit_prefix_base_int=\count197
+\l__siunitx_unit_prefix_gram_int=\count198
+\l__siunitx_number_product_int=\count199
 \c__siunitx_one_fill_skip=\skip51
 \l__siunitx_table_unit_align_skip=\skip52
 \l__siunitx_table_exponent_dim=\dimen151
@@ -281,10 +288,10 @@ Package: l3keys2e 2019-05-03 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_table_fill_pre_dim=\dimen157
 \l__siunitx_table_fill_post_dim=\dimen158
 \l__siunitx_table_fill_mid_dim=\dimen159
-\l__siunitx_table_pre_box=\box51
-\l__siunitx_table_post_box=\box52
-\l__siunitx_table_mantissa_box=\box53
-\l__siunitx_table_result_box=\box54
+\l__siunitx_table_pre_box=\box53
+\l__siunitx_table_post_box=\box54
+\l__siunitx_table_mantissa_box=\box55
+\l__siunitx_table_result_box=\box56
 \l__siunitx_table_number_align_skip=\skip53
 \l__siunitx_table_text_align_skip=\skip54
 (/usr/local/texlive/2019/texmf-dist/tex/latex/translator/translator.sty
@@ -305,75 +312,9 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
-
-(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count197
-\scratchdimen=\dimen160
-\scratchbox=\box55
-\nofMPsegments=\count198
-\nofMParguments=\count199
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count266
-\MPscratchDim=\dimen161
-\MPnumerator=\count267
-\makeMPintoPDFobject=\count268
-\everyMPtoPDFconversion=\toks18
-) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-))))
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
 File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -465,8 +406,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 22.
  [1
 
-{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./labmanual.toc [2
+] (./labmanual.toc [2
 
 ])
 \tf@toc=\write3
@@ -483,20 +423,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4
 
-
-Non-PDF special ignored!
-<special> PSfile=figs/calvin-sun.eps llx=0 lly=0 urx=551 ury=717 rwi=2160 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 29.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
- [5
-Non-PDF special ignored!
-<special> PSfile=figs/localdistance1.eps llx=0 lly=0 urx=614 ury=94 rwi=432...
-]) (./angularsize.tex [6]
+ [5])
+(./angularsize.tex [6]
 Lab 2.
 (figs/localdistance1.eps
 )
@@ -514,32 +450,19 @@ Underfull \vbox (badness 1803) has occurred while \output is active []
 
  [7
 
-
-Non-PDF special ignored!
-<special> PSfile=figs/localdistance1.eps llx=0 lly=0 urx=614 ury=94 rwi=432...
-Non-PDF special ignored!
-<special> PSfile=figs/angularsizefig1.eps llx=0 lly=0 urx=304 ury=46 rwi=30...
 ]
 (figs/angularsizefig3.eps
 )
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8
-Non-PDF special ignored!
-<special> PSfile=figs/angularsizefig2.eps llx=0 lly=0 urx=459 ury=74 rwi=45...
-Non-PDF special ignored!
-<special> PSfile=figs/angularsizefig3.eps llx=0 lly=0 urx=307 ury=289 rwi=1...
-]
+ [8]
 Underfull \vbox (badness 4531) has occurred while \output is active []
 
  [9])
 (./resolution.tex [10]
 Lab 3.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11
+[11
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -565,63 +488,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 [20]
-Package epstopdf Info: Source file: <figs/solarcellfig.eps>
-(epstopdf)                    date: 2006-07-20 17:23:48
-(epstopdf)                    size: 5328 bytes
-(epstopdf)             Output file: <figs/solarcellfig-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:21:58
-(epstopdf)                    size: 7132 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/solarcellfig-eps-conv
-erted-to.pdf figs/solarcellfig.eps>
-(epstopdf)             \includegraphics on input line 123.
-Package epstopdf Info: Output file is already uptodate.
-<figs/solarcellfig-eps-converted-to.pdf, id=79, 338.26375pt x 269.005pt>
-File: figs/solarcellfig-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/solarcellfig-eps-converted-to.pdf>
-Package pdftex.def Info: figs/solarcellfig-eps-converted-to.pdf  used on input 
-line 123.
-(pdftex.def)             Requested size: 338.26291pt x 269.00433pt.
-Package epstopdf Info: Source file: <figs/capstone-record.eps>
-(epstopdf)                    date: 2019-12-16 16:27:23
-(epstopdf)                    size: 28379 bytes
-(epstopdf)             Output file: <figs/capstone-record-eps-converted-to.pdf>
+File: figs/solarcellfig.eps Graphic file (type eps)
+ <figs/solarcellfig.eps>
+File: figs/capstone-record.eps Graphic file (type eps)
+ <figs/capstone-record.eps>
+File: figs/capstone-select.eps Graphic file (type eps)
 
-(epstopdf)                    date: 2020-07-31 14:20:30
-(epstopdf)                    size: 4696 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/capstone-record-eps-c
-onverted-to.pdf figs/capstone-record.eps>
-(epstopdf)             \includegraphics on input line 126.
-Package epstopdf Info: Output file is already uptodate.
-<figs/capstone-record-eps-converted-to.pdf, id=80, 22.0825pt x 26.0975pt>
-File: figs/capstone-record-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/capstone-record-eps-converted-to.pdf>
-Package pdftex.def Info: figs/capstone-record-eps-converted-to.pdf  used on inp
-ut line 126.
-(pdftex.def)             Requested size: 14.45377pt x 17.08183pt.
-Package epstopdf Info: Source file: <figs/capstone-select.eps>
-(epstopdf)                    date: 2019-12-16 16:27:25
-(epstopdf)                    size: 12160 bytes
-(epstopdf)             Output file: <figs/capstone-select-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2020-07-31 14:20:30
-(epstopdf)                    size: 4046 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/capstone-select-eps-c
-onverted-to.pdf figs/capstone-select.eps>
-(epstopdf)             \includegraphics on input line 137.
-Package epstopdf Info: Output file is already uptodate.
-<figs/capstone-select-eps-converted-to.pdf, id=81, 15.05624pt x 11.04124pt>
-File: figs/capstone-select-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/capstone-select-eps-converted-to.pdf>
-Package pdftex.def Info: figs/capstone-select-eps-converted-to.pdf  used on inp
-ut line 137.
-(pdftex.def)             Requested size: 14.45377pt x 10.59962pt.
-
+<figs/capstone-select.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21 <./figs/solarcellfig-eps-converted-to.pdf> <./figs/capstone-record-eps-con
-verted-to.pdf> <./figs/capstone-select-eps-converted-to.pdf>]) (./navigation-st
-ell.tex
-[22]
+ [21])
+(./navigation-stell.tex [22]
 Lab 6.
 [23
 
@@ -685,10 +562,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41
-Non-PDF special ignored!
-<special> PSfile=figs/venus1.eps llx=0 lly=0 urx=290 ury=319 rwi=2160 
-]
+ [41]
 (figs/venus2.eps
 )
 
@@ -697,10 +571,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43
-Non-PDF special ignored!
-<special> PSfile=figs/venus2.eps llx=0 lly=0 urx=290 ury=319 rwi=2160 
-]) (./kepler.tex [44]
+ [43])
+(./kepler.tex [44]
 Lab 12.
 
 Underfull \vbox (badness 5417) has occurred while \output is active []
@@ -725,57 +597,32 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [50
 
 ]
-[51
-Non-PDF special ignored!
-<special> PSfile=figs/difffig.eps llx=0 lly=0 urx=435 ury=153 rwi=4350 
-]) (./hydrogen.tex [52]
+[51]) (./hydrogen.tex [52]
 Lab 15.
 [53
 
 ] [54]) (./lenses1.tex [55]
 Lab 16.
-Package epstopdf Info: Source file: <figs/lensfig1.eps>
-(epstopdf)                    date: 2012-01-03 12:19:41
-(epstopdf)                    size: 3712 bytes
-(epstopdf)             Output file: <figs/lensfig1-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:21:59
-(epstopdf)                    size: 4958 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/lensfig1-eps-converte
-d-to.pdf figs/lensfig1.eps>
-(epstopdf)             \includegraphics on input line 19.
-Package epstopdf Info: Output file is already uptodate.
-<figs/lensfig1-eps-converted-to.pdf, id=208, 305.14pt x 141.52875pt>
-File: figs/lensfig1-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/lensfig1-eps-converted-to.pdf>
-Package pdftex.def Info: figs/lensfig1-eps-converted-to.pdf  used on input line
- 19.
-(pdftex.def)             Requested size: 216.81pt x 100.56384pt.
+File: figs/lensfig1.eps Graphic file (type eps)
+<figs/lensfig1.eps>
 (figs/lensfig2.eps
 )
 [56
 
-
-Non-PDF special ignored!
-<special> PSfile=figs/lensfig2.eps llx=0 lly=0 urx=384 ury=141 rwi=2160 
- <./figs/lensfig1-eps-converted-to.pdf>]
+]
 (figs/lensfig3.eps
 )
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57
-Non-PDF special ignored!
-<special> PSfile=figs/lensfig3.eps llx=0 lly=0 urx=384 ury=188 rwi=2160 
-]
+ [57]
 (figs/lensfig4.eps
 )
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58
-Non-PDF special ignored!
-<special> PSfile=figs/lensfig4.eps llx=0 lly=0 urx=429 ury=73 rwi=2160 
-]) (./lenses.tex [59]
+ [58])
+(./lenses.tex [59]
 Lab 17.
 [60
 
@@ -789,9 +636,6 @@ Lab 18.
 )
 [63
 
-
-Non-PDF special ignored!
-<special> PSfile=figs/telescopefig1.eps llx=0 lly=0 urx=555 ury=112 rwi=555...
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -804,45 +648,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [66])
 (./stefan.tex [67]
 Lab 19.
-Package epstopdf Info: Source file: <figs/stefan1.eps>
-(epstopdf)                    date: 2019-02-13 13:24:10
-(epstopdf)                    size: 629998 bytes
-(epstopdf)             Output file: <figs/stefan1-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-31 14:20:31
-(epstopdf)                    size: 7210 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stefan1-eps-converted
--to.pdf figs/stefan1.eps>
-(epstopdf)             \includegraphics on input line 16.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stefan1-eps-converted-to.pdf, id=253, 274.02374pt x 195.73125pt>
-File: figs/stefan1-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stefan1-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stefan1-eps-converted-to.pdf  used on input line 
-16.
-(pdftex.def)             Requested size: 274.02307pt x 195.73076pt.
-[68
+File: figs/stefan1.eps Graphic file (type eps)
+<figs/stefan1.eps> [68
 
- <./figs/stefan1-eps-converted-to.pdf>] [69] [70] [71]
-Package epstopdf Info: Source file: <figs/stefan2.eps>
-(epstopdf)                    date: 2017-02-01 16:31:10
-(epstopdf)                    size: 404356 bytes
-(epstopdf)             Output file: <figs/stefan2-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-31 14:20:31
-(epstopdf)                    size: 38510 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stefan2-eps-converted
--to.pdf figs/stefan2.eps>
-(epstopdf)             \includegraphics on input line 179.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stefan2-eps-converted-to.pdf, id=269, 432.61626pt x 511.9125pt>
-File: figs/stefan2-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stefan2-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stefan2-eps-converted-to.pdf  used on input line 
-179.
-(pdftex.def)             Requested size: 432.6152pt x 511.91125pt.
-
+] [69] [70] [71]
+File: figs/stefan2.eps Graphic file (type eps)
+ <figs/stefan2.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72 <./figs/stefan2-eps-converted-to.pdf>]) (./solar.tex [73]
+ [72])
+(./solar.tex [73]
 Lab 20.
 [74
 
@@ -862,47 +677,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [79])
 (./parallax.tex [80]
 Lab 22.
-Package epstopdf Info: Source file: <figs/parallax.eps>
-(epstopdf)                    date: 2012-01-03 11:50:11
-(epstopdf)                    size: 4555 bytes
-(epstopdf)             Output file: <figs/parallax-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:21:59
-(epstopdf)                    size: 7853 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/parallax-eps-converte
-d-to.pdf figs/parallax.eps>
-(epstopdf)             \includegraphics on input line 50.
-Package epstopdf Info: Output file is already uptodate.
-<figs/parallax-eps-converted-to.pdf, id=302, 255.95625pt x 110.4125pt>
-File: figs/parallax-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/parallax-eps-converted-to.pdf>
-Package pdftex.def Info: figs/parallax-eps-converted-to.pdf  used on input line
- 50.
-(pdftex.def)             Requested size: 289.07999pt x 124.70906pt.
-
+File: figs/parallax.eps Graphic file (type eps)
+<figs/parallax.eps>
 Underfull \vbox (badness 1371) has occurred while \output is active []
 
  [81
 
 ]
-Package epstopdf Info: Source file: <figs/parallax2.eps>
-(epstopdf)                    date: 2012-01-02 17:37:08
-(epstopdf)                    size: 5347 bytes
-(epstopdf)             Output file: <figs/parallax2-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:00
-(epstopdf)                    size: 8097 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/parallax2-eps-convert
-ed-to.pdf figs/parallax2.eps>
-(epstopdf)             \includegraphics on input line 83.
-Package epstopdf Info: Output file is already uptodate.
-<figs/parallax2-eps-converted-to.pdf, id=306, 576.1525pt x 208.78pt>
-File: figs/parallax2-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/parallax2-eps-converted-to.pdf>
-Package pdftex.def Info: figs/parallax2-eps-converted-to.pdf  used on input lin
-e 83.
-(pdftex.def)             Requested size: 433.62pt x 157.13573pt.
+File: figs/parallax2.eps Graphic file (type eps)
 
-[82 <./figs/parallax-eps-converted-to.pdf> <./figs/parallax2-eps-converted-to.p
-df>]
+<figs/parallax2.eps> [82]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [83])
@@ -924,397 +708,162 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [88]
 [89]) (./binarycalcs.tex [90]
 Lab 25.
-Package epstopdf Info: Source file: <figs/binary1.eps>
-(epstopdf)                    date: 2019-12-16 16:44:08
-(epstopdf)                    size: 68141 bytes
-(epstopdf)             Output file: <figs/binary1-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-31 14:20:32
-(epstopdf)                    size: 27929 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/binary1-eps-converted
--to.pdf figs/binary1.eps>
-(epstopdf)             \includegraphics on input line 9.
-Package epstopdf Info: Output file is already uptodate.
-<figs/binary1-eps-converted-to.pdf, id=354, 360.34625pt x 189.70876pt>
-File: figs/binary1-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/binary1-eps-converted-to.pdf>
-Package pdftex.def Info: figs/binary1-eps-converted-to.pdf  used on input line 
-9.
-(pdftex.def)             Requested size: 361.34999pt x 190.238pt.
-
+File: figs/binary1.eps Graphic file (type eps)
+<figs/binary1.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [91
 
- <./figs/binary1-eps-converted-to.pdf>] [92]
-Package epstopdf Info: Source file: <figs/binary2.eps>
-(epstopdf)                    date: 2019-12-16 16:44:11
-(epstopdf)                    size: 22038 bytes
-(epstopdf)             Output file: <figs/binary2-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-31 14:20:32
-(epstopdf)                    size: 10305 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/binary2-eps-converted
--to.pdf figs/binary2.eps>
-(epstopdf)             \includegraphics on input line 82.
-Package epstopdf Info: Output file is already uptodate.
-<figs/binary2-eps-converted-to.pdf, id=376, 347.2975pt x 174.6525pt>
-File: figs/binary2-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/binary2-eps-converted-to.pdf>
-Package pdftex.def Info: figs/binary2-eps-converted-to.pdf  used on input line 
-82.
-(pdftex.def)             Requested size: 289.07999pt x 145.37993pt.
-) (./pna.tex [93 <./figs/binary2-eps-converted-to.pdf>]
+]
+[92]
+File: figs/binary2.eps Graphic file (type eps)
+ <figs/binary2.eps>) (./pna.tex [93]
 Lab 26.
-
-! LaTeX Error: Unknown graphics extension: .epsi.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...degraphics[height=6in]{planetary/pna1.epsi}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Unknown graphics extension: .epsi.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...degraphics[height=7in]{planetary/pna2.epsi}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Unknown graphics extension: .epsi.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ...egraphics[height=7in]{planetary/pna3.epsi}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Unknown graphics extension: .epsi.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...egraphics[height=7in]{planetary/pna4.epsi}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (./pnb.tex [94
-
-]
-Lab 27.
-
-! LaTeX Error: Unknown graphics extension: .epsi.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...degraphics[height=6in]{planetary/pnb1.epsi}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Unknown graphics extension: .epsi.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 ...degraphics[height=8in]{planetary/pnb2.epsi}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Unknown graphics extension: .epsi.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 ...degraphics[height=7in]{planetary/pnb4.epsi}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (./pulsars.tex [95
-
-]
-Lab 28.
-Package epstopdf Info: Source file: <wordtops/pulsar1.eps>
-(epstopdf)                    date: 2006-07-20 17:23:50
-(epstopdf)                    size: 1651036 bytes
-(epstopdf)             Output file: <wordtops/pulsar1-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:00
-(epstopdf)                    size: 323627 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/pulsar1-eps-conve
-rted-to.pdf wordtops/pulsar1.eps>
-(epstopdf)             \includegraphics on input line 3.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/pulsar1-eps-converted-to.pdf, id=392, 434.62375pt x 629.35126pt>
-File: wordtops/pulsar1-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/pulsar1-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/pulsar1-eps-converted-to.pdf  used on input l
-ine 3.
-(pdftex.def)             Requested size: 299.453pt x 433.62pt.
-Package epstopdf Info: Source file: <wordtops/pulsar2.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 635199 bytes
-(epstopdf)             Output file: <wordtops/pulsar2-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:01
-(epstopdf)                    size: 20018 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/pulsar2-eps-conve
-rted-to.pdf wordtops/pulsar2.eps>
-(epstopdf)             \includegraphics on input line 5.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/pulsar2-eps-converted-to.pdf, id=393, 437.635pt x 667.49374pt>
-File: wordtops/pulsar2-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/pulsar2-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/pulsar2-eps-converted-to.pdf  used on input l
-ine 5.
-(pdftex.def)             Requested size: 426.48206pt x 650.43pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [96
-
- <./wordtops/pulsar1-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/pulsar3.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 676687 bytes
-(epstopdf)             Output file: <wordtops/pulsar3-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:01
-(epstopdf)                    size: 33043 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/pulsar3-eps-conve
-rted-to.pdf wordtops/pulsar3.eps>
-(epstopdf)             \includegraphics on input line 7.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/pulsar3-eps-converted-to.pdf, id=407, 437.635pt x 652.4375pt>
-File: wordtops/pulsar3-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/pulsar3-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/pulsar3-eps-converted-to.pdf  used on input l
-ine 7.
-(pdftex.def)             Requested size: 436.32507pt x 650.43pt.
-
-Overfull \hbox (2.70508pt too wide) in paragraph at lines 7--8
-[][] 
- []
-
-[97 <./wordtops/pulsar2-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/pulsar4.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 660310 bytes
-(epstopdf)             Output file: <wordtops/pulsar4-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:02
-(epstopdf)                    size: 32458 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/pulsar4-eps-conve
-rted-to.pdf wordtops/pulsar4.eps>
-(epstopdf)             \includegraphics on input line 9.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/pulsar4-eps-converted-to.pdf, id=423, 437.635pt x 660.4675pt>
-File: wordtops/pulsar4-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/pulsar4-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/pulsar4-eps-converted-to.pdf  used on input l
-ine 9.
-(pdftex.def)             Requested size: 430.99622pt x 650.43pt.
- [98 <./wordtops/pulsar3-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/pulsar5.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 661584 bytes
-(epstopdf)             Output file: <wordtops/pulsar5-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:02
-(epstopdf)                    size: 29932 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/pulsar5-eps-conve
-rted-to.pdf wordtops/pulsar5.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/pulsar5-eps-converted-to.pdf, id=443, 437.635pt x 655.44875pt>
-File: wordtops/pulsar5-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/pulsar5-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/pulsar5-eps-converted-to.pdf  used on input l
-ine 11.
-(pdftex.def)             Requested size: 434.28836pt x 650.43pt.
-
-Overfull \hbox (0.66837pt too wide) in paragraph at lines 11--12
-[][] 
- []
-
-[99 <./wordtops/pulsar4-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/pulsar6.eps>
-(epstopdf)                    date: 2019-12-16 15:16:36
-(epstopdf)                    size: 389329 bytes
-(epstopdf)             Output file: <wordtops/pulsar6-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 16:22:01
-(epstopdf)                    size: 103389 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/pulsar6-eps-conve
-rted-to.pdf wordtops/pulsar6.eps>
-(epstopdf)             \includegraphics on input line 13.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/pulsar6-eps-converted-to.pdf, id=463, 614.295pt x 794.97pt>
-File: wordtops/pulsar6-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/pulsar6-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/pulsar6-eps-converted-to.pdf  used on input l
-ine 13.
-(pdftex.def)             Requested size: 502.6191pt x 650.43pt.
-
-Overfull \hbox (68.9991pt too wide) in paragraph at lines 13--14
-[][] 
- []
-
-[100 <./wordtops/pulsar5-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/pulsar7.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 655825 bytes
-(epstopdf)             Output file: <wordtops/pulsar7-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:03
-(epstopdf)                    size: 23589 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/pulsar7-eps-conve
-rted-to.pdf wordtops/pulsar7.eps>
-(epstopdf)             \includegraphics on input line 15.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/pulsar7-eps-converted-to.pdf, id=483, 437.635pt x 673.51625pt>
-File: wordtops/pulsar7-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/pulsar7-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/pulsar7-eps-converted-to.pdf  used on input l
-ine 15.
-(pdftex.def)             Requested size: 422.64233pt x 650.43pt.
- [101 <./wordtops/pulsar6-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/pulsar8.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 551615 bytes
-(epstopdf)             Output file: <wordtops/pulsar8-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:03
-(epstopdf)                    size: 19779 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/pulsar8-eps-conve
-rted-to.pdf wordtops/pulsar8.eps>
-(epstopdf)             \includegraphics on input line 17.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/pulsar8-eps-converted-to.pdf, id=513, 437.635pt x 575.14874pt>
-File: wordtops/pulsar8-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/pulsar8-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/pulsar8-eps-converted-to.pdf  used on input l
-ine 17.
-(pdftex.def)             Requested size: 439.93774pt x 578.15999pt.
-
-Overfull \hbox (6.31775pt too wide) in paragraph at lines 17--18
-[][] 
- []
-
-[102 <./wordtops/pulsar7-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/pulsar9.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 642440 bytes
-(epstopdf)             Output file: <wordtops/pulsar9-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:04
-(epstopdf)                    size: 24372 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/pulsar9-eps-conve
-rted-to.pdf wordtops/pulsar9.eps>
-(epstopdf)             \includegraphics on input line 19.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/pulsar9-eps-converted-to.pdf, id=530, 445.665pt x 661.47125pt>
-File: wordtops/pulsar9-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/pulsar9-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/pulsar9-eps-converted-to.pdf  used on input l
-ine 19.
-(pdftex.def)             Requested size: 438.24478pt x 650.43pt.
-
-Overfull \hbox (4.62479pt too wide) in paragraph at lines 19--20
+File: planetary/pna1.epsi Graphic file (type eps)
+<planetary/pna1.epsi>
+File: planetary/pna2.epsi Graphic file (type eps)
+ <planetary/pna2.epsi>
+Overfull \hbox (35.62332pt too wide) in paragraph at lines 8--9
 [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [103 <./wordtops/pulsar8-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/pulsar10.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 665095 bytes
-(epstopdf)             Output file: <wordtops/pulsar10-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:04
-(epstopdf)                    size: 27783 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/pulsar10-eps-conv
-erted-to.pdf wordtops/pulsar10.eps>
-(epstopdf)             \includegraphics on input line 21.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/pulsar10-eps-converted-to.pdf, id=546, 437.635pt x 675.52374pt>
-File: wordtops/pulsar10-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/pulsar10-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/pulsar10-eps-converted-to.pdf  used on input 
-line 21.
-(pdftex.def)             Requested size: 421.38692pt x 650.43pt.
- [104 <./wordtops/pulsar9-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/pulsar11.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 548608 bytes
-(epstopdf)             Output file: <wordtops/pulsar11-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:04
-(epstopdf)                    size: 24995 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/pulsar11-eps-conv
-erted-to.pdf wordtops/pulsar11.eps>
-(epstopdf)             \includegraphics on input line 23.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/pulsar11-eps-converted-to.pdf, id=564, 437.635pt x 570.13pt>
-File: wordtops/pulsar11-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/pulsar11-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/pulsar11-eps-converted-to.pdf  used on input 
-line 23.
-(pdftex.def)             Requested size: 443.7975pt x 578.15999pt.
+ [94
 
-Overfull \hbox (10.1775pt too wide) in paragraph at lines 23--24
-[][] 
- []
+]
+File: planetary/pna3.epsi Graphic file (type eps)
 
-[105 <./wordtops/pulsar10-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/pulsar12.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 269673 bytes
-(epstopdf)             Output file: <wordtops/pulsar12-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:05
-(epstopdf)                    size: 16602 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/pulsar12-eps-conv
-erted-to.pdf wordtops/pulsar12.eps>
-(epstopdf)             \includegraphics on input line 25.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/pulsar12-eps-converted-to.pdf, id=584, 472.76625pt x 214.8025pt>
-File: wordtops/pulsar12-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/pulsar12-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/pulsar12-eps-converted-to.pdf  used on input 
-line 25.
-(pdftex.def)             Requested size: 472.76509pt x 214.80197pt.
-) (./pulsar2.tex
-Overfull \hbox (39.1451pt too wide) in paragraph at lines 25--1
+<planetary/pna3.epsi>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95]
+File: planetary/pna4.epsi Graphic file (type eps)
+
+<planetary/pna4.epsi>) (./pnb.tex
+Overfull \hbox (164.73361pt too wide) in paragraph at lines 12--1
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--1
+Underfull \hbox (badness 10000) in paragraph at lines 12--1
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [106 <./wordtops/pulsar11-eps-converted-to.pdf>] [107 <./wordtops/pulsar12-eps
--converted-to.pdf>]
-Lab 29.
-[108
+ [96]
+[97]
+Lab 27.
+File: planetary/pnb1.epsi Graphic file (type eps)
+<planetary/pnb1.epsi>
+File: planetary/pnb2.epsi Graphic file (type eps)
+ <planetary/pnb2.epsi>
+Overfull \hbox (16.58932pt too wide) in paragraph at lines 7--8
+[][] 
+ []
 
-] [109] [110] [111]) (./blackholes.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98
+
+]
+File: planetary/pnb4.epsi Graphic file (type eps)
+
+<planetary/pnb4.epsi>) (./pulsars.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99]
+[100]
+Lab 28.
+File: wordtops/pulsar1.eps Graphic file (type eps)
+<wordtops/pulsar1.eps> [101
+
+]
+File: wordtops/pulsar2.eps Graphic file (type eps)
+ <wordtops/pulsar2.eps>
+Overfull \hbox (76.0213pt too wide) in paragraph at lines 6--7
+[][] 
+ []
+
+[102]
+File: wordtops/pulsar3.eps Graphic file (type eps)
+ <wordtops/pulsar3.eps>
+Overfull \hbox (86.30862pt too wide) in paragraph at lines 9--10
+[][] 
+ []
+
+[103]
+File: wordtops/pulsar4.eps Graphic file (type eps)
+ <wordtops/pulsar4.eps>
+Overfull \hbox (80.79172pt too wide) in paragraph at lines 12--13
+[][] 
+ []
+
+[104]
+File: wordtops/pulsar5.eps Graphic file (type eps)
+ <wordtops/pulsar5.eps>
+Overfull \hbox (84.22386pt too wide) in paragraph at lines 15--16
+[][] 
+ []
+
+[105]
+File: wordtops/pulsar6.eps Graphic file (type eps)
+ <wordtops/pulsar6.eps>
+Overfull \hbox (132.22235pt too wide) in paragraph at lines 18--19
+[][] 
+ []
+
+[106]
+File: wordtops/pulsar7.eps Graphic file (type eps)
+ <wordtops/pulsar7.eps>
+Overfull \hbox (72.04294pt too wide) in paragraph at lines 21--22
+[][] 
+ []
+
+[107]
+File: wordtops/pulsar8.eps Graphic file (type eps)
+ <wordtops/pulsar8.eps>
+Overfull \hbox (81.9388pt too wide) in paragraph at lines 24--25
+[][] 
+ []
+
+[108]
+File: wordtops/pulsar9.eps Graphic file (type eps)
+ <wordtops/pulsar9.eps>
+Overfull \hbox (87.03241pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+[109]
+File: wordtops/pulsar10.eps Graphic file (type eps)
+ <wordtops/pulsar10.eps>
+Overfull \hbox (70.72289pt too wide) in paragraph at lines 30--31
+[][] 
+ []
+
+[110]
+File: wordtops/pulsar11.eps Graphic file (type eps)
+ <wordtops/pulsar11.eps>
+Overfull \hbox (49.07397pt too wide) in paragraph at lines 33--34
+[][] 
+ []
+
+[111]
+File: wordtops/pulsar12.eps Graphic file (type eps)
+ <wordtops/pulsar12.eps>
+Overfull \hbox (147.55096pt too wide) in paragraph at lines 36--37
+[][] 
+ []
+
+[112]) (./pulsar2.tex
+Lab 29.
+[113
+
+] [114] [115] [116]) (./blackholes.tex
 Lab 30.
 
 Overfull \hbox (2.79742pt too wide) in paragraph at lines 34--38
@@ -1322,586 +871,152 @@ Overfull \hbox (2.79742pt too wide) in paragraph at lines 34--38
 mass into the cor-re-spond-ing Schwarzschild
  []
 
-[112
+[117
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113]
+ [118]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114])
-(./rotation.tex [115]
+ [119])
+(./rotation.tex [120]
 Lab 31.
-[116
+[121
 
-] [117]) (./hubble.tex [118]
+] [122]) (./hubble.tex [123]
 Lab 32.
-Package epstopdf Info: Source file: <wordtops/hubble1.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 986818 bytes
-(epstopdf)             Output file: <wordtops/hubble1-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-31 14:20:33
-(epstopdf)                    size: 75738 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/hubble1-eps-conve
-rted-to.pdf wordtops/hubble1.eps>
-(epstopdf)             \includegraphics on input line 3.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/hubble1-eps-converted-to.pdf, id=655, 434.62375pt x 599.23875pt>
-File: wordtops/hubble1-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/hubble1-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/hubble1-eps-converted-to.pdf  used on input l
-ine 3.
-(pdftex.def)             Requested size: 330.23126pt x 455.30121pt.
-Package epstopdf Info: Source file: <wordtops/hubble2.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 650958 bytes
-(epstopdf)             Output file: <wordtops/hubble2-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-31 14:20:33
-(epstopdf)                    size: 26863 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/hubble2-eps-conve
-rted-to.pdf wordtops/hubble2.eps>
-(epstopdf)             \includegraphics on input line 5.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/hubble2-eps-converted-to.pdf, id=656, 437.635pt x 675.52374pt>
-File: wordtops/hubble2-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/hubble2-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/hubble2-eps-converted-to.pdf  used on input l
-ine 5.
-(pdftex.def)             Requested size: 421.38692pt x 650.43pt.
+File: wordtops/hubble1.eps Graphic file (type eps)
+<wordtops/hubble1.eps> [124
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [119
-
- <./wordtops/hubble1-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/hubble3.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 655777 bytes
-(epstopdf)             Output file: <wordtops/hubble3-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-31 14:20:34
-(epstopdf)                    size: 25495 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/hubble3-eps-conve
-rted-to.pdf wordtops/hubble3.eps>
-(epstopdf)             \includegraphics on input line 7.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/hubble3-eps-converted-to.pdf, id=671, 437.635pt x 683.55376pt>
-File: wordtops/hubble3-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/hubble3-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/hubble3-eps-converted-to.pdf  used on input l
-ine 7.
-(pdftex.def)             Requested size: 416.45872pt x 650.43pt.
- [120 <./wordtops/hubble2-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/hubble4.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 683305 bytes
-(epstopdf)             Output file: <wordtops/hubble4-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-31 14:20:34
-(epstopdf)                    size: 34353 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/hubble4-eps-conve
-rted-to.pdf wordtops/hubble4.eps>
-(epstopdf)             \includegraphics on input line 9.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/hubble4-eps-converted-to.pdf, id=689, 437.635pt x 672.5125pt>
-File: wordtops/hubble4-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/hubble4-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/hubble4-eps-converted-to.pdf  used on input l
-ine 9.
-(pdftex.def)             Requested size: 423.27005pt x 650.43pt.
- [121 <./wordtops/hubble3-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/hubble5.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 658948 bytes
-(epstopdf)             Output file: <wordtops/hubble5-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-31 14:20:35
-(epstopdf)                    size: 29011 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/hubble5-eps-conve
-rted-to.pdf wordtops/hubble5.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/hubble5-eps-converted-to.pdf, id=708, 437.635pt x 660.4675pt>
-File: wordtops/hubble5-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/hubble5-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/hubble5-eps-converted-to.pdf  used on input l
-ine 11.
-(pdftex.def)             Requested size: 430.99622pt x 650.43pt.
- [122 <./wordtops/hubble4-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/hubble6.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 610092 bytes
-(epstopdf)             Output file: <wordtops/hubble6-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-31 14:20:35
-(epstopdf)                    size: 27647 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/hubble6-eps-conve
-rted-to.pdf wordtops/hubble6.eps>
-(epstopdf)             \includegraphics on input line 13.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/hubble6-eps-converted-to.pdf, id=728, 437.635pt x 637.38126pt>
-File: wordtops/hubble6-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/hubble6-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/hubble6-eps-converted-to.pdf  used on input l
-ine 13.
-(pdftex.def)             Requested size: 446.59547pt x 650.43pt.
-
-Overfull \hbox (12.97548pt too wide) in paragraph at lines 13--14
-[][] 
- []
-
-[123 <./wordtops/hubble5-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/hubble7.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 596141 bytes
-(epstopdf)             Output file: <wordtops/hubble7-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-31 14:20:35
-(epstopdf)                    size: 24117 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/hubble7-eps-conve
-rted-to.pdf wordtops/hubble7.eps>
-(epstopdf)             \includegraphics on input line 15.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/hubble7-eps-converted-to.pdf, id=748, 437.635pt x 621.32124pt>
-File: wordtops/hubble7-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/hubble7-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/hubble7-eps-converted-to.pdf  used on input l
-ine 15.
-(pdftex.def)             Requested size: 458.14133pt x 650.43pt.
-
-Overfull \hbox (24.52133pt too wide) in paragraph at lines 15--16
-[][] 
- []
-
-[124 <./wordtops/hubble6-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/hubble8.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 595083 bytes
-(epstopdf)             Output file: <wordtops/hubble8-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-31 14:20:36
-(epstopdf)                    size: 19421 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/hubble8-eps-conve
-rted-to.pdf wordtops/hubble8.eps>
-(epstopdf)             \includegraphics on input line 17.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/hubble8-eps-converted-to.pdf, id=770, 437.635pt x 627.34375pt>
-File: wordtops/hubble8-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/hubble8-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/hubble8-eps-converted-to.pdf  used on input l
-ine 17.
-(pdftex.def)             Requested size: 453.76071pt x 650.43pt.
-
-Overfull \hbox (20.14072pt too wide) in paragraph at lines 17--18
-[][] 
- []
-
-[125 <./wordtops/hubble7-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <wordtops/hubble9.eps>
-(epstopdf)                    date: 2006-07-20 17:23:52
-(epstopdf)                    size: 541961 bytes
-(epstopdf)             Output file: <wordtops/hubble9-eps-converted-to.pdf>
-(epstopdf)                    date: 2020-07-31 14:20:36
-(epstopdf)                    size: 21422 bytes
-(epstopdf)             Command: <repstopdf --outfile=wordtops/hubble9-eps-conve
-rted-to.pdf wordtops/hubble9.eps>
-(epstopdf)             \includegraphics on input line 19.
-Package epstopdf Info: Output file is already uptodate.
-<wordtops/hubble9-eps-converted-to.pdf, id=792, 437.635pt x 552.0625pt>
-File: wordtops/hubble9-eps-converted-to.pdf Graphic file (type pdf)
-<use wordtops/hubble9-eps-converted-to.pdf>
-Package pdftex.def Info: wordtops/hubble9-eps-converted-to.pdf  used on input l
-ine 19.
-(pdftex.def)             Requested size: 437.63393pt x 552.06114pt.
-) (./life.tex
-Overfull \hbox (4.01393pt too wide) in paragraph at lines 19--1
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--1
-
- []
-
-[126 <./wordtops/hubble8-eps-converted-to.pdf>] [127 <./wordtops/hubble9-eps-co
-nverted-to.pdf>]
-Lab 33.
-[128
-
-] [129]) (./stellarium.tex [130]
-Appendix A.
-Package epstopdf Info: Source file: <figs/stellarium-icons.eps>
-(epstopdf)                    date: 2011-12-29 12:03:11
-(epstopdf)                    size: 528147 bytes
-(epstopdf)             Output file: <figs/stellarium-icons-eps-converted-to.pdf
->
-(epstopdf)                    date: 2019-12-16 14:22:05
-(epstopdf)                    size: 99907 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stellarium-icons-eps-
-converted-to.pdf figs/stellarium-icons.eps>
-(epstopdf)             \includegraphics on input line 31.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stellarium-icons-eps-converted-to.pdf, id=842, 815.045pt x 481.8pt>
-File: figs/stellarium-icons-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stellarium-icons-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stellarium-icons-eps-converted-to.pdf  used on in
-put line 31.
-(pdftex.def)             Requested size: 289.07999pt x 170.88213pt.
-Package epstopdf Info: Source file: <figs/stell-exit.eps>
-(epstopdf)                    date: 2012-01-03 16:23:13
-(epstopdf)                    size: 180892 bytes
-(epstopdf)             Output file: <figs/stell-exit-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:06
-(epstopdf)                    size: 5579 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-exit-eps-conver
-ted-to.pdf figs/stell-exit.eps>
-(epstopdf)             \includegraphics on input line 39.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-exit-eps-converted-to.pdf, id=843, 32.12pt x 40.15pt>
-File: figs/stell-exit-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-exit-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-exit-eps-converted-to.pdf  used on input li
-ne 39.
-(pdftex.def)             Requested size: 11.56268pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-angular.eps>
-(epstopdf)                    date: 2011-12-29 16:55:51
-(epstopdf)                    size: 177992 bytes
-(epstopdf)             Output file: <figs/stell-angular-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:06
-(epstopdf)                    size: 4002 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-angular-eps-con
-verted-to.pdf figs/stell-angular.eps>
-(epstopdf)             \includegraphics on input line 44.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-angular-eps-converted-to.pdf, id=844, 30.1125pt x 32.12pt>
-File: figs/stell-angular-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-angular-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-angular-eps-converted-to.pdf  used on input
- line 44.
-(pdftex.def)             Requested size: 13.55049pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-config.eps>
-(epstopdf)                    date: 2012-01-03 16:28:34
-(epstopdf)                    size: 182663 bytes
-(epstopdf)             Output file: <figs/stell-config-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:06
-(epstopdf)                    size: 5809 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-config-eps-conv
-erted-to.pdf figs/stell-config.eps>
-(epstopdf)             \includegraphics on input line 47.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-config-eps-converted-to.pdf, id=845, 69.25874pt x 69.25874pt>
-File: figs/stell-config-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-config-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-config-eps-converted-to.pdf  used on input 
-line 47.
-(pdftex.def)             Requested size: 14.45387pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-exit.eps>
-(epstopdf)                    date: 2012-01-03 16:23:13
-(epstopdf)                    size: 180892 bytes
-(epstopdf)             Output file: <figs/stell-exit-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:06
-(epstopdf)                    size: 5579 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-exit-eps-conver
-ted-to.pdf figs/stell-exit.eps>
-(epstopdf)             \includegraphics on input line 51.
-Package epstopdf Info: Output file is already uptodate.
-File: figs/stell-exit-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-exit-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-exit-eps-converted-to.pdf  used on input li
-ne 51.
-(pdftex.def)             Requested size: 11.56268pt x 14.45377pt.
-[131
-
- <./figs/stellarium-icons-eps-converted-to.pdf> <./figs/stell-exit-eps-converte
-d-to.pdf> <./figs/stell-angular-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figs/stell-center.eps>
-(epstopdf)                    date: 2011-12-29 16:45:43
-(epstopdf)                    size: 178902 bytes
-(epstopdf)             Output file: <figs/stell-center-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:07
-(epstopdf)                    size: 4680 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-center-eps-conv
-erted-to.pdf figs/stell-center.eps>
-(epstopdf)             \includegraphics on input line 69.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-center-eps-converted-to.pdf, id=864, 34.1275pt x 34.1275pt>
-File: figs/stell-center-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-center-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-center-eps-converted-to.pdf  used on input 
-line 69.
-(pdftex.def)             Requested size: 14.45372pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-loc.eps>
-(epstopdf)                    date: 2011-12-29 12:23:40
-(epstopdf)                    size: 182229 bytes
-(epstopdf)             Output file: <figs/stell-loc-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:07
-(epstopdf)                    size: 6405 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-loc-eps-convert
-ed-to.pdf figs/stell-loc.eps>
-(epstopdf)             \includegraphics on input line 73.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-loc-eps-converted-to.pdf, id=865, 52.195pt x 58.2175pt>
-File: figs/stell-loc-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-loc-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-loc-eps-converted-to.pdf  used on input lin
-e 73.
-(pdftex.def)             Requested size: 12.95792pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-time1.eps>
-(epstopdf)                    date: 2011-12-29 12:29:52
-(epstopdf)                    size: 188035 bytes
-(epstopdf)             Output file: <figs/stell-time1-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:07
-(epstopdf)                    size: 7435 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-time1-eps-conve
-rted-to.pdf figs/stell-time1.eps>
-(epstopdf)             \includegraphics on input line 82.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-time1-eps-converted-to.pdf, id=866, 136.51pt x 42.1575pt>
-File: figs/stell-time1-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-time1-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-time1-eps-converted-to.pdf  used on input l
-ine 82.
-(pdftex.def)             Requested size: 46.80229pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-time2.eps>
-(epstopdf)                    date: 2011-12-29 12:30:21
-(epstopdf)                    size: 183203 bytes
-(epstopdf)             Output file: <figs/stell-time2-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:08
-(epstopdf)                    size: 7034 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-time2-eps-conve
-rted-to.pdf figs/stell-time2.eps>
-(epstopdf)             \includegraphics on input line 89.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-time2-eps-converted-to.pdf, id=867, 58.2175pt x 61.22874pt>
-File: figs/stell-time2-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-time2-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-time2-eps-converted-to.pdf  used on input l
-ine 89.
-(pdftex.def)             Requested size: 13.7424pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-find.eps>
-(epstopdf)                    date: 2011-12-29 12:42:03
-(epstopdf)                    size: 181630 bytes
-(epstopdf)             Output file: <figs/stell-find-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:08
-(epstopdf)                    size: 6281 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-find-eps-conver
-ted-to.pdf figs/stell-find.eps>
-(epstopdf)             \includegraphics on input line 113.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-find-eps-converted-to.pdf, id=868, 60.225pt x 62.2325pt>
-File: figs/stell-find-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-find-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-find-eps-converted-to.pdf  used on input li
-ne 113.
-(pdftex.def)             Requested size: 13.98746pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-constellations.eps>
-(epstopdf)                    date: 2011-12-29 16:34:05
-(epstopdf)                    size: 187493 bytes
-(epstopdf)             Output file: <figs/stell-constellations-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:08
-(epstopdf)                    size: 7151 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-constellations-
-eps-converted-to.pdf figs/stell-constellations.eps>
-(epstopdf)             \includegraphics on input line 118.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-constellations-eps-converted-to.pdf, id=869, 96.36pt x 38.1425pt>
-File: figs/stell-constellations-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-constellations-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-constellations-eps-converted-to.pdf  used o
-n input line 118.
-(pdftex.def)             Requested size: 36.51424pt x 14.45377pt.
- [132 <./figs/stell-config-eps-converted-to.pdf> <./figs/stell-center-eps-conve
-rted-to.pdf> <./figs/stell-loc-eps-converted-to.pdf> <./figs/stell-time1-eps-co
-nverted-to.pdf> <./figs/stell-time2-eps-converted-to.pdf> <./figs/stell-find-ep
-s-converted-to.pdf> <./figs/stell-constellations-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figs/stell-grids.eps>
-(epstopdf)                    date: 2011-12-29 16:41:58
-(epstopdf)                    size: 186847 bytes
-(epstopdf)             Output file: <figs/stell-grids-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:09
-(epstopdf)                    size: 6795 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-grids-eps-conve
-rted-to.pdf figs/stell-grids.eps>
-(epstopdf)             \includegraphics on input line 134.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-grids-eps-converted-to.pdf, id=908, 74.2775pt x 41.15375pt>
-File: figs/stell-grids-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-grids-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-grids-eps-converted-to.pdf  used on input l
-ine 134.
-(pdftex.def)             Requested size: 26.08704pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-planets.eps>
-(epstopdf)                    date: 2012-01-03 16:34:56
-(epstopdf)                    size: 179848 bytes
-(epstopdf)             Output file: <figs/stell-planets-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:09
-(epstopdf)                    size: 5621 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-planets-eps-con
-verted-to.pdf figs/stell-planets.eps>
-(epstopdf)             \includegraphics on input line 136.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-planets-eps-converted-to.pdf, id=909, 39.14626pt x 35.13126pt>
-File: figs/stell-planets-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-planets-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-planets-eps-converted-to.pdf  used on input
- line 136.
-(pdftex.def)             Requested size: 16.1056pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-ground.eps>
-(epstopdf)                    date: 2011-12-29 16:51:15
-(epstopdf)                    size: 179181 bytes
-(epstopdf)             Output file: <figs/stell-ground-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:10
-(epstopdf)                    size: 4841 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-ground-eps-conv
-erted-to.pdf figs/stell-ground.eps>
-(epstopdf)             \includegraphics on input line 140.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-ground-eps-converted-to.pdf, id=910, 34.1275pt x 37.13875pt>
-File: figs/stell-ground-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-ground-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-ground-eps-converted-to.pdf  used on input 
-line 140.
-(pdftex.def)             Requested size: 13.28206pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-atmosphere.eps>
-(epstopdf)                    date: 2011-12-29 16:51:41
-(epstopdf)                    size: 179309 bytes
-(epstopdf)             Output file: <figs/stell-atmosphere-eps-converted-to.pdf
->
-(epstopdf)                    date: 2019-12-16 14:22:10
-(epstopdf)                    size: 4984 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-atmosphere-eps-
-converted-to.pdf figs/stell-atmosphere.eps>
-(epstopdf)             \includegraphics on input line 144.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-atmosphere-eps-converted-to.pdf, id=911, 35.13126pt x 34.1275pt>
-File: figs/stell-atmosphere-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-atmosphere-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-atmosphere-eps-converted-to.pdf  used on in
-put line 144.
-(pdftex.def)             Requested size: 14.87885pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-angular.eps>
-(epstopdf)                    date: 2011-12-29 16:55:51
-(epstopdf)                    size: 177992 bytes
-(epstopdf)             Output file: <figs/stell-angular-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:06
-(epstopdf)                    size: 4002 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-angular-eps-con
-verted-to.pdf figs/stell-angular.eps>
-(epstopdf)             \includegraphics on input line 158.
-Package epstopdf Info: Output file is already uptodate.
-File: figs/stell-angular-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-angular-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-angular-eps-converted-to.pdf  used on input
- line 158.
-(pdftex.def)             Requested size: 13.55049pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-angular.eps>
-(epstopdf)                    date: 2011-12-29 16:55:51
-(epstopdf)                    size: 177992 bytes
-(epstopdf)             Output file: <figs/stell-angular-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:06
-(epstopdf)                    size: 4002 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-angular-eps-con
-verted-to.pdf figs/stell-angular.eps>
-(epstopdf)             \includegraphics on input line 160.
-Package epstopdf Info: Output file is already uptodate.
-File: figs/stell-angular-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-angular-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-angular-eps-converted-to.pdf  used on input
- line 160.
-(pdftex.def)             Requested size: 13.55049pt x 14.45377pt.
-Package epstopdf Info: Source file: <figs/stell-mount.eps>
-(epstopdf)                    date: 2011-12-29 17:04:10
-(epstopdf)                    size: 179850 bytes
-(epstopdf)             Output file: <figs/stell-mount-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:10
-(epstopdf)                    size: 5265 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/stell-mount-eps-conve
-rted-to.pdf figs/stell-mount.eps>
-(epstopdf)             \includegraphics on input line 169.
-Package epstopdf Info: Output file is already uptodate.
-<figs/stell-mount-eps-converted-to.pdf, id=912, 37.13875pt x 37.13875pt>
-File: figs/stell-mount-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/stell-mount-eps-converted-to.pdf>
-Package pdftex.def Info: figs/stell-mount-eps-converted-to.pdf  used on input l
-ine 169.
-(pdftex.def)             Requested size: 14.45401pt x 14.45377pt.
-) (./excel.tex [133 <./figs/stell-grids-eps-converted-to.pdf> <./figs/stell-pla
-nets-eps-converted-to.pdf> <./figs/stell-ground-eps-converted-to.pdf> <./figs/s
-tell-atmosphere-eps-converted-to.pdf> <./figs/stell-mount-eps-converted-to.pdf>
 ]
-Appendix B.
-Package epstopdf Info: Source file: <figs/excelwindow.eps>
-(epstopdf)                    date: 2014-12-12 11:05:46
-(epstopdf)                    size: 4784844 bytes
-(epstopdf)             Output file: <figs/excelwindow-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:11
-(epstopdf)                    size: 66745 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/excelwindow-eps-conve
-rted-to.pdf figs/excelwindow.eps>
-(epstopdf)             \includegraphics on input line 53.
-Package epstopdf Info: Output file is already uptodate.
-<figs/excelwindow-eps-converted-to.pdf, id=942, 770.88pt x 578.16pt>
-File: figs/excelwindow-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/excelwindow-eps-converted-to.pdf>
-Package pdftex.def Info: figs/excelwindow-eps-converted-to.pdf  used on input l
-ine 53.
-(pdftex.def)             Requested size: 770.87813pt x 578.15858pt.
+File: wordtops/hubble2.eps Graphic file (type eps)
+ <wordtops/hubble2.eps>
+Overfull \hbox (52.4424pt too wide) in paragraph at lines 6--7
+[][] 
+ []
 
+[125]
+File: wordtops/hubble3.eps Graphic file (type eps)
+ <wordtops/hubble3.eps>
+Overfull \hbox (47.61737pt too wide) in paragraph at lines 9--10
+[][] 
+ []
+
+[126]
+File: wordtops/hubble4.eps Graphic file (type eps)
+ <wordtops/hubble4.eps>
+Overfull \hbox (54.31778pt too wide) in paragraph at lines 12--13
+[][] 
+ []
+
+[127]
+File: wordtops/hubble5.eps Graphic file (type eps)
+ <wordtops/hubble5.eps>
+Overfull \hbox (61.79202pt too wide) in paragraph at lines 15--16
+[][] 
+ []
+
+[128]
+File: wordtops/hubble6.eps Graphic file (type eps)
+ <wordtops/hubble6.eps>
+Overfull \hbox (76.85886pt too wide) in paragraph at lines 18--19
+[][] 
+ []
+
+[129]
+File: wordtops/hubble7.eps Graphic file (type eps)
+ <wordtops/hubble7.eps>
+Overfull \hbox (87.88359pt too wide) in paragraph at lines 21--22
+[][] 
+ []
+
+[130]
+File: wordtops/hubble8.eps Graphic file (type eps)
+ <wordtops/hubble8.eps>
+Overfull \hbox (83.66852pt too wide) in paragraph at lines 24--25
+[][] 
+ []
+
+[131]
+File: wordtops/hubble9.eps Graphic file (type eps)
+ <wordtops/hubble9.eps>
+Overfull \hbox (112.41972pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+[132]) (./life.tex
+Lab 33.
+[133
+
+] [134]) (./stellarium.tex [135]
+Appendix A.
+File: figs/stellarium-icons.eps Graphic file (type eps)
+<figs/stellarium-icons.eps>
+File: figs/stell-exit.eps Graphic file (type eps)
+ <figs/stell-exit.eps>
+File: figs/stell-angular.eps Graphic file (type eps)
+ <figs/stell-angular.eps>
+File: figs/stell-config.eps Graphic file (type eps)
+
+<figs/stell-config.eps>
+File: figs/stell-exit.eps Graphic file (type eps)
+ <figs/stell-exit.eps> [136
+
+]
+File: figs/stell-center.eps Graphic file (type eps)
+ <figs/stell-center.eps>
+File: figs/stell-loc.eps Graphic file (type eps)
+
+<figs/stell-loc.eps>
+File: figs/stell-time1.eps Graphic file (type eps)
+ <figs/stell-time1.eps>
+File: figs/stell-time2.eps Graphic file (type eps)
+ <figs/stell-time2.eps>
+File: figs/stell-find.eps Graphic file (type eps)
+
+<figs/stell-find.eps>
+File: figs/stell-constellations.eps Graphic file (type eps)
+ <figs/stell-constellations.eps> [137]
+File: figs/stell-grids.eps Graphic file (type eps)
+
+<figs/stell-grids.eps>
+File: figs/stell-planets.eps Graphic file (type eps)
+ <figs/stell-planets.eps>
+File: figs/stell-ground.eps Graphic file (type eps)
+ <figs/stell-ground.eps>
+File: figs/stell-atmosphere.eps Graphic file (type eps)
+
+<figs/stell-atmosphere.eps>
+File: figs/stell-angular.eps Graphic file (type eps)
+ <figs/stell-angular.eps>
+File: figs/stell-angular.eps Graphic file (type eps)
+ <figs/stell-angular.eps>
+File: figs/stell-mount.eps Graphic file (type eps)
+
+<figs/stell-mount.eps>) (./excel.tex [138]
+Appendix B.
+File: figs/excelwindow.eps Graphic file (type eps)
+<figs/excelwindow.eps>
 Underfull \vbox (badness 4981) has occurred while \output is active []
 
- [134
+ [139
 
 ]
-Package epstopdf Info: Source file: <figs/excel-graph.eps>
-(epstopdf)                    date: 2014-12-12 11:05:54
-(epstopdf)                    size: 2084066 bytes
-(epstopdf)             Output file: <figs/excel-graph-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-12-16 14:22:11
-(epstopdf)                    size: 16287 bytes
-(epstopdf)             Command: <repstopdf --outfile=figs/excel-graph-eps-conve
-rted-to.pdf figs/excel-graph.eps>
-(epstopdf)             \includegraphics on input line 92.
-Package epstopdf Info: Output file is already uptodate.
-<figs/excel-graph-eps-converted-to.pdf, id=946, 514.92375pt x 376.40625pt>
-File: figs/excel-graph-eps-converted-to.pdf Graphic file (type pdf)
-<use figs/excel-graph-eps-converted-to.pdf>
-Package pdftex.def Info: figs/excel-graph-eps-converted-to.pdf  used on input l
-ine 92.
-(pdftex.def)             Requested size: 216.81pt x 158.48584pt.
+File: figs/excel-graph.eps Graphic file (type eps)
 
+<figs/excel-graph.eps>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [135 <./figs/excelwindow-eps-converted-to.pdf>] [136 <./figs/excel-graph-eps-c
-onverted-to.pdf>] (./labmanual.aux) ) ) 
+ [140]
+[141] (./labmanual.aux) ) ) 
 Here is how much of TeX's memory you used:
- 13968 strings out of 492616
- 290082 string characters out of 6129482
- 301714 words of memory out of 5000000
- 17655 multiletter control sequences out of 15000+600000
+ 13046 strings out of 492617
+ 270669 string characters out of 6129508
+ 294264 words of memory out of 5000000
+ 16778 multiletter control sequences out of 15000+600000
  540960 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,63p,295b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2019/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr5.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
-.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
-pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmu10.pf
-b>
-Output written on labmanual.pdf (136 pages, 1620850 bytes).
-PDF statistics:
- 1027 PDF objects out of 1200 (max. 8388607)
- 670 compressed objects within 7 object streams
- 0 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 40i,11n,63p,2155b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on labmanual.dvi (141 pages, 272692 bytes).
