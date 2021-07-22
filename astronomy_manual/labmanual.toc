@@ -1,71 +1,71 @@
-\contentsline {chapter}{\numberline {1}Apparent Size and Distance}{4}% 
-\contentsline {chapter}{\numberline {2}Angular Measurements}{7}% 
-\contentsline {chapter}{\numberline {3}Resolution of the Human Eye}{11}% 
-\contentsline {paragraph}{Measurements.}{11}% 
-\contentsline {paragraph}{Questions.}{13}% 
-\contentsline {paragraph}{Answers.}{14}% 
-\contentsline {chapter}{\numberline {4}Daily Motion of Stars}{15}% 
-\contentsline {chapter}{\numberline {5}Intensity of Solar Radiation}{19}% 
-\contentsline {chapter}{\numberline {6}Celestial Navigation}{23}% 
-\contentsline {chapter}{\numberline {7}The Moon}{28}% 
-\contentsline {chapter}{\numberline {8}Apparent Motion of the Planets}{31}% 
-\contentsline {paragraph}{Jupiter's daily motion.}{31}% 
-\contentsline {paragraph}{Jupiter's slow drift with respect to the stars.}{32}% 
-\contentsline {paragraph}{Motion of other planets.}{33}% 
-\contentsline {chapter}{\numberline {9}Sidereal and Synodic Periods}{34}% 
-\contentsline {paragraph}{Part 1. An example.}{34}% 
-\contentsline {paragraph}{Part 2. The general rule.}{35}% 
-\contentsline {chapter}{\numberline {10}Kepler's Third Law}{37}% 
-\contentsline {chapter}{\numberline {11}Phases of Venus}{40}% 
-\contentsline {chapter}{\numberline {12}Finding Masses with Kepler's Third Law}{45}% 
-\contentsline {chapter}{\numberline {13}Spectra of Light Sources}{48}% 
-\contentsline {chapter}{\numberline {14}The Diffraction Grating}{50}% 
-\contentsline {chapter}{\numberline {15}The Spectrum of Hydrogen}{53}% 
-\contentsline {chapter}{\numberline {16}Refraction and Lenses}{56}% 
-\contentsline {paragraph}{Part 1: Refraction.}{56}% 
-\contentsline {paragraph}{Part 2: Total internal reflection.}{58}% 
-\contentsline {paragraph}{Part 3: Lenses.}{58}% 
-\contentsline {paragraph}{Part 4: Combinations of lenses.}{59}% 
-\contentsline {chapter}{\numberline {17}Image formation by lenses}{60}% 
-\contentsline {chapter}{\numberline {18}Refracting Telescopes}{63}% 
-\contentsline {chapter}{\numberline {19}Stefan-Boltzmann Law}{68}% 
-\contentsline {paragraph}{Introduction.}{68}% 
-\contentsline {paragraph}{Gathering the data.}{69}% 
-\contentsline {paragraph}{Analyzing the data.}{70}% 
-\contentsline {chapter}{\numberline {20}Solar Radiation and the Greenhouse Effect}{74}% 
-\contentsline {chapter}{\numberline {21}Energy Flow in the Sun}{77}% 
-\contentsline {chapter}{\numberline {22}Parallax}{81}% 
-\contentsline {chapter}{\numberline {23}The Hertzsprung-Russell Diagram}{85}% 
-\contentsline {chapter}{\numberline {24}Spectroscopic Binary Stars}{87}% 
-\contentsline {paragraph}{Part 1: Determining the masses of spectroscopic binary stars.}{87}% 
-\contentsline {paragraph}{Part 2: Finding the masses of planets orbiting other stars.}{89}% 
-\contentsline {chapter}{\numberline {25}More Fun with Binary Stars}{91}% 
-\contentsline {chapter}{\numberline {26}Planetary Nebulae}{94}% 
-\contentsline {chapter}{\numberline {27}Planetary Nebulae 2}{98}% 
-\contentsline {chapter}{\numberline {28}Radio Astronomy of Pulsars}{101}% 
-\contentsline {chapter}{\numberline {29}The Crab Pulsar}{113}% 
-\contentsline {chapter}{\numberline {30}Black Holes}{117}% 
-\contentsline {paragraph}{Mass and radius.}{117}% 
-\contentsline {paragraph}{Density.}{118}% 
-\contentsline {paragraph}{Orbital Periods.}{120}% 
-\contentsline {chapter}{\numberline {31}Galaxy Rotation Curves and Dark Matter}{121}% 
-\contentsline {paragraph}{Introduction.}{121}% 
-\contentsline {paragraph}{Useful facts for this lab.}{121}% 
-\contentsline {paragraph}{Procedure.}{121}% 
-\contentsline {chapter}{\numberline {32}Hubble's Law}{124}% 
-\contentsline {chapter}{\numberline {33}Are We Alone?}{133}% 
-\contentsline {chapter}{\numberline {A}Introduction to Stellarium}{136}% 
-\contentsline {paragraph}{Starting up and closing down the program.}{136}% 
-\contentsline {paragraph}{Moving around the sky.}{137}% 
-\contentsline {paragraph}{Zooming in and out.}{137}% 
-\contentsline {paragraph}{Selecting and centering on an object.}{137}% 
-\contentsline {paragraph}{Changing the observer's location.}{137}% 
-\contentsline {paragraph}{Changing time.}{137}% 
-\contentsline {paragraph}{Finding a specific object.}{137}% 
-\contentsline {paragraph}{Miscellaneous display options.}{137}% 
-\contentsline {paragraph}{Measuring angles.}{138}% 
-\contentsline {paragraph}{Switching between equatorial and azimuthal mounts.}{138}% 
-\contentsline {chapter}{\numberline {B}Introduction to Excel}{139}% 
-\contentsline {section}{\numberline {B.1}Data and formulae}{139}% 
-\contentsline {section}{\numberline {B.2}Graphs}{140}% 
-\contentsline {section}{\numberline {B.3}Fitting lines and curves}{141}% 
+\contentsline {chapter}{\numberline {1}Apparent Size and Distance}{4}{}%
+\contentsline {chapter}{\numberline {2}Angular Measurements}{7}{}%
+\contentsline {chapter}{\numberline {3}Resolution of the Human Eye}{11}{}%
+\contentsline {paragraph}{Measurements.}{11}{}%
+\contentsline {paragraph}{Questions.}{13}{}%
+\contentsline {paragraph}{Answers.}{14}{}%
+\contentsline {chapter}{\numberline {4}Daily Motion of Stars}{15}{}%
+\contentsline {chapter}{\numberline {5}Intensity of Solar Radiation}{19}{}%
+\contentsline {chapter}{\numberline {6}Celestial Navigation}{23}{}%
+\contentsline {chapter}{\numberline {7}The Moon}{28}{}%
+\contentsline {chapter}{\numberline {8}Apparent Motion of the Planets}{31}{}%
+\contentsline {paragraph}{Jupiter's daily motion.}{31}{}%
+\contentsline {paragraph}{Jupiter's slow drift with respect to the stars.}{32}{}%
+\contentsline {paragraph}{Motion of other planets.}{33}{}%
+\contentsline {chapter}{\numberline {9}Sidereal and Synodic Periods}{34}{}%
+\contentsline {paragraph}{Part 1. An example.}{34}{}%
+\contentsline {paragraph}{Part 2. The general rule.}{35}{}%
+\contentsline {chapter}{\numberline {10}Kepler's Third Law}{37}{}%
+\contentsline {chapter}{\numberline {11}Phases of Venus}{40}{}%
+\contentsline {chapter}{\numberline {12}Finding Masses with Kepler's Third Law}{45}{}%
+\contentsline {chapter}{\numberline {13}Spectra of Light Sources}{48}{}%
+\contentsline {chapter}{\numberline {14}The Diffraction Grating}{50}{}%
+\contentsline {chapter}{\numberline {15}The Spectrum of Hydrogen}{53}{}%
+\contentsline {chapter}{\numberline {16}Refraction and Lenses}{56}{}%
+\contentsline {paragraph}{Part 1: Refraction.}{56}{}%
+\contentsline {paragraph}{Part 2: Total internal reflection.}{58}{}%
+\contentsline {paragraph}{Part 3: Lenses.}{58}{}%
+\contentsline {paragraph}{Part 4: Combinations of lenses.}{59}{}%
+\contentsline {chapter}{\numberline {17}Image formation by lenses}{60}{}%
+\contentsline {chapter}{\numberline {18}Refracting Telescopes}{63}{}%
+\contentsline {chapter}{\numberline {19}Stefan-Boltzmann Law}{68}{}%
+\contentsline {paragraph}{Introduction.}{68}{}%
+\contentsline {paragraph}{Gathering the data.}{69}{}%
+\contentsline {paragraph}{Analyzing the data.}{70}{}%
+\contentsline {chapter}{\numberline {20}Solar Radiation and the Greenhouse Effect}{74}{}%
+\contentsline {chapter}{\numberline {21}Energy Flow in the Sun}{77}{}%
+\contentsline {chapter}{\numberline {22}Parallax}{81}{}%
+\contentsline {chapter}{\numberline {23}The Hertzsprung-Russell Diagram}{85}{}%
+\contentsline {chapter}{\numberline {24}Spectroscopic Binary Stars}{87}{}%
+\contentsline {paragraph}{Part 1: Determining the masses of spectroscopic binary stars.}{87}{}%
+\contentsline {paragraph}{Part 2: Finding the masses of planets orbiting other stars.}{89}{}%
+\contentsline {chapter}{\numberline {25}More Fun with Binary Stars}{91}{}%
+\contentsline {chapter}{\numberline {26}Planetary Nebulae}{94}{}%
+\contentsline {chapter}{\numberline {27}Planetary Nebulae 2}{98}{}%
+\contentsline {chapter}{\numberline {28}Radio Astronomy of Pulsars}{101}{}%
+\contentsline {chapter}{\numberline {29}The Crab Pulsar}{113}{}%
+\contentsline {chapter}{\numberline {30}Black Holes}{117}{}%
+\contentsline {paragraph}{Mass and radius.}{117}{}%
+\contentsline {paragraph}{Density.}{118}{}%
+\contentsline {paragraph}{Orbital Periods.}{120}{}%
+\contentsline {chapter}{\numberline {31}Galaxy Rotation Curves and Dark Matter}{121}{}%
+\contentsline {paragraph}{Introduction.}{121}{}%
+\contentsline {paragraph}{Useful facts for this lab.}{121}{}%
+\contentsline {paragraph}{Procedure.}{121}{}%
+\contentsline {chapter}{\numberline {32}Hubble's Law}{124}{}%
+\contentsline {chapter}{\numberline {33}Are We Alone?}{133}{}%
+\contentsline {chapter}{\numberline {A}Introduction to Stellarium}{136}{}%
+\contentsline {paragraph}{Starting up and closing down the program.}{136}{}%
+\contentsline {paragraph}{Moving around the sky.}{137}{}%
+\contentsline {paragraph}{Zooming in and out.}{137}{}%
+\contentsline {paragraph}{Selecting and centering on an object.}{137}{}%
+\contentsline {paragraph}{Changing the observer's location.}{137}{}%
+\contentsline {paragraph}{Changing time.}{137}{}%
+\contentsline {paragraph}{Finding a specific object.}{137}{}%
+\contentsline {paragraph}{Miscellaneous display options.}{137}{}%
+\contentsline {paragraph}{Measuring angles.}{138}{}%
+\contentsline {paragraph}{Switching between equatorial and azimuthal mounts.}{138}{}%
+\contentsline {chapter}{\numberline {B}Introduction to Excel}{139}{}%
+\contentsline {section}{\numberline {B.1}Data and formulae}{139}{}%
+\contentsline {section}{\numberline {B.2}Graphs}{140}{}%
+\contentsline {section}{\numberline {B.3}Fitting lines and curves}{141}{}%
