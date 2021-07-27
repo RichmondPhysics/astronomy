@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=latex 2019.5.8)  28 DEC 2020 16:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=latex 2019.5.8)  31 DEC 2020 11:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -739,23 +739,14 @@ File: planetary/pna3.epsi Graphic file (type eps)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [95]
+[96]
 File: planetary/pna4.epsi Graphic file (type eps)
-
-<planetary/pna4.epsi>) (./pnb.tex
-Overfull \hbox (164.73361pt too wide) in paragraph at lines 12--1
-[][]
+ <planetary/pna4.epsi>
+Overfull \hbox (164.73361pt too wide) in paragraph at lines 14--15
+[][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--1
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [96]
-[97]
+[97]) (./pnb.tex
 Lab 27.
 File: planetary/pnb1.epsi Graphic file (type eps)
 <planetary/pnb1.epsi>
@@ -855,7 +846,7 @@ Overfull \hbox (49.07397pt too wide) in paragraph at lines 33--34
 [111]
 File: wordtops/pulsar12.eps Graphic file (type eps)
  <wordtops/pulsar12.eps>
-Overfull \hbox (147.55096pt too wide) in paragraph at lines 36--37
+Overfull \hbox (198.13962pt too wide) in paragraph at lines 36--37
 [][] 
  []
 
@@ -1019,4 +1010,4 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  40i,11n,63p,2155b,441s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on labmanual.dvi (141 pages, 272692 bytes).
+Output written on labmanual.dvi (141 pages, 272720 bytes).
