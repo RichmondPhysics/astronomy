@@ -1,4 +1,0 @@
-\contentsline {chapter}{\numberline {1}Stefan-Boltzmann Law}{3}
-\contentsline {paragraph}{Introduction.}{3}
-\contentsline {paragraph}{Gathering the data.}{3}
-\contentsline {paragraph}{Analyzing the data.}{4}
