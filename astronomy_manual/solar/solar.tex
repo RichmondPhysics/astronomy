@@ -1,0 +1,177 @@
+\section{Solar Radiation and the Greenhouse Effect}
+
+\makelabheader
+
+\bigskip
+
+The Earth (like the other planets) is warmed by
+sunlight.  The Earth also radiates energy into
+space, mostly in the form of infrared radiation.
+On average, the amount of radiation received from the Sun
+must equal the amount of radiation emitted by the planet.  After 
+all, if the Earth emitted less radiation into space than it 
+received from the Sun, then its temperature would keep going up;
+and if it emitted more radiation than it received, it would keep
+cooling down.  Since the temperature of the Earth is fairly stable
+over the years, the radiation coming in from the Sun must balance
+the radiation being emitted.
+
+Note: You've doubtless heard about global warming, so you may
+wonder how I can get away with saying that the temperature
+of the Earth is fairly stable. Global warming does mean there's
+an imbalance between the incoming and outgoing radiation, but
+it's very slight. Although that slight difference is enough to have
+major consequences for the climate, it's small enough that we can safely
+ignore it in the calculations we're about to do.
+
+In this lab, you will use this idea to form an estimate of the
+temperature of the Earth.  Specifically, you will calculate
+the total amount of solar power striking the Earth's surface.
+Then you will assume that the Earth radiates that same amount
+of power back into space.  Assuming that the Earth radiates
+as a blackbody, you can use the Stefan-Boltzmann law to 
+relate the radiated power to the temperature and so calculate
+the temperature of the Earth.
+
+This calculation depends on one important assumption: that the
+Earth radiates like a blackbody.  That assumption is wrong,
+so our calculated temperature will not match the actual
+temperature of the Earth.  In particular, a phenomenon
+known as the ``greenhouse effect'' blocks some of the
+Earth's radiation from escaping into space.  The results
+of this calculation will give an indication of how important
+the greenhouse effect is here on Earth.
+
+Let's get started.
+Remember that the Sun's luminosity is
+$$
+L_{\odot}=3.86\times 10^{26}\,{\rm W}.
+$$
+A watt (W) is a unit of power equal to a joule per second.
+This is the total amount of power emitted by the Sun in all directions.
+The first thing we want to do is to figure out how much of this
+power strikes the Earth.
+
+Consider an imaginary sphere centered on the Sun with a radius
+of 1 A.U.  All of the radiation that leaves the Sun must pass through
+this sphere.  Calculate the amount of radiation that strikes each square
+meter of this imaginary sphere's surface by dividing the Sun's luminosity
+by the sphere's surface area.  Remember that the surface area of a sphere
+of radius $R$ is
+$$
+A=4\pi R^2.
+$$
+Remember that an A.U. is $1.49\times 10^{11}$ meters.
+Give your answer in units of watts per square meter (W/m$^2$).
+
+\answerspace{1in}
+
+\pagebreak[4]
+Now work out how much solar radiation strikes the Earth.  To do this,
+note that the Earth covers up a small circular patch of that great big
+imaginary sphere.  The amount of radiation striking the Earth will equal
+the amount striking that small circular patch.  Recall that the area
+of a circle is $\pi R^2$.  The radius of the Earth is 6380 kilometers.
+What is total amount of solar radiation
+striking the Earth?  Give your answer in watts.
+
+\answerspace{1.5in}
+
+The Earth doesn't actually absorb all of that energy; some of it
+is reflected into space.  The fraction of energy that is reflected
+by an object is called the object's {\it albedo}.  Measurements of Earth
+from space have shown that the Earth's albedo is 0.35, meaning that it
+reflects 35\% of all the radiation that hits it back into space and absorbs
+the rest.  
+
+What is the total amount of solar radiation {\it absorbed} by the Earth?
+
+\answerspace{1in}
+
+This number must equal the amount of radiation emitted by the Earth.
+Assume for the moment that the Earth emits radiation as a blackbody.
+That means that it obeys the Stefan-Boltzmann law,
+$$
+F=\sigma T^4.
+$$
+Recall that $\sigma=5.67\times 10^{-8}$ W/(m$^2$ K$^4$).
+Also, remember that the flux $F$ in the Stefan-Boltzmann law
+is the power radiated per area (watts per square meter).  To get
+the total power radiated by the Earth, therefore, we should
+multiply the flux by the surface area of the Earth.  As noted
+earlier, the surface
+area of a sphere is $4\pi R^2$, so the total
+power radiated by the Earth
+is
+$$
+L_{\oplus}=4\pi R^2\sigma T^4.
+$$
+Here $\oplus$ is the symbol for the Earth.  $L$ stands
+for ``luminosity,'' which is what we always call the total
+amount of power emitted by an object.  $R$ is the radius
+of the Earth, and $T$ is the temperature.
+
+Set this expression equal to the total amount of solar power
+being absorbed by the Earth and solve for the temperature $T$.
+Your answer will come out in kelvin.  Subtract 273 to convert 
+it to degrees Celsius.
+
+\answerspace{1.5in}
+
+Does this seem like a reasonable estimate of the Earth's 
+actual average temperature?
+
+\answerspace{1in}
+
+The main thing that went wrong in this calculation is the assumption
+that the Earth radiates as a blackbody, also known
+as a  ``perfect radiator.''
+Suppose that something in the Earth's atmosphere is blocking
+radiation from getting out, so that it's not a perfect radiator.
+Then the amount of radiation leaving the Earth will be less than 
+the amount calculated from the Stefan-Boltzmann law.  This
+alters the balance between incoming and outgoing radiation, resulting
+in an increase in temperature.
+
+Carbon dioxide and other gases in the Earth's upper atmosphere reflect some of
+the Earth's infrared radiation back down to the planet, preventing it from
+escaping into space.  This ``greenhouse effect'' means that
+the Earth is not a perfect radiator, and it is why
+the Earth is warmer than your calculation above would indicate.
+
+The greenhouse effect is responsible for climate change, so
+we think of it as a bad thing these days,
+but without it, the Earth would be uninhabitably cold!  The
+problem we face now is that human activity has led to
+an {\it increase} in the
+greenhouse effect, altering the balance that existed for 
+many millennia before we started altering the composition of the
+atmosphere.
+
+Venus is an interesting example of the greenhouse effect.
+Follow the same steps as above to figure out what
+the surface temperature of Venus would be in the absence of
+a greenhouse effect.  Here's some useful information about Venus:
+
+\begin{itemize}
+\item Distance from Sun to Venus: 0.723 A.U.
+\item Radius of Venus: 6050 km.
+\item Venus's albedo: 0.65.
+\end{itemize}
+
+You'll also need to know the luminosity of the Sun ($3.86\times 10^{26}$ W)
+and the number of meters in an A.U. ($1.49\times 10^{11}$ m).
+
+\vfil
+
+Probes of Venus indicate that its surface temperature is about 700 K
+(430$^\circ$C, or 800$^\circ$F).  Would you say that the
+greenhouse effect is more important on Venus than on Earth or 
+vice versa?
+
+\answerspace{1in}
+\eject
+
+
+
+
