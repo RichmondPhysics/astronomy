@@ -1,0 +1,209 @@
+\chapter{Energy Flow in the Sun}
+
+
+In this lab, you will examine how the energy produced in the core
+of the Sun makes it out to the surface.  The nuclear reactions in
+the core of the Sun produce photons, which eventually make their way
+to the surface of the Sun.  This process takes a long time because
+the photons undergo frequent collisions with ionized atoms
+in the solar interior.  These collisions cause the photons to
+bounce around in random directions instead of zooming
+straight out.
+
+You will use simulation software to examine the process by which
+these photons make it out of the Sun.
+If it's not already running, 
+start up the ``energy flow out of the Sun'' application on the lab
+PC and log
+in.  It doesn't matter what you enter for names and table number.\footnote{For 
+boring technical reasons, this program has to run inside of a 
+``virtual machine'' that's set up on the lab computers. I'll make sure
+that it's all set up before class. This may mean that the application
+may run in a window inside of another window, which looks a little funny
+but doesn't make a difference in the end. }
+
+\medskip
+
+{\it Part 1: Photons moving through a gas.}
+
+Select ``Interaction'' under the ``Simulation'' menu, and click
+``Run.''  This shows what happens to photons as they pass through a
+dense gas.  The stationary circles represent atoms in the gas, and the
+smaller white circles represent photons.  You should imagine that
+there is a source of photons off to the left somewhere, sending
+photons into the gas.  These photons have the correct amount of energy
+to correspond to one of the spectral lines of the atoms.  That means
+that when a photon hits an atom, it is very likely to be absorbed,
+sending the atom into an excited state.  The atom quickly drops
+back down to its original state, re-emitting the photon in a new direction.
+The end result is that the photon undergoes a ``random walk'': instead
+of moving in a straight line, it bounces around making frequent
+changes in direction.
+
+Stop the simulation.  Under ``Photon Type,'' select ``Continuum,'' and
+restart the simulation.  With this setting, the photons now have an
+energy that does {\it not} correspond to a spectral line of these
+atoms.  This means that the atoms cannot absorb the photons, so the
+photons usually just pass right through.  
+
+On rare occasions, a photon
+with the wrong energy can bounce off of an atom, as you'll see if you 
+let the simulation run for a while.
+
+The {\it mean free path} is the average distance that a photon travels
+before it bounces off of an atom.  Which has a longer mean free path,
+the continuum photons or the line photons?
+
+\vskip 1in
+
+If the continuum photons {\it never} bounced off of atoms (as opposed
+to rarely doing so), what would their mean free path be?
+
+\vskip 1in
+
+Here's an important thing to realize for the rest of the lab:
+Throughout most of the interior of the Sun, the gas is ionized,
+meaning that the electrons are stripped off of the protons.  Ionized
+gas is capable of interacting with photons of {\it all} wavelengths,
+not just specific ones.  That means that {\it in the interior of the
+Sun, all photons behave like the ``line'' photons in this simulation.}
+
+{\it Part 2: Photon Diffusion in the Sun}.
+
+Click ``Return'' to get back to the main menu.  Under ``Simulation,'' 
+go to ``Flow'' and then to ``1 Photon.''  
+This simulation shows the path of a single photon as it makes its
+way out from the center of the Sun.  Click ``Run'' a few times to 
+see how the photons behave.  Go to ``Parameters'' and check the ``Yes''
+box under ``Trails.''  This will cause the photon's path to be
+visible as it makes its way out.
+
+In the ``Parameters'' menu, you can also vary the size of the Sun.
+Select \# of Layers.  It should initially be 20.  Change that value to 40
+and try running the simulation again.  You should see that the Sun
+has gotten larger, and not surprisingly it takes more time for the photons
+to make their way out.
+
+In this model of the Sun, each ``layer'' of the Sun has a thickness
+equal to the mean free path of the photons.  That is, on average,
+a photon can make it in or out of the Sun by only one layer between
+bounces.  The more layers there are, the more times a photon is likely
+to bounce on its way out, and so the longer it will take to get out.
+In fact, there is a general rule relating the number of layers to the
+time it takes photons to get out, which you will now determine.
+
+Because the photons bounce around randomly, some get out faster than others.
+We're going to be interested in the time it takes the \textit{average}
+photon to get out, so we'll want to run the simulation with a bunch of photons
+all at once. Go to the ``Simulation'' menu, and click ``Flow'' and then
+``Diffusion.'' This will behave just like the simulation, but with many photons.
+
+
+Under ``Parameters,'' you can set the number of layers and the number of
+photons. Set the number of layers to 10, and the number of photons to 200.
+Start the simulation, and let it keep going until all 200 photons have escaped
+from the Sun.
+record
+the average number of interactions required for a photon to make it out.
+
+\vskip 1in
+
+
+Repeat the process for a 20-layer Sun.  
+
+
+\vskip 1in
+
+
+
+Do it one more time, this time for a 30-layer Sun. This one will take
+a little while!
+
+\vskip 1in
+
+Based on these results, take a guess about the mathematical relationship
+between the number of layers and the average number of interactions
+taken to get out:
+
+\vskip 1in
+
+Ask me if you're not sure whether your guess is right.
+
+This relationship only tells you about the {\it average} time it takes
+a photon to get out.  As you've seen,
+some photons are faster than average, and some
+are slower. Let's do one more simulation to get a feel for this.
+
+Set the number of layers to 25, and the number of photons to 1000,
+and start the simulation running.  After how many interactions
+does the first photon make it out?
+
+\vskip 1in
+
+Wait until most of the photons have escaped.  What is the average number
+of interactions of all the photons?  Is this consistent with your
+expectations based on the mathematical relationship you guessed above?
+
+\vskip 1in
+
+The graph in the lower part of the window shows the number of photons
+escaping the Sun as a function of time.  The yellow line is the time
+when the number of interactions is $n^2$ (the square of the
+number of layers).  Sketch a copy of the graph below.
+
+\vskip 2in
+
+This graph shows that quite a few photons (well over half) make it out
+in less than the average time, but some take much, much longer than that.
+
+\medskip
+
+{\it Part 3: Numbers for the actual Sun.}
+
+In these simulations, the number of layers is very small.  In the actual
+Sun, the photons can travel only a very short distance before
+scattering (that is, the ``mean free path'' is small).  Since a ``layer''
+is supposed to be only as thick as the mean
+free path, a realistic model of the Sun would have many, many layers.
+In this portion of the lab, you'll work out some rough numbers for
+the actual Sun.
+
+Based on the physical laws governing interactions between photons
+and electrons, scientists estimate that the mean free path
+of photons inside the Sun is about a tenth of a millimeter ($10^{-4}$ meters).
+The Sun's radius is about 700,000 kilometers.  If
+each ``layer'' has a size equal to the mean free path, how many layers
+does the Sun consist of?
+
+\vskip 1in
+
+Based on the relationship you found earlier between the number of layers
+and the number of interactions (bounces), how many interactions
+will an
+average photon undergo on its way out of the Sun?
+
+\vskip 1in
+
+The average distance a photon travels between interactions
+is equal to the mean free path, and of course photons travel at the
+speed of light (300,000 km/s).  What is the average time between
+interactions for a photon in the Sun?
+
+\vskip 1in
+
+From the average time between interactions and the total number of
+interactions, determine how much time it takes the average photon to
+make it out of the Sun.  Convert your answer into years.
+
+\vskip 1.5in
+
+If the nuclear fusion reactions powering the Sun were to somehow stop
+tomorrow, would we notice an immediate reduction in the Sun's
+luminosity?
+
+\vskip 1in
+
+Is there any way we could tell if the nuclear reactions in the Sun
+stopped tomorrow?
+
+
