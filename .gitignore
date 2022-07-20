@@ -11,6 +11,8 @@
 **/*.out
 **/*.ent
 # .ent file is produced while handling endnotes
+**/*.ind
+**/*.ilg
 **/*~
 **/*eps-converted-to.pdf
 
