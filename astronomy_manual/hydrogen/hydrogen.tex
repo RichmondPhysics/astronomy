@@ -90,19 +90,15 @@ values, and if the wavelength is measured in meters, your energy
 will come out in units of electron volts (eV).
 \end{enumerate}
 
-
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|c|}\hline
-Line        & $\theta_{left}$     & $\theta_{right}$     & $\theta_{average}$ & Wavelength  & Photon Energy \\ 
-\hline
-& & & & & \\
-Line 1 (reddest)  &                             &                              &                    &                    &   \\ \hline
-& & & & & \\
-Line 2   &                             &                              &                    &                    &   \\ \hline
-& & & & & \\
-Line 3 (bluest)  &                             &                              &                    &                    &   \\ \hline
-\end{tabular}
-\end{center}
+{\renewcommand{\arraystretch}{2.0}
+{\centering \begin{tabular}{|l|C{0.6in}|C{0.6in}|C{0.6in}|c|c|}
+\hline 
+ Line  & $\theta_{\rm left}$   & $\theta_{\rm right}$   & $\theta_{\rm average}$ & Wavelength  & Photon Energy \\ 
+\hhline{|=|=|=|=|=|=|}
+Line 1 (reddest)  & & & & & \\ \hline
+Line 2   & & & & & \\ \hline
+Line 3 (bluest) & & & & & \\ \hline
+\end{tabular}\par}}
 
 It turns out that there is a pattern in the energy levels of hydrogen.
 The energy levels are of the form
